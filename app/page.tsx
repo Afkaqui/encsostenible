@@ -11,6 +11,7 @@ import ModelSection from '@/components/principal/ModelSection';
 import SolutionsSection from '@/components/principal/SolutionsSection';
 import ImpactSection from '@/components/principal/ImpactSection';
 import ContactSection from '@/components/principal/ContactSection';
+import ContactForm from '@/components/principal/ContactForm';
 
 // IMPORTAREMOS ESTOS A MEDIDA QUE LOS CREEMOS:
 // import CredibilitySection from '@/components/sections/CredibilitySection';
@@ -65,6 +66,7 @@ export default function Home() {
       <SolutionsSection />
       <ImpactSection />
       <ContactSection />
+      <ContactForm />
       {/* Footer */}
       <Footer />
     </div>

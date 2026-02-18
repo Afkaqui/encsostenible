@@ -68,7 +68,7 @@ export default function HeroSection({ onScrollToSection }: HeroSectionProps) {
       </div>
 
       {/* Gradiente Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-green-600/30 to-blue-600/30" />
+      <div className="absolute inset-0 bg-linear-to-r from-green-600/30 to-blue-600/30" />
 
       {/* Controles Carrusel */}
       <button
@@ -91,14 +91,14 @@ export default function HeroSection({ onScrollToSection }: HeroSectionProps) {
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
         <div className="animate-fade-in">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 sm:mb-8 leading-tight drop-shadow-2xl">
-            Nací hace 45 años para una razón: <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400">construir un futuro regenerativo.</span>
+            Nací hace 45 años para una razón: <span className="text-transparent bg-clip-text bg-linear-to-r from-green-400 to-blue-400">construir un futuro regenerativo.</span>
           </h1>
           
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
             <Button
               onClick={() => onScrollToSection('modelo')}
               size="lg"
-              className="w-full sm:w-auto bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white px-6 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-2xl backdrop-blur-sm border-none"
+              className="w-full sm:w-auto bg-linear-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white px-6 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-2xl backdrop-blur-sm border-none"
             >
               Descubre el Modelo de la Hélice Quíntuple
               <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
