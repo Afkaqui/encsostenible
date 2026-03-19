@@ -5,7 +5,8 @@
       "Bash(find /c/Users/Asus/Desktop/Encsostenible/encosostenible/app -type f \\\\\\(-name *.tsx -o -name *.ts -o -name *.jsx -o -name *.js \\\\\\))",
       "Bash(find /c/Users/Asus/Desktop/Encsostenible/encosostenible/components -type f \\\\\\(-name *.tsx -o -name *.ts -o -name *.jsx -o -name *.js \\\\\\))",
       "Bash(npm install:*)",
-      "Bash(npx next:*)"
+      "Bash(npx next:*)",
+      "Bash(node -e \"const pdfjs = require\\(''pdfjs-dist/package.json''\\); console.log\\(pdfjs.version\\)\")"
     ]
   }
 }
