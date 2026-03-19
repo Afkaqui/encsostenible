@@ -8,7 +8,11 @@
       "Bash(npx next:*)",
       "Bash(node -e \"const pdfjs = require\\(''pdfjs-dist/package.json''\\); console.log\\(pdfjs.version\\)\")",
       "Bash(node -e \":*)",
-      "WebFetch(domain:www.encsust4in4ble.earth)"
+      "WebFetch(domain:www.encsust4in4ble.earth)",
+      "Bash(ls C:/Users/Asus/Desktop/Encsostenible/encosostenible/next.config.*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(where npm:*)",
+      "Bash(taskkill //F //IM node.exe)"
     ]
   }
 }
