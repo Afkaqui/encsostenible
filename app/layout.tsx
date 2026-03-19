@@ -74,6 +74,9 @@ export const metadata: Metadata = {
     google: "z1zYMkXnh7qXBMDRkHfZA26u-X3pwO-5Iijr2-6ztu4",
   },
 
+  // Icons y OG image se detectan automáticamente desde app/ (file-based metadata):
+  // app/favicon.ico, app/icon.png, app/apple-icon.png, app/opengraph-image.jpg
+
   openGraph: {
     type: "website",
     locale: "es_PE",
@@ -82,15 +85,6 @@ export const metadata: Metadata = {
     description:
       "Conectando finanzas, política y comunidad para construir un futuro regenerativo en América Latina.",
     siteName: "Eduardo Noriega Campos",
-    images: [
-      {
-        url: "/opengraph-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Eduardo Noriega Campos - Ingeniero de Soluciones Sostenibles",
-        type: "image/jpeg",
-      },
-    ],
   },
 
   twitter: {
@@ -98,13 +92,7 @@ export const metadata: Metadata = {
     title: SITE_TITLE,
     description:
       "Ingeniero articulando la Hélice Quíntuple para la regeneración de América Latina.",
-    images: ["/opengraph-image.jpg"],
     // creator: "@tu_usuario_twitter",
-  },
-
-  icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-icon.png",
   },
 
   category: "Sostenibilidad",
