@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from 'react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 
@@ -11,6 +13,7 @@ interface NavigationProps {
 
 export default function Navigation({ activeSection, onScrollToSection }: NavigationProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const navigationItems = [
     { id: 'hero', label: 'Inicio' },
@@ -20,6 +23,10 @@ export default function Navigation({ activeSection, onScrollToSection }: Navigat
     { id: 'soluciones', label: 'Soluciones' },
     { id: 'impacto', label: 'Impacto' },
     { id: 'contacto', label: 'Contacto' }
+  ];
+
+  const externalPages = [
+    { href: '/propuesta-parlamento-andino', label: 'Propuesta Parlamento Andino' }
   ];
 
   const handleScrollToSection = (sectionId: string) => {
@@ -52,6 +59,17 @@ export default function Navigation({ activeSection, onScrollToSection }: Navigat
                 {label}
               </button>
             ))}
+            {externalPages.map(({ href, label }) => (
+              <Link
+                key={href}
+                href={href}
+                className={`text-xs lg:text-sm font-medium transition-colors hover:text-green-400 ${
+                  pathname === href ? 'text-green-400' : 'text-white/80'
+                }`}
+              >
+                {label}
+              </Link>
+            ))}
           </div>
 
           {/* Botón Menú Móvil */}
@@ -77,13 +95,27 @@ export default function Navigation({ activeSection, onScrollToSection }: Navigat
                 key={id}
                 onClick={() => handleScrollToSection(id)}
                 className={`block w-full text-left px-4 py-3 rounded transition-colors ${
-                   activeSection === id 
-                     ? 'text-green-400 bg-white/10' 
+                   activeSection === id
+                     ? 'text-green-400 bg-white/10'
                      : 'text-white/80 hover:text-green-400 hover:bg-white/5'
                 }`}
               >
                 {label}
               </button>
+            ))}
+            {externalPages.map(({ href, label }) => (
+              <Link
+                key={href}
+                href={href}
+                onClick={() => setIsMenuOpen(false)}
+                className={`block w-full text-left px-4 py-3 rounded transition-colors ${
+                  pathname === href
+                    ? 'text-green-400 bg-white/10'
+                    : 'text-white/80 hover:text-green-400 hover:bg-white/5'
+                }`}
+              >
+                {label}
+              </Link>
             ))}
           </div>
         </div>
