@@ -60,9 +60,9 @@ export default function PropuestaParlamentoAndino() {
   const pdfWidth = Math.min(containerWidth - 32, 900) * scale;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-green-900 to-slate-900 flex flex-col">
+    <div className="h-[100dvh] bg-gradient-to-br from-slate-900 via-green-900 to-slate-900 flex flex-col">
       {/* Header */}
-      <header className="fixed top-0 w-full z-50 bg-black/30 backdrop-blur-md border-b border-white/10">
+      <header className="shrink-0 bg-black/30 backdrop-blur-md border-b border-white/10">
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-3 sm:py-4">
             <Link
@@ -77,61 +77,61 @@ export default function PropuestaParlamentoAndino() {
             <h1 className="text-xs sm:text-lg font-bold text-white text-center truncate">
               Propuesta Parlamento Andino
             </h1>
-            {/* Spacer para centrar el título */}
             <div className="w-[18px] sm:w-[100px] shrink-0" />
           </div>
         </div>
       </header>
 
-      {/* PDF Content */}
+      {/* PDF Content + Controls */}
       <div
         ref={containerRef}
-        className="flex-1 pt-16 sm:pt-20 pb-6 flex flex-col items-center overflow-x-auto"
+        className="flex-1 min-h-0 overflow-auto flex flex-col items-center"
       >
-        {loading && !error && (
-          <div className="flex items-center justify-center h-[60vh]">
-            <div className="text-white/60 text-lg animate-pulse">
-              Cargando documento...
+        <div className="flex flex-col items-center w-full py-4">
+          {loading && !error && (
+            <div className="flex items-center justify-center flex-1">
+              <div className="text-white/60 text-lg animate-pulse">
+                Cargando documento...
+              </div>
             </div>
-          </div>
-        )}
+          )}
 
-        {error && (
-          <div className="flex flex-col items-center justify-center h-[60vh] gap-4 px-4 text-center">
-            <p className="text-white/60 text-lg">No se pudo cargar el PDF.</p>
-            <p className="text-white/40 text-sm">
-              Coloca el archivo PDF en{" "}
-              <code className="bg-white/10 px-2 py-1 rounded text-green-400 text-xs">
-                public/propuesta-parlamento-andino.pdf
-              </code>
-            </p>
-            <a
-              href={PDF_URL}
-              download
-              className="mt-4 px-5 py-2.5 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors flex items-center gap-2 text-sm"
-            >
-              <Download size={16} />
-              Intentar descargar
-            </a>
-          </div>
-        )}
+          {error && (
+            <div className="flex flex-col items-center justify-center flex-1 gap-4 px-4 text-center">
+              <p className="text-white/60 text-lg">No se pudo cargar el PDF.</p>
+              <p className="text-white/40 text-sm">
+                Coloca el archivo PDF en{" "}
+                <code className="bg-white/10 px-2 py-1 rounded text-green-400 text-xs">
+                  public/propuesta-parlamento-andino.pdf
+                </code>
+              </p>
+              <a
+                href={PDF_URL}
+                download
+                className="mt-4 px-5 py-2.5 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors flex items-center gap-2 text-sm"
+              >
+                <Download size={16} />
+                Intentar descargar
+              </a>
+            </div>
+          )}
 
-        {!error && containerWidth > 0 && (
-          <PDFViewer
-            fileUrl={PDF_URL}
-            pageNumber={pageNumber}
-            width={pdfWidth}
-            onLoadSuccess={onDocumentLoadSuccess}
-            onLoadError={onDocumentLoadError}
-          />
-        )}
-      </div>
+          {!error && containerWidth > 0 && (
+            <PDFViewer
+              fileUrl={PDF_URL}
+              pageNumber={pageNumber}
+              width={pdfWidth}
+              onLoadSuccess={onDocumentLoadSuccess}
+              onLoadError={onDocumentLoadError}
+            />
+          )}
+        </div>
 
-      {/* Controls Bar - debajo del PDF */}
-      <div className="w-full bg-black/40 backdrop-blur-md border-t border-white/10 mt-auto">
-        <div className="max-w-7xl mx-auto px-3 sm:px-4 py-3 sm:py-4 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-8">
+        {/* Controls Bar - sticky al fondo del scroll */}
+        <div className="sticky bottom-0 w-full bg-black/60 backdrop-blur-md border-t border-white/10">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 py-2.5 sm:py-3 flex items-center justify-center gap-4 sm:gap-8">
           {/* Page Navigation */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
             <button
               onClick={goToPrevPage}
               disabled={pageNumber <= 1 || numPages === 0}
@@ -185,6 +185,7 @@ export default function PropuestaParlamentoAndino() {
             </a>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
