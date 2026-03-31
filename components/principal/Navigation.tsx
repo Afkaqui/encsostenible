@@ -26,7 +26,8 @@ export default function Navigation({ activeSection, onScrollToSection }: Navigat
   ];
 
   const externalPages = [
-    { href: '/propuesta-parlamento-andino', label: 'Propuesta Parlamento Andino' }
+    { href: '/propuesta-parlamento-andino', label: 'Propuesta Parlamento Andino' },
+    { href: '/integridad-democratica', label: 'Integridad Democrática' }
   ];
 
   const handleScrollToSection = (sectionId: string) => {
