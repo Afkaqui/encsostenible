@@ -60,6 +60,14 @@ const videos = [
     titulo: "R&R Podcast - Gran Debate: Piero Astete (Cooperación Popular) vs Eduardo Noriega (Integridad Democrática)",
     url: "https://youtu.be/9VGLwfExxHM",
   },
+  {
+    titulo: "INTI Diplomatic - Candidato al Parlamento Andino Eduardo José Noriega Campos por Integridad Democrática presenta sus propuestas",
+    url: "https://youtu.be/63ffOu6-do8",
+  },
+  {
+    titulo: "Hoy Debate Keiko | Se mide contra adversarios | Punto Político",
+    url: "https://youtu.be/5kgJKnBOh4U",
+  },
 ];
 
 function getYouTubeId(url: string) {
@@ -93,7 +101,7 @@ export default function VideosPage() {
 
       {/* Video Grid */}
       <main className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+        <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
           {videos.map((video, index) => {
             const videoId = getYouTubeId(video.url);
             return (
@@ -102,7 +110,7 @@ export default function VideosPage() {
                 href={video.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-green-400/40 hover:bg-white/10 transition-all duration-300"
+                className="group w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-green-400/40 hover:bg-white/10 transition-all duration-300"
               >
                 {/* Thumbnail */}
                 <div className="relative aspect-video bg-black/40">
