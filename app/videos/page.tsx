@@ -71,6 +71,10 @@ const videos = [
   {
     titulo: "¿QUIÉN ES EDUARDO NORIEGA? CANDIDATO AL PARLAMENTO ANDINO POR INTEGRIDAD DEMOCRATICA",
     url: "https://youtu.be/1WhtnFXMtpU"
+  },
+  {
+    titulo: "AMAZONÍA PERUANA WOLFGANG GROZO",
+    url: "https://youtu.be/wFYDzfmcrpI"
   }
 ];
 
