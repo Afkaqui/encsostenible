@@ -68,6 +68,10 @@ const videos = [
     titulo: "Hoy Debate Keiko | Se mide contra adversarios | Punto Político",
     url: "https://youtu.be/5kgJKnBOh4U",
   },
+  {
+    titulo: "¿QUIÉN ES EDUARDO NORIEGA? CANDIDATO AL PARLAMENTO ANDINO POR INTEGRIDAD DEMOCRATICA",
+    url: "https://youtu.be/1WhtnFXMtpU"
+  }
 ];
 
 function getYouTubeId(url: string) {
