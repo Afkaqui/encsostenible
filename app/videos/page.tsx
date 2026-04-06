@@ -1,7 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowLeft, Play, ExternalLink } from "lucide-react";
+import { ArrowLeft, Play, ExternalLink, Star } from "lucide-react";
+
+const featuredVideos = [
+  {
+    titulo: "Marca así por el Presidente: Eduardo Noriega al Parlamento Andino con Integridad Democrática",
+    url: "https://youtube.com/shorts/kkK4ohrq2Qw",
+  },
+  {
+    titulo: "Marca así por la Vicepresidenta: Eduardo Noriega N°1 al Parlamento Andino",
+    url: "https://youtube.com/shorts/TQm8zWs2tyA",
+  },
+];
 
 const videos = [
   {
@@ -70,17 +81,22 @@ const videos = [
   },
   {
     titulo: "¿QUIÉN ES EDUARDO NORIEGA? CANDIDATO AL PARLAMENTO ANDINO POR INTEGRIDAD DEMOCRATICA",
-    url: "https://youtu.be/1WhtnFXMtpU"
+    url: "https://youtu.be/1WhtnFXMtpU",
   },
   {
-    titulo: "AMAZONÍA PERUANA WOLFGANG GROZO",
-    url: "https://youtu.be/wFYDzfmcrpI"
-  }
+    titulo: "AMAZONÍA PERUANA WOLFGANG GROZO",
+    url: "https://youtu.be/wFYDzfmcrpI",
+  },
 ];
 
 function getYouTubeId(url: string) {
-  const match = url.match(/youtu\.be\/([^?&]+)/);
-  return match ? match[1] : "";
+  const shortMatch = url.match(/youtu\.be\/([^?&]+)/);
+  if (shortMatch) return shortMatch[1];
+  const shortsMatch = url.match(/youtube\.com\/shorts\/([^?&]+)/);
+  if (shortsMatch) return shortsMatch[1];
+  const longMatch = url.match(/youtube\.com\/watch\?v=([^?&]+)/);
+  if (longMatch) return longMatch[1];
+  return "";
 }
 
 export default function VideosPage() {
@@ -107,8 +123,71 @@ export default function VideosPage() {
         </div>
       </header>
 
-      {/* Video Grid */}
       <main className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-10">
+        {/* Featured Section */}
+        <div className="mb-8 sm:mb-12">
+          <div className="flex items-center gap-2 mb-4 sm:mb-6">
+            <Star size={20} className="text-yellow-400" fill="currentColor" />
+            <h2 className="text-lg sm:text-xl font-bold text-white">
+              Destacados
+            </h2>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
+            {featuredVideos.map((video, index) => {
+              const videoId = getYouTubeId(video.url);
+              return (
+                <a
+                  key={index}
+                  href={video.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative w-full sm:w-[calc(50%-12px)] bg-gradient-to-br from-yellow-500/10 to-green-500/10 border-2 border-yellow-400/40 rounded-xl overflow-hidden hover:border-yellow-400/70 hover:from-yellow-500/20 hover:to-green-500/20 transition-all duration-300 shadow-lg shadow-yellow-400/5"
+                >
+                  {/* Badge */}
+                  <div className="absolute top-3 left-3 z-10 flex items-center gap-1.5 bg-yellow-500 text-black text-xs font-bold px-2.5 py-1 rounded-full shadow-md">
+                    <Star size={12} fill="currentColor" />
+                    DESTACADO
+                  </div>
+
+                  {/* Thumbnail */}
+                  <div className="relative aspect-video bg-black/40">
+                    <img
+                      src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
+                      alt={video.titulo}
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors flex items-center justify-center">
+                      <div className="w-14 h-14 sm:w-16 sm:h-16 bg-red-600 group-hover:bg-red-500 rounded-full flex items-center justify-center transition-all duration-300 shadow-lg group-hover:scale-110">
+                        <Play size={28} className="text-white ml-1" fill="white" />
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Title */}
+                  <div className="p-3 sm:p-4">
+                    <h3 className="text-white text-sm sm:text-base font-semibold line-clamp-3 group-hover:text-yellow-400 transition-colors">
+                      {video.titulo}
+                    </h3>
+                    <div className="flex items-center gap-1.5 mt-2 text-yellow-400/60 text-xs">
+                      <ExternalLink size={12} />
+                      <span>Ver en YouTube</span>
+                    </div>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Divider */}
+        <div className="border-t border-white/10 mb-8 sm:mb-10" />
+
+        {/* All Videos */}
+        <h2 className="text-lg sm:text-xl font-bold text-white mb-4 sm:mb-6">
+          Todos los videos
+        </h2>
+
         <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
           {videos.map((video, index) => {
             const videoId = getYouTubeId(video.url);
@@ -136,9 +215,9 @@ export default function VideosPage() {
 
                 {/* Title */}
                 <div className="p-3 sm:p-4">
-                  <h2 className="text-white/90 text-sm sm:text-base font-medium line-clamp-3 group-hover:text-green-400 transition-colors">
+                  <h3 className="text-white/90 text-sm sm:text-base font-medium line-clamp-3 group-hover:text-green-400 transition-colors">
                     {video.titulo}
-                  </h2>
+                  </h3>
                   <div className="flex items-center gap-1.5 mt-2 text-white/40 text-xs">
                     <ExternalLink size={12} />
                     <span>Ver en YouTube</span>
