@@ -87,6 +87,10 @@ const videos = [
     titulo: "AMAZONÍA PERUANA WOLFGANG GROZO",
     url: "https://youtu.be/wFYDzfmcrpI",
   },
+  {
+    titulo:"DETRÁS DE LA VERDAD 7 DE ABRIL 2026 - Eduardo Noriega",
+    url: "https://youtu.be/CGnsU0bYHSE"
+  }
 ];
 
 function getYouTubeId(url: string) {
