@@ -8,7 +8,7 @@ export default function Footer() {
           
           {/* Copyright / Texto Izquierda */}
           <div className="text-white/60 text-sm sm:text-base text-center md:text-left">
-            © 2025 Eduardo Noriega Campos. Ingeniero de Soluciones Sostenibles.
+            © 2026 Eduardo Noriega Campos. Ingeniero de Soluciones Sostenibles.
           </div>
           
           {/* Redes Sociales / Iconos Derecha */}
@@ -23,17 +23,16 @@ export default function Footer() {
               <Linkedin size={20} />
             </a>
             
-            {/* Estos enlaces están pendientes, puedes poner 'mailto:' o tu web */}
-            <a 
-              href="#" 
+            <a
+              href="mailto:contacto@encsust4in4ble.earth"
               className="text-white/60 hover:text-green-400 transition-colors"
               aria-label="Email"
             >
               <Mail size={20} />
             </a>
-            
-            <a 
-              href="#" 
+
+            <a
+              href="https://www.encsust4in4ble.earth"
               className="text-white/60 hover:text-green-400 transition-colors"
               aria-label="Sitio Web"
             >

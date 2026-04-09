@@ -1,6 +1,7 @@
 import "./polyfills";
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
+import StructuredData from "./structured-data";
 import "./globals.css";
 
 const inter = Inter({
@@ -106,6 +107,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className="scroll-smooth">
+      <head>
+        <StructuredData />
+      </head>
       <body
         className={`${inter.variable} font-sans antialiased bg-slate-900 text-white`}
       >
