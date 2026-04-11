@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { ArrowLeft, Play, ExternalLink, Star } from "lucide-react";
+import { url } from "inspector";
 
 const featuredVideos = [
   {
@@ -90,6 +91,14 @@ const videos = [
   {
     titulo:"DETRÁS DE LA VERDAD 7 DE ABRIL 2026 - Eduardo Noriega",
     url: "https://youtu.be/CGnsU0bYHSE"
+  },
+  {
+    titulo: "Sobre el equipo Wolfgang - Integridad Democrática",
+    url: "https://youtu.be/S8_Eh4OyPfE"
+  },
+  {
+    titulo: "Sobre el equipo Integridad Democrática",
+    url: "https://youtube.com/shorts/VvYpBhzdjjE",
   }
 ];
 
