@@ -1,8 +1,8 @@
 "use client";
 
-import Link from "next/link";
-import { ArrowLeft, Play, ExternalLink, Star } from "lucide-react";
+import { Play, ExternalLink, Star } from "lucide-react";
 import IntranetGuard from "@/components/IntranetGuard";
+import IntranetNavbar from "@/components/IntranetNavbar";
 
 const featuredVideos = [
   {
@@ -116,28 +116,15 @@ export default function VideosPage() {
   return (
     <IntranetGuard>
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-green-900 to-slate-900">
-      {/* Header */}
-      <header className="sticky top-0 z-50 bg-black/30 backdrop-blur-md border-b border-white/10">
-        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-3 sm:py-4">
-            <Link
-              href="/"
-              className="flex items-center gap-1.5 text-white/80 hover:text-green-400 transition-colors shrink-0"
-            >
-              <ArrowLeft size={18} />
-              <span className="text-xs sm:text-sm font-medium hidden sm:inline">
-                Volver al inicio
-              </span>
-            </Link>
-            <h1 className="text-sm sm:text-lg font-bold text-white text-center">
-              Videos
-            </h1>
-            <div className="w-[18px] sm:w-[100px] shrink-0" />
-          </div>
-        </div>
-      </header>
+      <IntranetNavbar />
 
       <main className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-10">
+        {/* Page title */}
+        <div className="mb-8 sm:mb-10">
+          <h1 className="text-2xl sm:text-3xl font-bold text-white">Videos</h1>
+          <p className="text-white/45 text-sm mt-1">Material audiovisual de campaña e Integridad Democrática.</p>
+        </div>
+
         {/* Featured Section */}
         <div className="mb-8 sm:mb-12">
           <div className="flex items-center gap-2 mb-4 sm:mb-6">

@@ -16,7 +16,7 @@ export default function IntranetLoginPage() {
   // Si ya tiene acceso, redirige directo
   useEffect(() => {
     if (checkAccess()) {
-      const redirect = sessionStorage.getItem("enc_intranet_redirect") || "/videos";
+      const redirect = sessionStorage.getItem("enc_intranet_redirect") || "/intranet/hub";
       router.replace(redirect);
     }
   }, [router]);
@@ -29,7 +29,7 @@ export default function IntranetLoginPage() {
     setTimeout(() => {
       if (grantAccess(password)) {
         const redirect =
-          sessionStorage.getItem("enc_intranet_redirect") || "/videos";
+          sessionStorage.getItem("enc_intranet_redirect") || "/intranet/hub";
         sessionStorage.removeItem("enc_intranet_redirect");
         router.push(redirect);
       } else {

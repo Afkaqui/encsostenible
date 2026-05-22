@@ -2,16 +2,9 @@
 
 import { useState, useCallback, useEffect, useRef } from "react";
 import dynamic from "next/dynamic";
-import Link from "next/link";
 import IntranetGuard from "@/components/IntranetGuard";
-import {
-  ArrowLeft,
-  ChevronLeft,
-  ChevronRight,
-  Download,
-  ZoomIn,
-  ZoomOut,
-} from "lucide-react";
+import IntranetNavbar from "@/components/IntranetNavbar";
+import { ChevronLeft, ChevronRight, Download, ZoomIn, ZoomOut } from "lucide-react";
 
 const PDFViewer = dynamic(
   () => import("../propuesta-parlamento-andino/PDFViewer"),
@@ -64,26 +57,7 @@ export default function IntegridadDemocratica() {
   return (
     <IntranetGuard>
     <div className="h-[100dvh] bg-gradient-to-br from-slate-900 via-green-900 to-slate-900 flex flex-col">
-      {/* Header */}
-      <header className="shrink-0 bg-black/30 backdrop-blur-md border-b border-white/10">
-        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-3 sm:py-4">
-            <Link
-              href="/"
-              className="flex items-center gap-1.5 text-white/80 hover:text-green-400 transition-colors shrink-0"
-            >
-              <ArrowLeft size={18} />
-              <span className="text-xs sm:text-sm font-medium hidden sm:inline">
-                Volver al inicio
-              </span>
-            </Link>
-            <h1 className="text-xs sm:text-lg font-bold text-white text-center truncate">
-              Integridad Democr&aacute;tica
-            </h1>
-            <div className="w-[18px] sm:w-[100px] shrink-0" />
-          </div>
-        </div>
-      </header>
+      <IntranetNavbar title="Integridad Democrática" />
 
       {/* PDF Content + Controls */}
       <div
