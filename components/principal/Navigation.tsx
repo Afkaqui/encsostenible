@@ -25,11 +25,8 @@ export default function Navigation({ activeSection, onScrollToSection }: Navigat
     { id: 'contacto', label: 'Contacto' }
   ];
 
-  const externalPages = [
-    { href: '/propuesta-parlamento-andino', label: 'Propuesta Parlamento Andino' },
-    { href: '/integridad-democratica', label: 'Integridad Democrática' },
-    { href: '/videos', label: 'Videos' }
-  ];
+  // Páginas externas públicas (las secciones de intranet no aparecen aquí)
+  const externalPages: { href: string; label: string }[] = [];
 
   const handleScrollToSection = (sectionId: string) => {
     onScrollToSection(sectionId);

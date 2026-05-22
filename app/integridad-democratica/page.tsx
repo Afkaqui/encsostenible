@@ -3,6 +3,7 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import IntranetGuard from "@/components/IntranetGuard";
 import {
   ArrowLeft,
   ChevronLeft,
@@ -61,6 +62,7 @@ export default function IntegridadDemocratica() {
   const pdfWidth = Math.min(containerWidth - 32, 900) * scale;
 
   return (
+    <IntranetGuard>
     <div className="h-[100dvh] bg-gradient-to-br from-slate-900 via-green-900 to-slate-900 flex flex-col">
       {/* Header */}
       <header className="shrink-0 bg-black/30 backdrop-blur-md border-b border-white/10">
@@ -191,5 +193,6 @@ export default function IntegridadDemocratica() {
         </div>
       </div>
     </div>
+    </IntranetGuard>
   );
 }

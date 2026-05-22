@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { ArrowLeft, Play, ExternalLink, Star } from "lucide-react";
-import { url } from "inspector";
+import IntranetGuard from "@/components/IntranetGuard";
 
 const featuredVideos = [
   {
@@ -114,6 +114,7 @@ function getYouTubeId(url: string) {
 
 export default function VideosPage() {
   return (
+    <IntranetGuard>
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-green-900 to-slate-900">
       {/* Header */}
       <header className="sticky top-0 z-50 bg-black/30 backdrop-blur-md border-b border-white/10">
@@ -242,5 +243,6 @@ export default function VideosPage() {
         </div>
       </main>
     </div>
+    </IntranetGuard>
   );
 }
