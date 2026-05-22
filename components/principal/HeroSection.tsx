@@ -91,7 +91,7 @@ export default function HeroSection({ onScrollToSection }: HeroSectionProps) {
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
         <div className="animate-fade-in">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 sm:mb-8 leading-tight drop-shadow-2xl">
-            Nací hace 46 años<span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400">tengo 26 años de experiencia financiera e innovación empresarial</span>
+            Nací hace 46 años —<br className="hidden sm:block" /><span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400"> 26 dedicados a transformar la innovación en desarrollo sostenible.</span>
           </h1>
           
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">

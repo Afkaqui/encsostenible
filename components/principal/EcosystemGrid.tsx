@@ -48,9 +48,12 @@ export default function EcosystemGrid() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-8 sm:mb-12">
-        <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
-          Mi Voz en el Ecosistema Global y Nacional
+        <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3">
+          Red de Alianzas Estratégicas
         </h2>
+        <p className="text-white/55 text-sm sm:text-base max-w-xl mx-auto mb-4">
+          Organismos multilaterales, entidades públicas y empresas con las que he colaborado a lo largo de mi trayectoria.
+        </p>
       </div>
       
       {/* Grid de Aliados */}

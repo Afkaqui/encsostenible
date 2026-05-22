@@ -39,7 +39,7 @@ export default function SolutionsSection() {
             Soluciones para la Brecha de Implementación
           </h2>
           <p className="text-white/70 max-w-2xl mx-auto text-lg">
-            Mi trabajo es traducir idiomas distintos: hablo financiero, hablo político y hablo técnico. Aquí es donde aporto valor.
+            El valor está en la traducción: entre el lenguaje financiero, el político y el técnico. Estas son las tres áreas donde esa articulación genera resultados concretos.
           </p>
         </div>
 

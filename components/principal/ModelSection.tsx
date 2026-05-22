@@ -66,8 +66,8 @@ export default function ModelSection() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
             La Hélice Quíntuple
           </h2>
-          <p className="text-lg sm:text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
-            No basta con conectar puntos; hay que sincronizar sistemas. Mi metodología integra a los <span className="text-green-400 font-semibold">5 actores clave</span> para transformar la sostenibilidad en proyectos rentables y escalables.
+          <p className="text-lg sm:text-xl text-white/75 max-w-3xl mx-auto leading-relaxed">
+            Conectar actores no es suficiente; hay que sincronizar sistemas. Esta metodología integra a los <span className="text-green-400 font-semibold">cinco actores clave</span> para transformar la sostenibilidad en proyectos bankables y escalables.
           </p>
         </div>
 
@@ -105,8 +105,8 @@ export default function ModelSection() {
             <h3 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
               El Resultado <ArrowRight className="text-green-400 group-hover:translate-x-2 transition-transform" />
             </h3>
-            <p className="text-white/80 text-lg leading-relaxed">
-              Cuando estos 5 elementos giran en sincronía, la burocracia se vuelve ágil, la inversión encuentra retorno y el impacto ambiental se vuelve medible y regenerativo.
+            <p className="text-white/75 text-lg leading-relaxed">
+              Cuando los cinco elementos operan en sincronía, la burocracia cede espacio a la agilidad, la inversión encuentra retorno y el impacto ambiental se vuelve medible y verificable.
             </p>
           </div>
 

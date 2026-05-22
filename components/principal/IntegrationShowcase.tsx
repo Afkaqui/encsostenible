@@ -1,9 +1,12 @@
 export default function IntegrationShowcase() {
   return (
     <div className="text-center py-10 sm:py-20 mb-12 sm:mb-16 px-4">
-      <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 sm:mb-12 max-w-4xl mx-auto leading-tight">
-        Aquí un ejemplo de integración articulada sin competir
+      <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 max-w-4xl mx-auto leading-tight">
+        Integración articulada en acción
       </h2>
+      <p className="text-white/60 text-base sm:text-lg max-w-2xl mx-auto mb-8 sm:mb-12">
+        Un ejemplo concreto de cómo distintos actores colaboran dentro del mismo ecosistema sin competir entre sí.
+      </p>
       
       {/* Contenedor Responsive para YouTube */}
       <div className="flex justify-center w-full max-w-5xl mx-auto">

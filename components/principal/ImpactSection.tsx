@@ -84,8 +84,11 @@ export default function ImpactSection() {
         {/* Título */}
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Esto no es Teoría. Son Resultados.
+            Proyectos con impacto demostrado
           </h2>
+          <p className="text-white/60 text-base sm:text-lg max-w-2xl mx-auto">
+            Cada caso representa una articulación real entre actores, capital e innovación. No propuestas — implementaciones.
+          </p>
         </div>
         
         {/* Grid de Proyectos */}

@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useState, Suspense } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import {
     ArrowLeft,
     ArrowRight,
@@ -183,7 +183,7 @@ function ResultBlock({ data }: { data: FormData }) {
                         <div className="flex items-start gap-3 bg-red-500/10 border border-red-400/20 rounded-xl p-4">
                             <XCircle className="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5" />
                             <div>
-                                <p className="text-red-300 font-semibold text-sm">🔴 Riesgo Detectado — Estado TRL</p>
+                                <p className="text-red-300 font-semibold text-sm">Riesgo Detectado — Estado TRL</p>
                                 <p className="text-white/60 text-xs mt-1">
                                     {data.estadoTRL === "idea"
                                         ? "Un proyecto en fase de idea (TRL 1-2) tiene alta probabilidad de rechazo CONCYTEC. Necesitas avanzar a pruebas de concepto antes de presentar."
@@ -196,7 +196,7 @@ function ResultBlock({ data }: { data: FormData }) {
                         <div className="flex items-start gap-3 bg-green-500/10 border border-green-400/20 rounded-xl p-4">
                             <CheckCircle2 className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" />
                             <div>
-                                <p className="text-green-300 font-semibold text-sm">🟢 TRL Viable para {r.capa}</p>
+                                <p className="text-green-300 font-semibold text-sm">TRL Viable — {r.capa}</p>
                                 <p className="text-white/60 text-xs mt-1">
                                     Tu estado de desarrollo es compatible con los criterios de elegibilidad CONCYTEC/ProInnóvate.
                                 </p>
@@ -207,7 +207,7 @@ function ResultBlock({ data }: { data: FormData }) {
                         <div className="flex items-start gap-3 bg-red-500/10 border border-red-400/20 rounded-xl p-4">
                             <XCircle className="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5" />
                             <div>
-                                <p className="text-red-300 font-semibold text-sm">🔴 Riesgo Detectado — Equipo Técnico</p>
+                                <p className="text-red-300 font-semibold text-sm">Riesgo Detectado — Equipo Técnico</p>
                                 <p className="text-white/60 text-xs mt-1">
                                     Sin equipo técnico calificado, el proyecto es NO GO. Es obligatorio contratar un Centro de Investigación o fichar un PhD/MSc.
                                 </p>
@@ -217,7 +217,7 @@ function ResultBlock({ data }: { data: FormData }) {
                     <div className="flex items-start gap-3 bg-blue-500/10 border border-blue-400/20 rounded-xl p-4">
                         <CheckCircle2 className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
                         <div>
-                            <p className="text-blue-300 font-semibold text-sm">🟢 Oportunidad — {data.sector}</p>
+                            <p className="text-blue-300 font-semibold text-sm">Oportunidad Identificada — {data.sector}</p>
                             <p className="text-white/60 text-xs mt-1">
                                 El proyecto <strong className="text-white">"{data.nombreProyecto}"</strong> en el sector{" "}
                                 <strong className="text-white">{data.sector}</strong> es candidato para{" "}
@@ -467,7 +467,7 @@ function SimuladorCONCYTEC() {
 
                     {/* Ahorro row */}
                     <div className="bg-green-500/10 border border-green-400/25 rounded-xl p-3 flex justify-between items-center">
-                        <span className="text-green-300 text-xs font-bold">💰 Ahorro en IR (escudo real)</span>
+                        <span className="text-green-300 text-xs font-bold uppercase tracking-wide">Ahorro en IR</span>
                         <span className="text-green-400 font-extrabold text-base font-mono">
                             S/ {formatMoney(ahorro)}
                         </span>
@@ -563,9 +563,12 @@ const INITIAL: FormData = {
 
 // ─── Main Page ────────────────────────────────────────────────────────────────
 
-export default function CalculadoraFiscal() {
+function CalculadoraFiscalInner() {
     const router = useRouter();
-    const [activeTab, setActiveTab] = useState<"calculadora" | "simulador">("calculadora");
+    const searchParams = useSearchParams();
+    const [activeTab, setActiveTab] = useState<"calculadora" | "simulador">(
+        searchParams.get("tab") === "simulador" ? "simulador" : "calculadora"
+    );
 
     // Wizard state
     const [step, setStep] = useState(1);
@@ -837,5 +840,13 @@ export default function CalculadoraFiscal() {
                 )}
             </div>
         </div>
+    );
+}
+
+export default function CalculadoraFiscal() {
+    return (
+        <Suspense fallback={<div className="min-h-screen bg-gradient-to-br from-slate-900 via-green-950 to-slate-900" />}>
+            <CalculadoraFiscalInner />
+        </Suspense>
     );
 }

@@ -6,7 +6,7 @@ export default function ManifestoSection() {
         {/* Título */}
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Vi un Sistema Desconectado. Decidí Convertirme en el Puente.
+            Un sistema desconectado.<br className="hidden sm:block" /> Una decisión: convertirme en el puente.
           </h2>
         </div>
         

@@ -38,11 +38,12 @@ export default function Navigation({ activeSection, onScrollToSection }: Navigat
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-3 sm:py-4">
           {/* Logo / Nombre */}
-          <div 
-            className="text-lg sm:text-2xl font-bold text-white cursor-pointer"
+          <div
+            className="cursor-pointer group"
             onClick={() => handleScrollToSection('hero')}
           >
-            Eduardo Noriega Campos
+            <p className="text-base sm:text-xl font-bold text-white leading-tight group-hover:text-green-400 transition-colors">Eduardo Noriega Campos</p>
+            <p className="text-[10px] sm:text-xs text-white/40 font-medium tracking-widest uppercase hidden sm:block">Innovación · Sostenibilidad</p>
           </div>
           
           {/* Navegación Desktop */}

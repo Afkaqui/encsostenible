@@ -19,10 +19,10 @@ export default function ContactSection() {
         {/* Encabezado */}
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 sm:mb-6">
-            ¿Estás listo para cerrar la brecha entre tu visión y la acción?
+            Hablemos sobre lo que se puede construir juntos
           </h2>
-          <p className="text-white/80 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed">
-            El futuro de América Latina no se va a escribir en solitario. Se va a co-crear. Si eres un inversor, un líder público, un emprendedor o un joven investigador con un propósito, tenemos que hablar.
+          <p className="text-white/75 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed">
+            Si eres inversor, líder público, emprendedor o investigador con un propósito claro, el siguiente paso es una conversación directa.
           </p>
         </div>
         
@@ -95,7 +95,7 @@ export default function ContactSection() {
               Agenda una reunión
             </h3>
             <p className="text-white/70 mb-8">
-              Reserva 30 minutos conmigo para explorar sinergias y discutir cómo podemos colaborar.
+              30 minutos para explorar sinergias y definir si existe una base de colaboración concreta.
             </p>
             
             <Button 
