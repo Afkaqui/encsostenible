@@ -45,7 +45,7 @@ export default function HeroSection({ onScrollToSection }: HeroSectionProps) {
       <div className="absolute inset-0 overflow-hidden" ref={emblaRef}>
         <div className="flex h-full">
           {carouselImages.map((image, index) => (
-            <div key={index} className="flex-[0_0_100%] min-w-0 relative">
+            <div key={index} className="flex-[0_0_100%] min-w-0 relative h-full overflow-hidden">
               <Image
                 src={image.src}
                 alt={image.alt}
