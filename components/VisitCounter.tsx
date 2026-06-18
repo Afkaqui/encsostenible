@@ -1,11 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Eye } from "lucide-react";
+import { Eye, WifiOff } from "lucide-react";
+
+type Status = "loading" | "ok" | "offline";
 
 export default function VisitCounter({ page = "/" }: { page?: string }) {
   const [count, setCount] = useState<number>(0);
-  const [ready, setReady] = useState(false);
+  const [status, setStatus] = useState<Status>("loading");
 
   useEffect(() => {
     fetch("/api/visits", {
@@ -13,15 +15,27 @@ export default function VisitCounter({ page = "/" }: { page?: string }) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ page }),
     })
-      .then((r) => r.json())
+      .then((r) => {
+        if (!r.ok) throw new Error("error");
+        return r.json();
+      })
       .then((data) => {
         setCount(typeof data.count === "number" ? data.count : 0);
-        setReady(true);
+        setStatus("ok");
       })
-      .catch(() => setReady(true));
+      .catch(() => setStatus("offline"));
   }, [page]);
 
-  if (!ready) return null;
+  if (status === "loading") return null;
+
+  if (status === "offline") {
+    return (
+      <span className="inline-flex items-center gap-1.5 text-white/35 text-sm">
+        <WifiOff size={13} />
+        contador offline
+      </span>
+    );
+  }
 
   return (
     <span className="inline-flex items-center gap-1.5 text-white/70 text-sm font-medium">
