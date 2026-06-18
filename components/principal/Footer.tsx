@@ -1,5 +1,4 @@
 import { Linkedin, Mail } from 'lucide-react';
-import VisitCounter from '@/components/VisitCounter';
 
 export default function Footer() {
   return (
@@ -12,7 +11,6 @@ export default function Footer() {
             <p className="text-white font-semibold text-sm">Eduardo Noriega Campos</p>
             <p className="text-white/45 text-xs">Innovación financiera · Sostenibilidad · América Latina</p>
             <p className="text-white/30 text-xs">© 2026 · Todos los derechos reservados</p>
-            <VisitCounter />
           </div>
 
           {/* Links centrales */}

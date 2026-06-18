@@ -3,6 +3,7 @@
 import { useCallback } from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react';
+import VisitCounter from '@/components/VisitCounter';
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
 
@@ -90,6 +91,13 @@ export default function HeroSection({ onScrollToSection }: HeroSectionProps) {
       {/* Contenido Principal */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
         <div className="animate-fade-in">
+          {/* Badge de visitas */}
+          <div className="flex justify-center mb-6">
+            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-5 py-2 text-sm text-white/80">
+              <VisitCounter page="/" />
+            </div>
+          </div>
+
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 sm:mb-8 leading-tight drop-shadow-2xl">
             Nací hace 46 años —<br className="hidden sm:block" /><span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400"> 26 dedicados a transformar la innovación en desarrollo sostenible.</span>
           </h1>

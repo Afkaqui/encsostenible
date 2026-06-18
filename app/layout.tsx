@@ -10,18 +10,27 @@ const inter = Inter({
   display: "swap",
 });
 
-// 1. VIEWPORT
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   themeColor: "#0f172a",
 };
 
-// 2. METADATOS SEO
-const SITE_URL = "https://www.encsust4in4ble.earth";
-const SITE_TITLE = "Eduardo Noriega Campos | Ingeniero de Soluciones Sostenibles";
+const SITE_URL  = "https://www.encsust4in4ble.earth";
+
+// ─── Títulos y descripciones optimizados para búsqueda y compartir ─────────────
+
+// Título principal: incluye el término más buscado ("Parlamento Andino 2026")
+const SITE_TITLE =
+  "Eduardo Noriega Campos — Candidato al Parlamento Andino 2026 | Integridad Democrática";
+
+// Descripción Google (~150 chars): responde a la búsqueda directamente
 const SITE_DESCRIPTION =
-  "Articulador de ecosistemas sostenibles en América Latina. Especialista en la Hélice Quíntuple, finanzas verdes, política pública y bioeconomía regenerativa.";
+  "Candidato al Parlamento Andino 2026 por Integridad Democrática. 26 años en finanzas verdes, bioeconomía e innovación empresarial para América Latina.";
+
+// Descripción OG (WhatsApp / Facebook / LinkedIn): un poco más extensa, genera curiosidad
+const OG_DESCRIPTION =
+  "Conoce la propuesta de Eduardo Noriega al Parlamento Andino 2026: finanzas verdes, bioeconomía y política pública sostenible al servicio de América Latina. Candidato por Integridad Democrática.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -34,26 +43,31 @@ export const metadata: Metadata = {
   description: SITE_DESCRIPTION,
 
   keywords: [
+    // Electoral — términos con intención de búsqueda clara
     "Eduardo Noriega Campos",
-    "Sostenibilidad",
-    "Hélice Quíntuple",
-    "Bioeconomía",
-    "Finanzas Verdes",
-    "Consultoría Ambiental",
-    "Política Pública Ambiental",
-    "Economía Circular",
-    "Parlamento Andino",
-    "Perú",
-    "América Latina",
-    "Ingeniería de Soluciones Sostenibles",
-    "ODS",
-    "Desarrollo Sostenible",
-    "Cambio Climático",
-    "Innovación Verde",
+    "Parlamento Andino 2026",
+    "candidato Parlamento Andino Perú",
+    "Integridad Democrática candidato",
+    "Wolfgang Grozo",
+    "elecciones Perú 2026",
+    "Eduardo Noriega Parlamento Andino",
+    // Temáticos — finanzas y sostenibilidad
+    "finanzas sostenibles Perú",
+    "bioeconomía Perú",
+    "finanzas verdes América Latina",
+    "Ley 30309 innovación",
+    "beneficio tributario I+D+i",
+    "CONCYTEC beneficio tributario",
+    "calculadora fiscal Perú",
+    // Generales
+    "desarrollo sostenible Perú",
+    "política pública ambiental",
+    "economía circular",
+    "cambio climático América Latina",
   ],
 
-  authors: [{ name: "Eduardo Noriega Campos", url: SITE_URL }],
-  creator: "Eduardo Noriega Campos",
+  authors:   [{ name: "Eduardo Noriega Campos", url: SITE_URL }],
+  creator:   "Eduardo Noriega Campos",
   publisher: "Eduardo Noriega Campos",
 
   alternates: {
@@ -76,28 +90,31 @@ export const metadata: Metadata = {
     google: "z1zYMkXnh7qXBMDRkHfZA26u-X3pwO-5Iijr2-6ztu4",
   },
 
-  // Icons y OG image se detectan automáticamente desde app/ (file-based metadata):
-  // app/favicon.ico, app/icon.png, app/apple-icon.png, app/opengraph-image.jpg
-
   openGraph: {
-    type: "website",
-    locale: "es_PE",
-    url: SITE_URL,
-    title: SITE_TITLE,
-    description:
-      "Conectando finanzas, política y comunidad para construir un futuro regenerativo en América Latina.",
-    siteName: "Eduardo Noriega Campos",
+    type:        "website",
+    locale:      "es_PE",
+    url:         SITE_URL,
+    title:       "Eduardo Noriega Campos | Candidato Parlamento Andino 2026",
+    description: OG_DESCRIPTION,
+    siteName:    "Eduardo Noriega Campos",
+    images: [
+      {
+        url:    "/opengraph-image.jpg",
+        width:  1200,
+        height: 630,
+        alt:    "Eduardo Noriega Campos — Candidato al Parlamento Andino 2026 por Integridad Democrática",
+      },
+    ],
   },
 
   twitter: {
-    card: "summary_large_image",
-    title: SITE_TITLE,
-    description:
-      "Ingeniero articulando la Hélice Quíntuple para la regeneración de América Latina.",
-    // creator: "@tu_usuario_twitter",
+    card:        "summary_large_image",
+    title:       "Eduardo Noriega Campos | Candidato Parlamento Andino 2026",
+    description: SITE_DESCRIPTION,
+    images:      ["/opengraph-image.jpg"],
   },
 
-  category: "Sostenibilidad",
+  category: "Política · Sostenibilidad · Perú",
 };
 
 export default function RootLayout({

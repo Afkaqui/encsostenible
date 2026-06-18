@@ -6,7 +6,14 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/_next/"],
+        disallow: [
+          "/api/",
+          "/_next/",
+          "/intranet/",
+          "/videos",
+          "/propuesta-parlamento-andino",
+          "/integridad-democratica",
+        ],
       },
     ],
     sitemap: "https://www.encsust4in4ble.earth/sitemap.xml",
