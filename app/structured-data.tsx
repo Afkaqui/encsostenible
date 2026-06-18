@@ -4,9 +4,9 @@ const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Eduardo Noriega Campos",
-  jobTitle: "Candidato al Parlamento Andino 2026",
+  jobTitle: "Consultor en Finanzas Sostenibles e Innovación",
   description:
-    "Candidato al Parlamento Andino 2026 por Integridad Democrática. Ingeniero con 26 años articulando finanzas verdes, bioeconomía e innovación empresarial en América Latina.",
+    "Ingeniero con 26 años articulando finanzas verdes, bioeconomía e innovación empresarial en América Latina.",
   url: SITE_URL,
   image: `${SITE_URL}/opengraph-image.jpg`,
   sameAs: [
@@ -17,7 +17,6 @@ const personSchema = {
     name: "Perú",
   },
   knowsAbout: [
-    "Parlamento Andino",
     "Finanzas Verdes",
     "Bioeconomía",
     "Sostenibilidad",
@@ -27,52 +26,25 @@ const personSchema = {
     "Ley 30309",
     "Desarrollo Sostenible",
     "América Latina",
+    "Hélice Quíntuple",
   ],
-  memberOf: {
-    "@type": "Organization",
-    name: "Integridad Democrática",
-    url: SITE_URL,
-  },
   hasOccupation: {
     "@type": "Occupation",
-    name: "Ingeniero de Soluciones Sostenibles",
+    name: "Consultor en Finanzas Sostenibles e Innovación",
     occupationLocation: {
       "@type": "Country",
       name: "Perú",
     },
-  },
-  seeks: {
-    "@type": "Role",
-    roleName: "Representante ante el Parlamento Andino",
-    startDate: "2026",
-  },
-};
-
-const organizationSchema = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "Integridad Democrática",
-  url: SITE_URL,
-  description:
-    "Partido político comprometido con la integridad, la sostenibilidad y la inclusión en el Perú. Candidato presidencial Wolfgang Grozo.",
-  foundingLocation: {
-    "@type": "Country",
-    name: "Perú",
-  },
-  member: {
-    "@type": "Person",
-    name: "Eduardo Noriega Campos",
-    jobTitle: "Candidato al Parlamento Andino 2026",
   },
 };
 
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Eduardo Noriega Campos — Parlamento Andino 2026",
+  name: "Eduardo Noriega Campos — Finanzas Sostenibles y Bioeconomía",
   url: SITE_URL,
   description:
-    "Sitio oficial de Eduardo Noriega Campos, candidato al Parlamento Andino 2026 por Integridad Democrática.",
+    "Sitio oficial de Eduardo Noriega Campos. Finanzas verdes, bioeconomía e innovación empresarial en América Latina.",
   inLanguage: "es-PE",
   publisher: {
     "@type": "Person",
@@ -97,7 +69,7 @@ const faqSchema = {
       name: "¿Quién es Eduardo Noriega Campos?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Eduardo Noriega Campos es candidato al Parlamento Andino 2026 por el partido Integridad Democrática. Ingeniero con 26 años de experiencia en finanzas sostenibles, bioeconomía e innovación empresarial en América Latina.",
+        text: "Eduardo Noriega Campos es un ingeniero con 26 años de experiencia en finanzas sostenibles, bioeconomía e innovación empresarial en América Latina. Trabaja articulando academia, industria, gobierno y sociedad civil bajo la metodología de la Hélice Quíntuple.",
       },
     },
     {
@@ -110,10 +82,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "¿Qué es el Parlamento Andino?",
+      name: "¿Qué es la Hélice Quíntuple?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "El Parlamento Andino es el órgano deliberante del Sistema Andino de Integración, conformado por representantes electos de Bolivia, Colombia, Chile, Ecuador y Perú. Las elecciones para el período 2026-2031 se realizan junto con las elecciones generales del Perú.",
+        text: "La Hélice Quíntuple es una metodología que integra cinco actores clave — Academia, Industria, Gobierno, Sociedad Civil y Medio Ambiente — para transformar la sostenibilidad en proyectos bankables y escalables con impacto medible.",
       },
     },
     {
@@ -121,7 +93,7 @@ const faqSchema = {
       name: "¿Cómo contactar a Eduardo Noriega Campos?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Puedes contactar a Eduardo Noriega Campos a través de su correo eduardo.noriega@bancasostenible.la, su perfil de LinkedIn linkedin.com/in/ingeduardonoriegaperu/ o agendando una reunión en su sitio web.",
+        text: "Puedes contactar a Eduardo Noriega Campos a través de su correo eduardo.noriega@bancasostenible.la, su perfil de LinkedIn linkedin.com/in/ingeduardonoriegaperu/ o agendando una reunión directamente en su sitio web.",
       },
     },
   ],
@@ -133,10 +105,6 @@ export default function StructuredData() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
       />
       <script
         type="application/ld+json"
