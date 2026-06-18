@@ -13,7 +13,7 @@ export default function IntegrationShowcase() {
         <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl border border-white/20 bg-black">
           <iframe 
             className="absolute top-0 left-0 w-full h-full"
-            src="https://www.youtube.com/embed/1vIV2-CUB_A?si=o2QaLtZsUIyJnNMq" 
+            src="https://www.youtube-nocookie.com/embed/1vIV2-CUB_A?si=o2QaLtZsUIyJnNMq"
             title="YouTube video player" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             referrerPolicy="strict-origin-when-cross-origin" 

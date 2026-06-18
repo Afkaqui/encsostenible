@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback } from 'react';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react';
 import VisitCounter from '@/components/VisitCounter';
@@ -31,24 +32,11 @@ export default function HeroSection({ onScrollToSection }: HeroSectionProps) {
     if (emblaApi) emblaApi.scrollNext();
   }, [emblaApi]);
 
-  // IMÁGENES DE PRUEBA (Reemplázalas luego por tus imports locales)
   const carouselImages = [
-    {
-      url: back_ground1.src,
-      alt: "Ecosistema sostenible - Naturaleza y tecnología"
-    },
-    {
-      url: back_ground2.src,
-      alt: "Conferencia sobre sostenibilidad"
-    },
-    {
-      url: back_ground3.src,
-      alt: "Agricultura sostenible en América Latina"
-    },
-    {
-      url: back_ground4.src,
-      alt: "Innovación y tecnología verde"
-    }
+    { src: back_ground1, alt: "Ecosistema sostenible - Naturaleza y tecnología" },
+    { src: back_ground2, alt: "Conferencia sobre sostenibilidad" },
+    { src: back_ground3, alt: "Agricultura sostenible en América Latina" },
+    { src: back_ground4, alt: "Innovación y tecnología verde" },
   ];
 
   return (
@@ -58,9 +46,13 @@ export default function HeroSection({ onScrollToSection }: HeroSectionProps) {
         <div className="flex h-full">
           {carouselImages.map((image, index) => (
             <div key={index} className="flex-[0_0_100%] min-w-0 relative">
-              <div 
-                className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-                style={{ backgroundImage: `url('${image.url}')` }}
+              <Image
+                src={image.src}
+                alt={image.alt}
+                fill
+                className="object-cover object-center"
+                priority={index === 0}
+                sizes="100vw"
               />
               <div className="absolute inset-0 bg-black/40" />
             </div>
