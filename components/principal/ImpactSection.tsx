@@ -11,6 +11,8 @@ import ImageCard003 from '@/src/images/proyectos/003_Randy.jpeg';
 import ImageCard004 from '@/src/images/proyectos/004_Richard.jpeg';
 import ImageCard005 from '@/src/images/proyectos/005_Chantikuy.jpeg';
 import ImageCard006 from '@/src/images/proyectos/006_Erick.png';
+import ImageGIS from '@/src/images/proyectos/007_gis.png';
+import ImageEnergy from '@/src/images/proyectos/008_cibs_energy.png';
 
 type Categoria = 'todos' | 'cibs' | 'coautoria';
 
@@ -123,7 +125,7 @@ const casosEstudio: Proyecto[] = [
     reto: "Los cultivos de vainilla generaban datos dispersos sin capacidad analítica para optimizar decisiones agrícolas en tiempo real.",
     solucion: "Arquitectura Big Data con sensores IoT en campo y modelos de Machine Learning para análisis predictivo de cosechas y sanidad vegetal.",
     resultado: "Dashboard operacional que incrementó la precisión de cosecha y redujo pérdidas por factores climáticos imprevistos.",
-    image: ImageCard001,
+    image: ImageGIS,
     categoria: 'coautoria',
     tags: ["Big Data", "IoT", "Machine Learning", "Vainilla Planifolia"],
     fecha: "Mar 2025",
@@ -137,7 +139,7 @@ const casosEstudio: Proyecto[] = [
     reto: "La gestión de parcelas sin información geoespacial limitaba la eficiencia en riego, fertilización y control fitosanitario.",
     solucion: "Implementación de Sistemas de Información Geográfica (SIG) para mapeo preciso de parcelas y zonas de manejo diferenciado.",
     resultado: "Reducción del uso de insumos agrícolas y trazabilidad geoespacial completa del cultivo de vainilla.",
-    image: ImageCard003,
+    image: ImageGIS,
     categoria: 'coautoria',
     tags: ["GIS", "Agricultura de Precisión", "Transformación Digital", "Vainilla"],
     fecha: "Mar 2025",
@@ -151,7 +153,7 @@ const casosEstudio: Proyecto[] = [
     reto: "El riego manual y fertilización empírica generaban costos elevados y alta variabilidad en la calidad del producto final.",
     solucion: "Sistemas IoT con automatización de riego inteligente, sensores de humedad de suelo y actuadores controlados remotamente.",
     resultado: "Reducción significativa en consumo de agua y mejora en la homogeneidad del cultivo de vainilla planifolia.",
-    image: ImageCard004,
+    image: ImageGIS,
     categoria: 'coautoria',
     tags: ["IoT", "Automatización", "Riego Inteligente", "Vainilla Planifolia"],
     fecha: "May 2024",
@@ -165,7 +167,7 @@ const casosEstudio: Proyecto[] = [
     reto: "La detección de enfermedades en vainilla dependía de inspecciones manuales lentas, con alto riesgo de propagación.",
     solucion: "Modelos de visión computacional para detección temprana de patologías en hojas y vainas, con alertas automáticas al equipo agronómico.",
     resultado: "Detección de enfermedades con hasta 5 días de anticipación respecto al método manual, reduciendo pérdidas de cosecha.",
-    image: ImageCard005,
+    image: ImageEnergy,
     categoria: 'coautoria',
     tags: ["Machine Learning", "Visión Computacional", "IA Agrícola", "Vainilla Sostenible"],
     fecha: "May 2024",
@@ -179,7 +181,7 @@ const casosEstudio: Proyecto[] = [
     reto: "Las MYPES peruanas no accedían a financiamiento por falta de documentación estructurada que generara confianza en inversores.",
     solucion: "Data Room digital estandarizado con categorías financieras, legales y operativas, adaptado a la realidad de micro y pequeñas empresas.",
     resultado: "Mayor acceso a capital privado y crédito formal, con procesos de due diligence simplificados para inversores interesados.",
-    image: ImageCard002,
+    image: ImageEnergy,
     categoria: 'coautoria',
     tags: ["Gestión Documental", "Formalización", "Transparencia", "MYPES"],
     fecha: "May 2024",
@@ -193,7 +195,7 @@ const casosEstudio: Proyecto[] = [
     reto: "La vainilla procesada de forma artesanal perdía compuestos aromáticos de alto valor y generaba residuos sin aprovechar.",
     solucion: "Diseño de un centro de extracción con tecnología CO₂ supercrítico para capturar oleorresinas y principios activos de máxima pureza.",
     resultado: "Productos con mayor concentración de vainillina y subproductos integrados en un circuito de bioeconomía circular.",
-    image: ImageCard006,
+    image: ImageEnergy,
     categoria: 'coautoria',
     tags: ["CO₂ Supercrítico", "Bioeconomía", "Economía Circular", "Vainilla Planifolia"],
     fecha: "May 2024",
