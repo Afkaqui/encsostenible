@@ -3,11 +3,12 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
-import { LayoutGrid, Video, FileText, Shield, LogOut, Menu, X, ChevronLeft } from "lucide-react";
+import { LayoutGrid, Video, FileText, Shield, LogOut, Menu, X, ChevronLeft, Award } from "lucide-react";
 import { revokeAccess } from "@/lib/intranet-auth";
 
 const navItems = [
   { href: "/intranet/hub", label: "Inicio",                      icon: LayoutGrid },
+  { href: "/intranet/premios-verdes", label: "Premios Verdes",   icon: Award     },
   { href: "/videos",                  label: "Videos",                        icon: Video     },
   { href: "/propuesta-parlamento-andino", label: "Propuesta Parlamento",      icon: FileText  },
   { href: "/integridad-democratica",  label: "Integridad Democrática",        icon: Shield    },

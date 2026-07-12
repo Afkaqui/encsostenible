@@ -3,9 +3,21 @@
 import Link from "next/link";
 import IntranetGuard from "@/components/IntranetGuard";
 import IntranetNavbar from "@/components/IntranetNavbar";
-import { Video, FileText, Shield, ArrowRight } from "lucide-react";
+import { Video, FileText, Shield, ArrowRight, Award } from "lucide-react";
 
 const sections = [
+  {
+    href: "/intranet/premios-verdes",
+    title: "Premios Verdes",
+    description:
+      "Base de los 500 mejores proyectos socioambientales de Latinoamérica 2026, con tarjetas y filtros por categoría y país.",
+    icon: Award,
+    accent: "from-green-500/10 to-emerald-500/5",
+    border: "border-green-400/20 hover:border-green-400/45",
+    iconBg: "bg-green-500/15",
+    iconColor: "text-green-400",
+    tag: "Base de datos",
+  },
   {
     href: "/videos",
     title: "Videos",
