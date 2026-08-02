@@ -188,6 +188,6 @@ public/
 ## Notas importantes
 
 - **No hay autenticación server-side.** El sistema de intranet usa `localStorage` del navegador. Es suficiente para proteger contenido no crítico, pero no para datos sensibles.
-- **Los PDFs deben subirse manualmente** a `/public`. No están versionados en git.
+- **Los PDFs de la intranet** (`propuesta-parlamento-andino.pdf`, `integridad-democratica.pdf`) **ya están versionados en git** dentro de `/public`. No requieren subida manual.
 - **El build es completamente estático** (todos los routes son `○ Static`). Compatible con Vercel, Netlify o cualquier CDN.
 - **Sin base de datos ni API routes** propias. Todo el cálculo es client-side.
