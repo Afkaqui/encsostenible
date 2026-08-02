@@ -51,16 +51,16 @@ export default function SolutionsSection() {
               className="group relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl overflow-hidden"
             >
               {/* Gradiente sutil en hover */}
-              <div className="absolute inset-0 bg-gradient-to-br from-green-500/0 via-transparent to-blue-500/0 group-hover:from-green-500/10 group-hover:to-blue-500/10 transition-all duration-500" />
+              <div className="absolute inset-0 bg-gradient-to-br from-enc-teal-600/0 via-transparent to-enc-gold-500/0 group-hover:from-enc-teal-600/10 group-hover:to-enc-gold-500/10 transition-all duration-500" />
 
               {/* Contenido */}
               <div className="relative z-10">
                 {/* Icono */}
-                <div className="w-14 h-14 bg-white/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500 text-green-400">
+                <div className="w-14 h-14 bg-white/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500 text-enc-gold-500">
                   <solucion.icon size={28} />
                 </div>
 
-                <h3 className="text-xl font-bold text-white mb-4 group-hover:text-green-400 transition-colors">
+                <h3 className="text-xl font-bold text-white mb-4 group-hover:text-enc-gold-500 transition-colors">
                   {solucion.title}
                 </h3>
                 
@@ -72,7 +72,7 @@ export default function SolutionsSection() {
                 <ul className="space-y-3 border-t border-white/10 pt-6">
                   {solucion.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center text-sm text-white/60">
-                      <ArrowUpRight className="w-4 h-4 mr-2 text-blue-400" />
+                      <ArrowUpRight className="w-4 h-4 mr-2 text-enc-teal-300" />
                       {feature}
                     </li>
                   ))}

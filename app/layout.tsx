@@ -1,6 +1,6 @@
 import "./polyfills";
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Manrope } from "next/font/google";
 import StructuredData from "./structured-data";
 import "./globals.css";
 
@@ -10,10 +10,17 @@ const inter = Inter({
   display: "swap",
 });
 
+const manrope = Manrope({
+  subsets: ["latin"],
+  variable: "--font-manrope",
+  weight: ["600", "700", "800"],
+  display: "swap",
+});
+
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#0f172a",
+  themeColor: "#0b2e29",
 };
 
 const SITE_URL = "https://www.encsust4in4ble.earth";
@@ -116,7 +123,7 @@ export default function RootLayout({
         <StructuredData />
       </head>
       <body
-        className={`${inter.variable} font-sans antialiased bg-slate-900 text-white`}
+        className={`${inter.variable} ${manrope.variable} font-sans antialiased bg-enc-forest-900 text-white`}
       >
         {children}
       </body>

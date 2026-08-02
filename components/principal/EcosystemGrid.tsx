@@ -49,10 +49,10 @@ export default function EcosystemGrid() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-8 sm:mb-12">
         <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3">
-          Red de Alianzas Estratégicas
+          Organizaciones con las que hemos colaborado
         </h2>
         <p className="text-white/55 text-sm sm:text-base max-w-xl mx-auto mb-4">
-          Organismos multilaterales, entidades públicas y empresas con las que he colaborado a lo largo de mi trayectoria.
+          Organismos multilaterales, entidades públicas, academia y empresas vinculadas a proyectos a lo largo de la trayectoria.
         </p>
       </div>
       
@@ -63,7 +63,7 @@ export default function EcosystemGrid() {
             key={index} 
             className="group relative animate-fade-in" // Animación suave al aparecer
           >
-            <div className="w-28 h-28 sm:w-32 sm:h-32 bg-white/10 backdrop-blur-md rounded-full border-2 border-white/20 shadow-md flex items-center justify-center overflow-hidden transition-all duration-500 group-hover:scale-110 group-hover:bg-white/20 group-hover:border-green-400/50 group-hover:shadow-xl group-hover:-translate-y-2">
+            <div className="w-28 h-28 sm:w-32 sm:h-32 bg-white/10 backdrop-blur-md rounded-full border-2 border-white/20 shadow-md flex items-center justify-center overflow-hidden transition-all duration-500 group-hover:scale-110 group-hover:bg-white/20 group-hover:border-enc-gold-500/50 group-hover:shadow-xl group-hover:-translate-y-2">
               <div className="relative w-full h-full p-6"> {/* Ajusté el padding a p-6 para mejor visualización */}
                 <Image
                   src={logo.src}
@@ -75,7 +75,7 @@ export default function EcosystemGrid() {
               </div>
             </div>
             {/* Brillo en hover */}
-            <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-tr from-green-400/0 via-white/10 to-blue-400/0 pointer-events-none" />
+            <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-tr from-enc-gold-500/0 via-white/10 to-enc-teal-300/0 pointer-events-none" />
           </div>
         ))}
       </div>
@@ -85,15 +85,15 @@ export default function EcosystemGrid() {
         <div className="mt-12 flex justify-center">
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className="group flex items-center gap-2 px-8 py-3 rounded-full bg-white/5 hover:bg-white/10 border border-white/20 hover:border-green-400/50 backdrop-blur-sm text-white transition-all duration-300 hover:shadow-[0_0_20px_rgba(74,222,128,0.2)]"
+            className="group flex items-center gap-2 px-8 py-3 rounded-full bg-white/5 hover:bg-white/10 border border-white/20 hover:border-enc-gold-500/50 backdrop-blur-sm text-white transition-all duration-300 hover:shadow-[0_0_20px_rgba(198,166,91,0.2)]"
           >
             <span className="font-medium tracking-wide">
-              {isExpanded ? 'Ver menos aliados' : 'Explorar todo el Ecosistema'}
+              {isExpanded ? 'Ver menos' : 'Explorar todo el ecosistema'}
             </span>
             {isExpanded ? (
-              <ChevronUp className="w-4 h-4 text-white/70 group-hover:text-green-400 transition-colors" />
+              <ChevronUp className="w-4 h-4 text-white/70 group-hover:text-enc-gold-500 transition-colors" />
             ) : (
-              <ChevronDown className="w-4 h-4 text-white/70 group-hover:text-green-400 transition-colors group-hover:translate-y-0.5" />
+              <ChevronDown className="w-4 h-4 text-white/70 group-hover:text-enc-gold-500 transition-colors group-hover:translate-y-0.5" />
             )}
           </button>
         </div>

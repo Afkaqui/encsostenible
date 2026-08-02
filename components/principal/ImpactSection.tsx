@@ -244,9 +244,9 @@ const TABS: { key: Categoria; label: string }[] = [
 
 const STATS = [
   { value: 12, suffix: '',  label: 'Proyectos' },
-  { value: 8,  suffix: '+', label: 'Alianzas' },
+  { value: 18, suffix: '',  label: 'Clasificaciones Top 500' },
   { value: 3,  suffix: '',  label: 'Países' },
-  { value: 26, suffix: '',  label: 'Años de experiencia' },
+  { value: 20, suffix: '+', label: 'Años de trayectoria' },
 ];
 
 export default function ImpactSection() {
@@ -285,9 +285,9 @@ export default function ImpactSection() {
     >
       {/* Decoración de fondo */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
-        <div className="absolute top-1/4 -left-48 w-96 h-96 bg-green-500/8 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/3 -right-48 w-96 h-96 bg-blue-500/8 rounded-full blur-3xl" />
-        <div className="absolute top-3/4 left-1/2 w-64 h-64 bg-purple-500/5 rounded-full blur-3xl" />
+        <div className="absolute top-1/4 -left-48 w-96 h-96 bg-enc-teal-600/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/3 -right-48 w-96 h-96 bg-enc-forest-700/20 rounded-full blur-3xl" />
+        <div className="absolute top-3/4 left-1/2 w-64 h-64 bg-enc-gold-500/8 rounded-full blur-3xl" />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -301,14 +301,14 @@ export default function ImpactSection() {
             transition: 'opacity 0.7s ease, transform 0.7s ease',
           }}
         >
-          <span className="inline-block text-green-400 text-sm font-semibold uppercase tracking-widest mb-3">
-            Portafolio de Impacto
+          <span className="inline-block text-enc-gold-500 text-sm font-semibold uppercase tracking-widest mb-3">
+            Portafolio de casos
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Proyectos con impacto demostrado
+            Casos y proyectos del ecosistema
           </h2>
           <p className="text-white/60 text-base sm:text-lg max-w-2xl mx-auto">
-            Cada caso representa una articulación real entre actores, capital e innovación. No propuestas — implementaciones.
+            Trabajos de articulación entre actores, capital e innovación, presentados con su categoría y etapa de desarrollo.
           </p>
         </div>
 
@@ -317,7 +317,7 @@ export default function ImpactSection() {
           {STATS.map((stat, i) => (
             <div
               key={stat.label}
-              className="text-center p-5 sm:p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-green-500/30 hover:bg-white/8 transition-all duration-300"
+              className="text-center p-5 sm:p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-enc-gold-500/30 hover:bg-white/8 transition-all duration-300"
               style={{
                 opacity:    statsVisible ? 1 : 0,
                 transform:  statsVisible ? 'translateY(0)' : 'translateY(20px)',
@@ -353,7 +353,7 @@ export default function ImpactSection() {
                 onClick={() => setCategoria(tab.key)}
                 className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-300 ${
                   active
-                    ? 'bg-gradient-to-r from-green-500 to-blue-500 text-white shadow-lg shadow-green-500/25 scale-105'
+                    ? 'bg-enc-gold-500 text-enc-charcoal shadow-lg shadow-enc-gold-500/25 scale-105'
                     : 'bg-white/10 text-white/70 hover:bg-white/20 hover:text-white hover:scale-105'
                 }`}
               >
@@ -378,7 +378,7 @@ export default function ImpactSection() {
               className={sectionVisible ? 'animate-fade-in-up' : 'opacity-0 translate-y-8'}
               style={{ animationDelay: sectionVisible ? `${index * 0.07}s` : '0s' }}
             >
-              <Card className="bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15 hover:border-green-500/30 hover:shadow-xl hover:shadow-green-500/10 transition-all duration-300 overflow-hidden group flex flex-col h-full">
+              <Card className="bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15 hover:border-enc-gold-500/30 hover:shadow-xl hover:shadow-enc-gold-500/10 transition-all duration-300 overflow-hidden group flex flex-col h-full">
 
                 {/* Imagen */}
                 <div className="relative h-48 w-full overflow-hidden">
@@ -395,8 +395,8 @@ export default function ImpactSection() {
                     <span
                       className={`px-2.5 py-1 rounded-full text-xs font-semibold backdrop-blur-sm ${
                         caso.categoria === 'cibs'
-                          ? 'bg-green-500/80 text-white'
-                          : 'bg-blue-500/80 text-white'
+                          ? 'bg-enc-teal-600/90 text-white'
+                          : 'bg-enc-forest-700/90 text-white'
                       }`}
                     >
                       {caso.categoria === 'cibs' ? 'CIBS' : 'Coautoría'}
@@ -411,7 +411,7 @@ export default function ImpactSection() {
                 </div>
 
                 <CardHeader className="pb-3">
-                  <CardTitle className="text-white text-lg line-clamp-2 min-h-[3.5rem] group-hover:text-green-300 transition-colors duration-300">
+                  <CardTitle className="text-white text-lg line-clamp-2 min-h-[3.5rem] group-hover:text-enc-gold-300 transition-colors duration-300">
                     {caso.titulo}
                   </CardTitle>
                 </CardHeader>
@@ -428,7 +428,7 @@ export default function ImpactSection() {
                     </div>
 
                     <div>
-                      <h4 className="text-blue-400 font-semibold text-xs uppercase tracking-wider mb-1 flex items-center gap-1.5">
+                      <h4 className="text-enc-teal-300 font-semibold text-xs uppercase tracking-wider mb-1 flex items-center gap-1.5">
                         <Zap className="w-3 h-3" /> Solución
                       </h4>
                       <p className="text-white/70 text-sm leading-relaxed line-clamp-3">
@@ -437,7 +437,7 @@ export default function ImpactSection() {
                     </div>
 
                     <div>
-                      <h4 className="text-green-400 font-semibold text-xs uppercase tracking-wider mb-1 flex items-center gap-1.5">
+                      <h4 className="text-enc-gold-500 font-semibold text-xs uppercase tracking-wider mb-1 flex items-center gap-1.5">
                         <CheckCircle className="w-3 h-3" /> Resultado
                       </h4>
                       <p className="text-white/70 text-sm leading-relaxed line-clamp-3">
@@ -450,7 +450,7 @@ export default function ImpactSection() {
                       {caso.tags.map(tag => (
                         <span
                           key={tag}
-                          className="px-2 py-0.5 bg-white/10 rounded-full text-xs text-white/50 border border-white/10 hover:border-green-500/40 hover:text-white/70 transition-colors"
+                          className="px-2 py-0.5 bg-white/10 rounded-full text-xs text-white/50 border border-white/10 hover:border-enc-gold-500/40 hover:text-white/70 transition-colors"
                         >
                           {tag}
                         </span>
@@ -464,7 +464,7 @@ export default function ImpactSection() {
                       href={caso.desarrollo_enlace}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center text-blue-300 hover:text-blue-200 text-sm font-medium transition-colors"
+                      className="flex items-center text-enc-teal-300 hover:text-white text-sm font-medium transition-colors"
                     >
                       {caso.desarrolloLabel}: {caso.desarrollo_nombre}
                     </a>
@@ -473,7 +473,7 @@ export default function ImpactSection() {
                       href={caso.contacto}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex w-full items-center justify-center px-4 py-2 bg-white/5 hover:bg-green-500/20 text-white rounded-lg text-sm font-medium transition-all duration-300 border border-white/10 hover:border-green-500/50 group/btn"
+                      className="inline-flex w-full items-center justify-center px-4 py-2 bg-white/5 hover:bg-enc-teal-600/25 text-white rounded-lg text-sm font-medium transition-all duration-300 border border-white/10 hover:border-enc-teal-300/50 group/btn"
                     >
                       Ver caso completo
                       <ExternalLink className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />

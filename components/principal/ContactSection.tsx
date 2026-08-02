@@ -30,55 +30,55 @@ export default function ContactSection() {
           
           {/* Columna Izquierda: Datos de Contacto */}
           <div className="space-y-6 sm:space-y-8">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/20 hover:border-green-500/30 transition-colors duration-300">
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/20 hover:border-enc-gold-500/30 transition-colors duration-300">
               <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">
                 Información de contacto
               </h3>
               <div className="space-y-6">
-                
+
                 {/* Email */}
                 <div className="flex items-center space-x-4 group">
-                  <div className="p-3 bg-green-500/20 rounded-full flex-shrink-0 group-hover:bg-green-500/30 transition-colors">
-                    <Mail className="w-5 h-5 text-green-400" />
+                  <div className="p-3 bg-enc-gold-500/20 rounded-full flex-shrink-0 group-hover:bg-enc-gold-500/30 transition-colors">
+                    <Mail className="w-5 h-5 text-enc-gold-500" />
                   </div>
                   <div>
                     <p className="text-white/70 text-xs uppercase tracking-wider font-semibold">Email</p>
-                    <a href="mailto:eduardo.noriega@bancasostenible.la" className="text-white text-sm sm:text-base hover:text-green-400 transition-colors">
-                      eduardo.noriega@bancasostenible.la
+                    <a href="mailto:contacto@encsust4in4ble.earth" className="text-white text-sm sm:text-base hover:text-enc-gold-500 transition-colors break-all">
+                      contacto@encsust4in4ble.earth
                     </a>
                   </div>
                 </div>
-                
+
                 {/* LinkedIn */}
                 <div className="flex items-center space-x-4 group">
-                  <div className="p-3 bg-blue-500/20 rounded-full flex-shrink-0 group-hover:bg-blue-500/30 transition-colors">
-                    <Linkedin className="w-5 h-5 text-blue-400" />
+                  <div className="p-3 bg-enc-teal-600/25 rounded-full flex-shrink-0 group-hover:bg-enc-teal-600/40 transition-colors">
+                    <Linkedin className="w-5 h-5 text-enc-teal-300" />
                   </div>
                   <div>
                     <p className="text-white/70 text-xs uppercase tracking-wider font-semibold">LinkedIn</p>
-                    <a 
-                      href='https://www.linkedin.com/in/ingeduardonoriegaperu/' 
-                      target="_blank" 
+                    <a
+                      href='https://www.linkedin.com/in/ingeduardonoriegaperu/'
+                      target="_blank"
                       rel="noopener noreferrer"
-                      className="text-white text-sm sm:text-base hover:text-blue-400 transition-colors"
+                      className="text-white text-sm sm:text-base hover:text-enc-teal-300 transition-colors"
                     >
                       Eduardo Noriega Campos
                     </a>
                   </div>
                 </div>
-                
+
                 {/* Teléfono */}
                 <div className="flex items-center space-x-4 group">
-                  <div className="p-3 bg-purple-500/20 rounded-full flex-shrink-0 group-hover:bg-purple-500/30 transition-colors">
-                    <Phone className="w-5 h-5 text-purple-400" />
+                  <div className="p-3 bg-enc-forest-700/40 rounded-full flex-shrink-0 group-hover:bg-enc-forest-700/60 transition-colors">
+                    <Phone className="w-5 h-5 text-enc-teal-300" />
                   </div>
                   <div>
                     <p className="text-white/70 text-xs uppercase tracking-wider font-semibold">Teléfono</p>
-                    <a 
-                      href='https://wa.link/1okcxk' 
-                      target="_blank" 
+                    <a
+                      href='https://wa.link/1okcxk'
+                      target="_blank"
                       rel="noopener noreferrer"
-                      className="text-white text-sm sm:text-base hover:text-purple-400 transition-colors"
+                      className="text-white text-sm sm:text-base hover:text-enc-teal-300 transition-colors"
                     >
                       +51 926 770 972
                     </a>
@@ -90,20 +90,20 @@ export default function ContactSection() {
           </div>
           
           {/* Columna Derecha: Call to Action (Calendly) */}
-          <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/20 text-center flex flex-col justify-center h-full hover:border-blue-500/30 transition-colors duration-300">
+          <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/20 text-center flex flex-col justify-center h-full hover:border-enc-teal-300/30 transition-colors duration-300">
             <h3 className="text-xl sm:text-2xl font-bold text-white mb-4">
-              Agenda una reunión
+              Solicitar evaluación de encaje
             </h3>
             <p className="text-white/70 mb-8">
-              30 minutos para explorar sinergias y definir si existe una base de colaboración concreta.
+              Trabajamos con un número limitado de iniciativas que cuentan con una decisión concreta, un responsable interno y presupuesto para su estructuración.
             </p>
-            
-            <Button 
-                className="w-full bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white py-6 rounded-xl font-bold text-lg shadow-lg hover:shadow-green-500/20 hover:-translate-y-1 transition-all duration-300"
-                onClick={() => window.open('https://calendly.com/agronegocios-andenexbic/30min', '_blank')} 
+
+            <Button
+                className="w-full bg-enc-gold-500 hover:bg-enc-gold-600 text-enc-charcoal py-6 rounded-xl font-bold text-lg shadow-lg hover:-translate-y-1 transition-all duration-300"
+                onClick={() => window.open('https://calendly.com/agronegocios-andenexbic/30min', '_blank')}
             >
                 <CalendarCheck className="w-6 h-6 mr-2" />
-                Agendar Reunión
+                Solicitar evaluación
             </Button>
           </div>
 

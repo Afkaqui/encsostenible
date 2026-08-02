@@ -61,7 +61,7 @@ export default function HeroSection({ onScrollToSection }: HeroSectionProps) {
       </div>
 
       {/* Gradiente Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-green-600/30 to-blue-600/30" />
+      <div className="absolute inset-0 bg-gradient-to-b from-enc-forest-900/50 via-transparent to-enc-forest-900/70" />
 
       {/* Controles Carrusel */}
       <button
@@ -81,28 +81,52 @@ export default function HeroSection({ onScrollToSection }: HeroSectionProps) {
       </button>
 
       {/* Contenido Principal */}
-      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         <div className="animate-fade-in">
-          {/* Badge de visitas */}
-          <div className="flex justify-center mb-6">
-            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-5 py-2 text-sm text-white/80">
-              <VisitCounter page="/" />
-            </div>
-          </div>
+          {/* Eyebrow */}
+          <p className="text-enc-gold-500 text-xs sm:text-sm font-semibold uppercase tracking-[0.2em] mb-5 drop-shadow">
+            Arquitectura de proyectos y ecosistemas de impacto
+          </p>
 
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 sm:mb-8 leading-tight drop-shadow-2xl">
-            Nací hace 46 años —<br className="hidden sm:block" /><span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400"> 26 dedicados a transformar la innovación en desarrollo sostenible.</span>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-[1.1] drop-shadow-2xl font-display">
+            Convertimos iniciativas sostenibles complejas en{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-enc-gold-300 to-enc-gold-500">
+              proyectos listos para decisión, financiamiento y ejecución.
+            </span>
           </h1>
-          
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
+
+          <p className="text-base sm:text-lg text-white/80 max-w-2xl mx-auto mb-9 leading-relaxed drop-shadow">
+            ENC Sust4in4ble es una firma boutique que integra evidencia, modelo económico,
+            gobernanza y articulación institucional para preparar proyectos ante comités,
+            fondos, empresas y entidades públicas.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
-              onClick={() => onScrollToSection('modelo')}
+              onClick={() => onScrollToSection('contacto')}
               size="lg"
-              className="w-full sm:w-auto bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white px-6 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-2xl backdrop-blur-sm border-none"
+              className="w-full sm:w-auto bg-enc-gold-500 hover:bg-enc-gold-600 text-enc-charcoal px-6 sm:px-9 py-3 sm:py-4 rounded-full text-base sm:text-lg font-bold transition-all duration-300 hover:scale-105 shadow-2xl border-none"
             >
-              Descubre el Modelo de la Hélice Quíntuple
+              Solicitar Diagnóstico Ejecutivo
               <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
             </Button>
+            <button
+              onClick={() => onScrollToSection('impacto')}
+              className="w-full sm:w-auto px-6 sm:px-9 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold text-white border border-enc-teal-300/50 hover:bg-enc-teal-600/25 hover:border-enc-teal-300 backdrop-blur-sm transition-all duration-300"
+            >
+              Ver casos documentados
+            </button>
+          </div>
+
+          <p className="text-white/60 text-xs sm:text-sm mt-6 drop-shadow">
+            Evaluación inicial de encaje · Información confidencial · Atención selectiva
+          </p>
+
+          {/* Contador de visitas (sutil) */}
+          <div className="flex justify-center mt-6">
+            <div className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm border border-white/15 rounded-full px-4 py-1.5 text-xs text-white/60">
+              <VisitCounter page="/" />
+            </div>
           </div>
         </div>
       </div>

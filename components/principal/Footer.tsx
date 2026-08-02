@@ -8,8 +8,8 @@ export default function Footer() {
 
           {/* Identidad */}
           <div className="text-center md:text-left space-y-1">
-            <p className="text-white font-semibold text-sm">Eduardo Noriega Campos</p>
-            <p className="text-white/45 text-xs">Innovación financiera · Sostenibilidad · América Latina</p>
+            <p className="text-white font-semibold text-sm font-display">ENC Sust4in4ble</p>
+            <p className="text-white/45 text-xs">Arquitectura de proyectos y ecosistemas de impacto</p>
             <p className="text-white/30 text-xs">© 2026 · Todos los derechos reservados</p>
           </div>
 

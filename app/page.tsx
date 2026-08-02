@@ -54,7 +54,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-green-900 to-slate-900">
+    <div className="min-h-screen bg-gradient-to-br from-enc-forest-900 via-enc-charcoal to-enc-forest-900">
       {/* Navegacion */}
       <Navigation activeSection={activeSection} onScrollToSection={scrollToSection} />
       

@@ -17,11 +17,9 @@ export default function Navigation({ activeSection, onScrollToSection }: Navigat
 
   const navigationItems = [
     { id: 'hero', label: 'Inicio' },
-    { id: 'credibilidad', label: 'Credibilidad' },
-    { id: 'manifiesto', label: 'Mi Manifiesto' },
-    { id: 'modelo', label: 'Mi Modelo' },
+    { id: 'modelo', label: 'Metodología' },
     { id: 'soluciones', label: 'Soluciones' },
-    { id: 'impacto', label: 'Impacto' },
+    { id: 'impacto', label: 'Casos' },
     { id: 'contacto', label: 'Contacto' }
   ];
 
@@ -42,8 +40,8 @@ export default function Navigation({ activeSection, onScrollToSection }: Navigat
             className="cursor-pointer group"
             onClick={() => handleScrollToSection('hero')}
           >
-            <p className="text-base sm:text-xl font-bold text-white leading-tight group-hover:text-green-400 transition-colors">Eduardo Noriega Campos</p>
-            <p className="text-[10px] sm:text-xs text-white/40 font-medium tracking-widest uppercase hidden sm:block">Innovación · Sostenibilidad</p>
+            <p className="text-base sm:text-xl font-bold text-white leading-tight group-hover:text-enc-gold-500 transition-colors font-display">ENC Sust4in4ble</p>
+            <p className="text-[10px] sm:text-xs text-white/40 font-medium tracking-widest uppercase hidden sm:block">Arquitectura de impacto bankable</p>
           </div>
           
           {/* Navegación Desktop */}
@@ -52,8 +50,8 @@ export default function Navigation({ activeSection, onScrollToSection }: Navigat
               <button
                 key={id}
                 onClick={() => handleScrollToSection(id)}
-                className={`text-xs lg:text-sm font-medium transition-colors hover:text-green-400 ${
-                  activeSection === id ? 'text-green-400' : 'text-white/80'
+                className={`text-xs lg:text-sm font-medium transition-colors hover:text-enc-gold-500 ${
+                  activeSection === id ? 'text-enc-gold-500' : 'text-white/80'
                 }`}
               >
                 {label}
@@ -63,8 +61,8 @@ export default function Navigation({ activeSection, onScrollToSection }: Navigat
               <Link
                 key={href}
                 href={href}
-                className={`text-xs lg:text-sm font-medium transition-colors hover:text-green-400 ${
-                  pathname === href ? 'text-green-400' : 'text-white/80'
+                className={`text-xs lg:text-sm font-medium transition-colors hover:text-enc-gold-500 ${
+                  pathname === href ? 'text-enc-gold-500' : 'text-white/80'
                 }`}
               >
                 {label}
@@ -96,8 +94,8 @@ export default function Navigation({ activeSection, onScrollToSection }: Navigat
                 onClick={() => handleScrollToSection(id)}
                 className={`block w-full text-left px-4 py-3 rounded transition-colors ${
                    activeSection === id
-                     ? 'text-green-400 bg-white/10'
-                     : 'text-white/80 hover:text-green-400 hover:bg-white/5'
+                     ? 'text-enc-gold-500 bg-white/10'
+                     : 'text-white/80 hover:text-enc-gold-500 hover:bg-white/5'
                 }`}
               >
                 {label}
@@ -110,8 +108,8 @@ export default function Navigation({ activeSection, onScrollToSection }: Navigat
                 onClick={() => setIsMenuOpen(false)}
                 className={`block w-full text-left px-4 py-3 rounded transition-colors ${
                   pathname === href
-                    ? 'text-green-400 bg-white/10'
-                    : 'text-white/80 hover:text-green-400 hover:bg-white/5'
+                    ? 'text-enc-gold-500 bg-white/10'
+                    : 'text-white/80 hover:text-enc-gold-500 hover:bg-white/5'
                 }`}
               >
                 {label}

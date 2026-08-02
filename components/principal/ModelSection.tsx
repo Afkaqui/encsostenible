@@ -57,7 +57,7 @@ export default function ModelSection() {
   return (
     <section id="modelo" className="py-16 sm:py-24 relative overflow-hidden">
       {/* Fondo decorativo */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/0 via-green-900/10 to-black/0 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/0 via-enc-forest-700/10 to-black/0 pointer-events-none" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
@@ -67,7 +67,7 @@ export default function ModelSection() {
             La Hélice Quíntuple
           </h2>
           <p className="text-lg sm:text-xl text-white/75 max-w-3xl mx-auto leading-relaxed">
-            Conectar actores no es suficiente; hay que sincronizar sistemas. Esta metodología integra a los <span className="text-green-400 font-semibold">cinco actores clave</span> para transformar la sostenibilidad en proyectos bankables y escalables.
+            Conectar actores no es suficiente; hay que sincronizar sistemas. Esta metodología integra a los <span className="text-enc-gold-500 font-semibold">cinco actores clave</span> para transformar la sostenibilidad en proyectos bankables y escalables.
           </p>
         </div>
 
@@ -103,7 +103,7 @@ export default function ModelSection() {
           {/* Tarjeta de "Sinergia" (La conclusión) */}
           <div className="md:col-span-2 lg:col-span-1 group relative p-8 rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm flex flex-col justify-center transition-all duration-500 hover:border-white/30">
             <h3 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-              El Resultado <ArrowRight className="text-green-400 group-hover:translate-x-2 transition-transform" />
+              El Resultado <ArrowRight className="text-enc-gold-500 group-hover:translate-x-2 transition-transform" />
             </h3>
             <p className="text-white/75 text-lg leading-relaxed">
               Cuando los cinco elementos operan en sincronía, la burocracia cede espacio a la agilidad, la inversión encuentra retorno y el impacto ambiental se vuelve medible y verificable.

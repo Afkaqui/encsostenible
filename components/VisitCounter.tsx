@@ -39,7 +39,7 @@ export default function VisitCounter({ page = "/" }: { page?: string }) {
 
   return (
     <span className="inline-flex items-center gap-1.5 text-white/70 text-sm font-medium">
-      <Eye size={14} className="text-green-400" />
+      <Eye size={14} className="text-enc-gold-500" />
       {count.toLocaleString("es-PE")} visitas
     </span>
   );
