@@ -15,16 +15,15 @@ export default function Navigation({ activeSection, onScrollToSection }: Navigat
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
 
-  const navigationItems = [
+  // Cada item es un ancla de scroll (id) o una ruta real (href)
+  const menu: { id?: string; href?: string; label: string }[] = [
     { id: 'hero', label: 'Inicio' },
     { id: 'modelo', label: 'Metodología' },
-    { id: 'soluciones', label: 'Soluciones' },
+    { href: '/soluciones', label: 'Soluciones' },
+    { href: '/diagnostico-readiness', label: 'Diagnóstico' },
     { id: 'impacto', label: 'Casos' },
-    { id: 'contacto', label: 'Contacto' }
+    { id: 'contacto', label: 'Contacto' },
   ];
-
-  // Páginas externas públicas (las secciones de intranet no aparecen aquí)
-  const externalPages: { href: string; label: string }[] = [];
 
   const handleScrollToSection = (sectionId: string) => {
     onScrollToSection(sectionId);
@@ -46,28 +45,29 @@ export default function Navigation({ activeSection, onScrollToSection }: Navigat
           
           {/* Navegación Desktop */}
           <div className="hidden md:flex space-x-4 lg:space-x-8">
-            {navigationItems.map(({ id, label }) => (
-              <button
-                key={id}
-                onClick={() => handleScrollToSection(id)}
-                className={`text-xs lg:text-sm font-medium transition-colors hover:text-enc-gold-500 ${
-                  activeSection === id ? 'text-enc-gold-500' : 'text-white/80'
-                }`}
-              >
-                {label}
-              </button>
-            ))}
-            {externalPages.map(({ href, label }) => (
-              <Link
-                key={href}
-                href={href}
-                className={`text-xs lg:text-sm font-medium transition-colors hover:text-enc-gold-500 ${
-                  pathname === href ? 'text-enc-gold-500' : 'text-white/80'
-                }`}
-              >
-                {label}
-              </Link>
-            ))}
+            {menu.map((item) =>
+              item.href ? (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`text-xs lg:text-sm font-medium transition-colors hover:text-enc-gold-500 ${
+                    pathname === item.href ? 'text-enc-gold-500' : 'text-white/80'
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              ) : (
+                <button
+                  key={item.id}
+                  onClick={() => handleScrollToSection(item.id!)}
+                  className={`text-xs lg:text-sm font-medium transition-colors hover:text-enc-gold-500 ${
+                    activeSection === item.id ? 'text-enc-gold-500' : 'text-white/80'
+                  }`}
+                >
+                  {item.label}
+                </button>
+              )
+            )}
           </div>
 
           {/* Botón Menú Móvil */}
@@ -88,33 +88,34 @@ export default function Navigation({ activeSection, onScrollToSection }: Navigat
       {isMenuOpen && (
         <div className="md:hidden bg-black/90 backdrop-blur-xl border-b border-white/10 absolute w-full">
           <div className="px-4 py-2 space-y-2">
-            {navigationItems.map(({ id, label }) => (
-              <button
-                key={id}
-                onClick={() => handleScrollToSection(id)}
-                className={`block w-full text-left px-4 py-3 rounded transition-colors ${
-                   activeSection === id
-                     ? 'text-enc-gold-500 bg-white/10'
-                     : 'text-white/80 hover:text-enc-gold-500 hover:bg-white/5'
-                }`}
-              >
-                {label}
-              </button>
-            ))}
-            {externalPages.map(({ href, label }) => (
-              <Link
-                key={href}
-                href={href}
-                onClick={() => setIsMenuOpen(false)}
-                className={`block w-full text-left px-4 py-3 rounded transition-colors ${
-                  pathname === href
-                    ? 'text-enc-gold-500 bg-white/10'
-                    : 'text-white/80 hover:text-enc-gold-500 hover:bg-white/5'
-                }`}
-              >
-                {label}
-              </Link>
-            ))}
+            {menu.map((item) =>
+              item.href ? (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setIsMenuOpen(false)}
+                  className={`block w-full text-left px-4 py-3 rounded transition-colors ${
+                    pathname === item.href
+                      ? 'text-enc-gold-500 bg-white/10'
+                      : 'text-white/80 hover:text-enc-gold-500 hover:bg-white/5'
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              ) : (
+                <button
+                  key={item.id}
+                  onClick={() => handleScrollToSection(item.id!)}
+                  className={`block w-full text-left px-4 py-3 rounded transition-colors ${
+                    activeSection === item.id
+                      ? 'text-enc-gold-500 bg-white/10'
+                      : 'text-white/80 hover:text-enc-gold-500 hover:bg-white/5'
+                  }`}
+                >
+                  {item.label}
+                </button>
+              )
+            )}
           </div>
         </div>
       )}

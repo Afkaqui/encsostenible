@@ -1,62 +1,84 @@
 const SITE_URL = "https://www.encsust4in4ble.earth";
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  name: "ENC Sust4in4ble",
+  url: SITE_URL,
+  image: `${SITE_URL}/opengraph-image.jpg`,
+  description:
+    "Firma boutique de arquitectura de impacto bankable: estructura iniciativas sostenibles para que puedan evaluarse, financiarse y ejecutarse.",
+  areaServed: {
+    "@type": "Place",
+    name: "América Latina y el Caribe",
+  },
+  slogan: "Innovamos juntos, multiplicamos valor",
+  knowsAbout: [
+    "Inversión de impacto",
+    "Finanzas sostenibles",
+    "Bioeconomía",
+    "Economía circular",
+    "Estructuración de proyectos",
+    "Gobernanza multiactor",
+    "Ley 30309",
+    "Hélice Quíntuple",
+  ],
+  founder: {
+    "@type": "Person",
+    name: "Eduardo José Noriega Campos",
+  },
+};
+
 const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: "Eduardo Noriega Campos",
-  jobTitle: "Consultor en Finanzas Sostenibles e Innovación",
+  name: "Eduardo José Noriega Campos",
+  jobTitle: "Arquitecto de proyectos y ecosistemas de impacto",
   description:
-    "Ingeniero con 26 años articulando finanzas verdes, bioeconomía e innovación empresarial en América Latina.",
+    "Más de 20 años de trayectoria en finanzas, inversión, sostenibilidad e innovación en América Latina.",
   url: SITE_URL,
   image: `${SITE_URL}/opengraph-image.jpg`,
-  sameAs: [
-    "https://www.linkedin.com/in/ingeduardonoriegaperu/",
-  ],
+  sameAs: ["https://www.linkedin.com/in/ingeduardonoriegaperu/"],
   nationality: {
     "@type": "Country",
     name: "Perú",
   },
-  knowsAbout: [
-    "Finanzas Verdes",
-    "Bioeconomía",
-    "Sostenibilidad",
-    "Política Pública Ambiental",
-    "Economía Circular",
-    "Innovación Empresarial",
-    "Ley 30309",
-    "Desarrollo Sostenible",
-    "América Latina",
-    "Hélice Quíntuple",
-  ],
-  hasOccupation: {
-    "@type": "Occupation",
-    name: "Consultor en Finanzas Sostenibles e Innovación",
-    occupationLocation: {
-      "@type": "Country",
-      name: "Perú",
-    },
+  worksFor: {
+    "@type": "Organization",
+    name: "ENC Sust4in4ble",
+    url: SITE_URL,
   },
+  knowsAbout: [
+    "Inversión de impacto",
+    "Finanzas sostenibles",
+    "Bioeconomía",
+    "Economía circular",
+    "Gobernanza",
+    "Ley 30309",
+    "Hélice Quíntuple",
+    "América Latina",
+  ],
 };
 
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Eduardo Noriega Campos — Finanzas Sostenibles y Bioeconomía",
+  name: "ENC Sust4in4ble",
   url: SITE_URL,
   description:
-    "Sitio oficial de Eduardo Noriega Campos. Finanzas verdes, bioeconomía e innovación empresarial en América Latina.",
+    "Firma boutique que convierte iniciativas sostenibles complejas en proyectos listos para decisión, financiamiento y ejecución.",
   inLanguage: "es-PE",
   publisher: {
-    "@type": "Person",
-    name: "Eduardo Noriega Campos",
+    "@type": "Organization",
+    name: "ENC Sust4in4ble",
   },
   potentialAction: {
     "@type": "SearchAction",
     target: {
       "@type": "EntryPoint",
-      urlTemplate: `${SITE_URL}/calculadora-fiscal`,
+      urlTemplate: `${SITE_URL}/diagnostico-readiness`,
     },
-    "query-input": "Calcular beneficio fiscal Ley 30309",
+    "query-input": "Diagnóstico de readiness para inversión de impacto",
   },
 };
 
@@ -66,18 +88,18 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "¿Quién es Eduardo Noriega Campos?",
+      name: "¿Qué es ENC Sust4in4ble?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Eduardo Noriega Campos es un ingeniero con 26 años de experiencia en finanzas sostenibles, bioeconomía e innovación empresarial en América Latina. Trabaja articulando academia, industria, gobierno y sociedad civil bajo la metodología de la Hélice Quíntuple.",
+        text: "ENC Sust4in4ble es una firma boutique de arquitectura de impacto bankable. Integra evidencia, modelo económico, gobernanza y articulación institucional para preparar proyectos sostenibles ante comités, fondos, empresas y entidades públicas. Está liderada por Eduardo José Noriega Campos.",
       },
     },
     {
       "@type": "Question",
-      name: "¿Qué es la Ley 30309 y cómo funciona la calculadora fiscal?",
+      name: "¿Qué es el Diagnóstico Ejecutivo de Readiness?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "La Ley 30309 del Perú permite a las empresas deducir hasta el 240% de sus inversiones en I+D+i del Impuesto a la Renta. La calculadora de Eduardo Noriega permite calcular el ahorro estimado de forma gratuita en menos de 3 minutos.",
+        text: "Es una evaluación que identifica en pocos días qué está listo en un proyecto, qué falta demostrar y cuál es el siguiente movimiento antes de presentarlo a un comité, fondo o aliado estratégico. Incluye un scorecard de diez dimensiones, un semáforo de brechas y una hoja de ruta.",
       },
     },
     {
@@ -85,15 +107,15 @@ const faqSchema = {
       name: "¿Qué es la Hélice Quíntuple?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "La Hélice Quíntuple es una metodología que integra cinco actores clave — Academia, Industria, Gobierno, Sociedad Civil y Medio Ambiente — para transformar la sostenibilidad en proyectos bankables y escalables con impacto medible.",
+        text: "Es una metodología que integra cinco actores clave — Academia, Industria, Gobierno, Sociedad Civil y Medio Ambiente — para transformar la sostenibilidad en proyectos bankables y escalables con impacto medible.",
       },
     },
     {
       "@type": "Question",
-      name: "¿Cómo contactar a Eduardo Noriega Campos?",
+      name: "¿Cómo contactar a ENC Sust4in4ble?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Puedes contactar a Eduardo Noriega Campos a través de su correo eduardo.noriega@bancasostenible.la, su perfil de LinkedIn linkedin.com/in/ingeduardonoriegaperu/ o agendando una reunión directamente en su sitio web.",
+        text: "El canal oficial es el correo contacto@encsust4in4ble.earth. También es posible solicitar una evaluación de encaje desde el sitio web.",
       },
     },
   ],
@@ -102,6 +124,10 @@ const faqSchema = {
 export default function StructuredData() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}

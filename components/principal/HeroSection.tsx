@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback } from 'react';
+import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react';
@@ -18,6 +19,8 @@ interface HeroSectionProps {
 }
 
 export default function HeroSection({ onScrollToSection }: HeroSectionProps) {
+  const router = useRouter();
+
   // Configuración del carrusel
   const [emblaRef, emblaApi] = useEmblaCarousel(
     { loop: true, duration: 30 },
@@ -103,7 +106,7 @@ export default function HeroSection({ onScrollToSection }: HeroSectionProps) {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
-              onClick={() => onScrollToSection('contacto')}
+              onClick={() => router.push('/diagnostico-readiness')}
               size="lg"
               className="w-full sm:w-auto bg-enc-gold-500 hover:bg-enc-gold-600 text-enc-charcoal px-6 sm:px-9 py-3 sm:py-4 rounded-full text-base sm:text-lg font-bold transition-all duration-300 hover:scale-105 shadow-2xl border-none"
             >

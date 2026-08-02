@@ -26,44 +26,44 @@ export const viewport: Viewport = {
 const SITE_URL = "https://www.encsust4in4ble.earth";
 
 const SITE_TITLE =
-  "Eduardo Noriega Campos — Finanzas Sostenibles | Bioeconomía | América Latina";
+  "ENC Sust4in4ble — Arquitectura de proyectos de impacto bankable";
 
 const SITE_DESCRIPTION =
-  "Ingeniero con 26 años articulando finanzas verdes, bioeconomía e innovación empresarial en América Latina. Calculadora Ley 30309 gratuita para empresas peruanas.";
+  "Firma boutique que convierte iniciativas sostenibles complejas en proyectos listos para decisión, financiamiento y ejecución. Diagnóstico Ejecutivo de Readiness y calculadora Ley 30309.";
 
 const OG_DESCRIPTION =
-  "Eduardo Noriega Campos conecta innovación, inversión y sostenibilidad en América Latina. Finanzas verdes, bioeconomía y la Hélice Quíntuple aplicada a proyectos reales.";
+  "ENC Sust4in4ble integra evidencia, modelo económico, gobernanza y articulación institucional para preparar proyectos ante comités, fondos, empresas y entidades públicas.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
 
   title: {
     default: SITE_TITLE,
-    template: "%s | Eduardo Noriega Campos",
+    template: "%s | ENC Sust4in4ble",
   },
 
   description: SITE_DESCRIPTION,
 
   keywords: [
-    "Eduardo Noriega Campos",
+    "ENC Sust4in4ble",
+    "arquitectura de impacto bankable",
+    "proyectos sostenibles financiables",
+    "diagnóstico de readiness",
+    "inversión de impacto Perú",
+    "estructuración de proyectos",
     "finanzas sostenibles Perú",
     "bioeconomía Perú",
-    "finanzas verdes América Latina",
-    "innovación empresarial sostenible",
     "Hélice Quíntuple",
     "Ley 30309 innovación",
     "beneficio tributario I+D+i",
     "CONCYTEC beneficio tributario",
-    "calculadora fiscal Perú",
-    "desarrollo sostenible Perú",
     "economía circular",
-    "cambio climático América Latina",
-    "banca sostenible",
+    "Eduardo Noriega Campos",
   ],
 
-  authors:   [{ name: "Eduardo Noriega Campos", url: SITE_URL }],
-  creator:   "Eduardo Noriega Campos",
-  publisher: "Eduardo Noriega Campos",
+  authors:   [{ name: "Eduardo José Noriega Campos", url: SITE_URL }],
+  creator:   "Eduardo José Noriega Campos",
+  publisher: "ENC Sust4in4ble",
 
   alternates: {
     canonical: SITE_URL,
@@ -89,27 +89,27 @@ export const metadata: Metadata = {
     type:        "website",
     locale:      "es_PE",
     url:         SITE_URL,
-    title:       "Eduardo Noriega Campos | Finanzas Sostenibles · Bioeconomía · Innovación",
+    title:       "ENC Sust4in4ble | Arquitectura de proyectos de impacto bankable",
     description: OG_DESCRIPTION,
-    siteName:    "Eduardo Noriega Campos",
+    siteName:    "ENC Sust4in4ble",
     images: [
       {
         url:    "/opengraph-image.jpg",
         width:  1200,
         height: 630,
-        alt:    "Eduardo Noriega Campos — Finanzas Sostenibles y Bioeconomía en América Latina",
+        alt:    "ENC Sust4in4ble — Arquitectura de proyectos y ecosistemas de impacto",
       },
     ],
   },
 
   twitter: {
     card:        "summary_large_image",
-    title:       "Eduardo Noriega Campos | Finanzas Sostenibles · Bioeconomía",
+    title:       "ENC Sust4in4ble | Arquitectura de proyectos de impacto bankable",
     description: SITE_DESCRIPTION,
     images:      ["/opengraph-image.jpg"],
   },
 
-  category: "Sostenibilidad · Finanzas · Perú",
+  category: "Consultoría · Inversión de impacto · Perú",
 };
 
 export default function RootLayout({
