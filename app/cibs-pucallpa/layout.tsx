@@ -6,6 +6,7 @@ const DESC =
   "Hub Green Tech de bioeconomía en Ucayali: poscosecha estandarizada de cacao nativo, pasaportes digitales por lote libres de deforestación (EUDR), biochar e ingeniería financiera con la Ley 30309.";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(CIBS_URL),
   title: { absolute: TITLE },
   description: DESC,
   alternates: { canonical: CIBS_URL },

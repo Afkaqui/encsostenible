@@ -41,8 +41,10 @@ app/
 │   ├── page.tsx                      → Visor PDF (protegido)
 │   └── PDFViewer.tsx                 → Componente react-pdf
 ├── integridad-democratica/page.tsx   → Visor PDF (protegido)
-├── proyectos/page.tsx                → Portafolio de proyectos (fichas NotebookLM, filtro + búsqueda)
-├── cibs-pucallpa/page.tsx            → Landing CIBS, servida en cibs.encsust4in4ble.earth
+├── proyectos/page.tsx                → Portafolio (cibs.…/proyectos): búsqueda + filtros línea/región/tipo en la URL
+├── proyectos/[slug]/                 → Página por iniciativa (SSG) con metadatos, JSON-LD y opengraph-image propia
+├── cibs-pucallpa/page.tsx            → Landing CIBS, servida en la raíz de cibs.encsust4in4ble.earth
+├── cibs-seo/                         → robots.txt y sitemap.xml del subdominio (reescritos desde /robots.txt y /sitemap.xml)
 ├── robots.ts                         → Genera robots.txt
 ├── sitemap.ts                        → Genera sitemap.xml
 ├── structured-data.tsx               → JSON-LD (Person, PoliticalParty, WebSite)
@@ -151,7 +153,7 @@ Dos tabs:
 - Security headers (X-Frame-Options, X-Content-Type-Options, etc.)
 - Redirect `encsust4in4ble.earth` → `www.encsust4in4ble.earth`
 - `output: "standalone"` (para la imagen Docker del VPS)
-- Ruteo por host para `cibs.encsust4in4ble.earth`: `/` se reescribe a `/cibs-pucallpa`; cualquier otra ruta redirige a `www`; `www/cibs-pucallpa` redirige al subdominio
+- Ruteo por host para `cibs.encsust4in4ble.earth`: `/` se reescribe a `/cibs-pucallpa`; `/proyectos/*`, `robots.txt` y `sitemap.xml` se sirven ahí; cualquier otra ruta redirige a `www`. En `www`, `/cibs-pucallpa` y `/proyectos/*` redirigen al subdominio
 
 ---
 
@@ -159,7 +161,8 @@ Dos tabs:
 
 - Fuente: `../cibs-data/proyectos.md` (fuera del repo; fichas exportadas de los cuadernos de NotebookLM con la plantilla de `../cibs-data/master.md`)
 - Generador: `node scripts/generar-proyectos.mjs [--verbose]` → escribe `lib/proyectos.json` (versionado)
-- **Curaduría:** solo se publican las fichas listadas en `CURADURIA` dentro del script (prefijo de título + categoría). Las políticas, de personas naturales, duplicadas o de programas de terceros se omiten a propósito. Una ficha nueva en el `.md` no aparece hasta agregarla ahí.
+- **Curaduría:** `INICIATIVAS` en el script agrupa fichas por prefijo de título; la primera es la principal y el resto se publican como "documentos" de la misma iniciativa (sin tarjetas repetidas). Cada entrada define `categoria` y `tipo`; las `regiones` se detectan del texto o se fijan a mano.
+- **Fuera a propósito:** planes políticos (Integridad Democrática / Parlamento Andino) y fichas de personas naturales. Una ficha nueva en el `.md` no aparece hasta agregarla a `INICIATIVAS` (`--verbose` lista las no publicadas).
 - Categoría `cibs` alimenta también la landing de CIBS (`proyectosCibs` en `lib/proyectos.ts`)
 
 ---

@@ -42,11 +42,23 @@ const nextConfig: NextConfig = {
         destination: "https://www.encsust4in4ble.earth/:path*",
         permanent: true,
       },
-      // La landing de CIBS vive en su subdominio
+      // La landing de CIBS y el portafolio de proyectos viven en el subdominio
       {
         source: "/cibs-pucallpa",
         has: [{ type: "host", value: "www.encsust4in4ble.earth" }],
         destination: `https://${CIBS_HOST}`,
+        permanent: true,
+      },
+      {
+        source: "/proyectos/:path*",
+        has: [{ type: "host", value: "www.encsust4in4ble.earth" }],
+        destination: `https://${CIBS_HOST}/proyectos/:path*`,
+        permanent: true,
+      },
+      {
+        source: "/cibs-seo/:path*",
+        has: [{ type: "host", value: "www.encsust4in4ble.earth" }],
+        destination: `https://${CIBS_HOST}/:path*`,
         permanent: true,
       },
       // En el subdominio, la ruta interna se sirve en la raíz
@@ -58,7 +70,8 @@ const nextConfig: NextConfig = {
       },
       // El resto de páginas del sitio no se duplican en el subdominio
       {
-        source: "/:path((?!_next/|cibs-pucallpa/|favicon\\.ico$|icon\\.png$|apple-icon\\.png$).+)",
+        source:
+          "/:path((?!_next/|cibs-pucallpa/|cibs-seo/|proyectos(?:/|$)|robots\\.txt$|sitemap\\.xml$|favicon\\.ico$|icon\\.png$|apple-icon\\.png$).+)",
         has: [{ type: "host", value: CIBS_HOST }],
         destination: `${SITE_URL}/:path`,
         permanent: false,
@@ -72,6 +85,11 @@ const nextConfig: NextConfig = {
           source: "/",
           has: [{ type: "host", value: CIBS_HOST }],
           destination: "/cibs-pucallpa",
+        },
+        {
+          source: "/:archivo(robots\\.txt|sitemap\\.xml)",
+          has: [{ type: "host", value: CIBS_HOST }],
+          destination: "/cibs-seo/:archivo",
         },
       ],
     };

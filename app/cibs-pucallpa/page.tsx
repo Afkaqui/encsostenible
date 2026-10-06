@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import {
   Award,
   ArrowRight,
@@ -11,12 +12,24 @@ import {
   Mail,
   Users,
 } from "lucide-react";
+import CibsHeader from "@/components/cibs/CibsHeader";
+import CibsFooter from "@/components/cibs/CibsFooter";
 import { ProyectoCard } from "@/components/proyectos/ProyectosExplorer";
-import { SITE_URL, proyectosCibs } from "@/lib/proyectos";
+import {
+  CATEGORIAS,
+  CONTACTO_CIBS as CONTACTO,
+  SITE_URL,
+  proyectos,
+  proyectosCibs,
+  type CategoriaId,
+} from "@/lib/proyectos";
 import ImageRender from "@/src/images/proyectos/008_cibs_energy.png";
 
-const CONTACTO =
-  "mailto:contacto@encsust4in4ble.earth?subject=" + encodeURIComponent("CIBS Pucallpa — Quiero sumarme");
+const conteoPorCategoria = (Object.keys(CATEGORIAS) as CategoriaId[]).map((id) => ({
+  id,
+  ...CATEGORIAS[id],
+  total: proyectos.filter((p) => p.categoria === id).length,
+}));
 
 const cifras = [
   { valor: "200", unidad: "familias", texto: "productoras beneficiadas directamente" },
@@ -66,36 +79,7 @@ const beneficiarios = [
 export default function CibsPucallpaPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-enc-forest-900 via-enc-charcoal to-enc-forest-900">
-      {/* Cabecera */}
-      <header className="fixed top-0 w-full z-50 bg-enc-forest-900/75 backdrop-blur-md border-b border-white/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 flex items-center justify-between gap-4">
-          <a href="#inicio" className="group">
-            <p className="text-base sm:text-xl font-bold text-white leading-tight font-display group-hover:text-enc-gold-500 transition-colors">
-              CIBS Pucallpa
-            </p>
-            <p className="text-[10px] sm:text-xs text-white/40 font-medium tracking-widest uppercase hidden sm:block">
-              Centro de Innovación de Biodiversidad Sostenible
-            </p>
-          </a>
-          <nav className="flex items-center gap-4 sm:gap-6 text-xs sm:text-sm">
-            <a href="#modelo" className="hidden md:inline text-white/80 hover:text-enc-gold-500 transition-colors">
-              Modelo
-            </a>
-            <a href="#territorio" className="hidden md:inline text-white/80 hover:text-enc-gold-500 transition-colors">
-              Territorio
-            </a>
-            <a href="#fichas" className="hidden md:inline text-white/80 hover:text-enc-gold-500 transition-colors">
-              Fichas
-            </a>
-            <a
-              href={CONTACTO}
-              className="inline-flex items-center gap-1.5 bg-enc-gold-500 hover:bg-enc-gold-600 text-enc-charcoal px-4 py-2 rounded-full font-bold transition-colors"
-            >
-              Sumarme
-            </a>
-          </nav>
-        </div>
-      </header>
+      <CibsHeader />
 
       <main id="inicio">
         {/* Hero */}
@@ -248,20 +232,59 @@ export default function CibsPucallpaPage() {
           </div>
         </section>
 
-        {/* Fichas */}
+        {/* Proyectos CIBS */}
         <section id="fichas" className="scroll-mt-24 border-t border-white/10 bg-white/[0.02]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
             <div className="text-center max-w-2xl mx-auto mb-12">
               <p className="text-enc-gold-500 text-xs font-semibold uppercase tracking-widest mb-3">Fichas técnicas</p>
               <h2 className="text-2xl sm:text-3xl font-bold text-white font-display">Los proyectos que componen CIBS</h2>
             </div>
-            <div className="grid md:grid-cols-2 gap-5 items-start">
+            <div className="grid md:grid-cols-3 gap-5">
               {proyectosCibs.map((p) => (
-                <ProyectoCard key={p.slug} p={p} enlaceCibs={false} />
+                <ProyectoCard key={p.slug} p={p} />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Portafolio */}
+        <section id="portafolio" className="scroll-mt-24 border-t border-white/10">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
+              <div className="max-w-2xl">
+                <p className="text-enc-gold-500 text-xs font-semibold uppercase tracking-widest mb-3">Portafolio</p>
+                <h2 className="text-2xl sm:text-3xl font-bold text-white font-display">
+                  {proyectos.length} iniciativas del ecosistema
+                </h2>
+                <p className="text-white/60 mt-3 leading-relaxed">
+                  CIBS es parte de un portafolio más amplio de proyectos en bioeconomía, agroindustria, tecnología,
+                  clima y ecosistemas de innovación en Perú y América Latina.
+                </p>
+              </div>
+              <Link
+                href="/proyectos"
+                className="inline-flex items-center justify-center gap-2 bg-enc-gold-500 hover:bg-enc-gold-600 text-enc-charcoal px-6 py-3 rounded-full font-bold transition-colors shrink-0"
+              >
+                Ver todos los proyectos <ArrowRight size={17} />
+              </Link>
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {conteoPorCategoria.map((c) => (
+                <Link
+                  key={c.id}
+                  href={`/proyectos?categoria=${c.id}`}
+                  className="group rounded-2xl border border-white/10 bg-white/[0.04] p-5 hover:border-enc-gold-500/50 transition-colors"
+                >
+                  <p className="text-3xl font-bold text-white font-display tabular-nums">{c.total}</p>
+                  <p className="text-sm font-semibold text-white/85 mt-1 group-hover:text-enc-gold-500 transition-colors">
+                    {c.nombre}
+                  </p>
+                  <p className="text-xs text-white/50 mt-1.5 leading-relaxed">{c.descripcion}</p>
+                </Link>
               ))}
             </div>
             <p className="text-white/35 text-xs text-center mt-10 max-w-2xl mx-auto leading-relaxed">
-              Fichas sintetizadas de los expedientes del proyecto. Las cifras económicas y ambientales son
+              Fichas sintetizadas de los expedientes de cada proyecto. Las cifras económicas y ambientales son
               proyecciones de dichos documentos.
             </p>
           </div>
@@ -293,24 +316,7 @@ export default function CibsPucallpaPage() {
         </section>
       </main>
 
-      <footer className="border-t border-white/10 bg-black/20 py-8">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/45">
-          <p>
-            CIBS Pucallpa · una iniciativa del ecosistema{" "}
-            <a href={SITE_URL} className="text-white/70 hover:text-enc-gold-500 transition-colors">
-              ENC Sust4in4ble
-            </a>
-          </p>
-          <div className="flex items-center gap-5">
-            <a href={`${SITE_URL}/proyectos`} className="hover:text-white/80 transition-colors">
-              Todos los proyectos
-            </a>
-            <a href="mailto:contacto@encsust4in4ble.earth" className="hover:text-white/80 transition-colors">
-              contacto@encsust4in4ble.earth
-            </a>
-          </div>
-        </div>
-      </footer>
+      <CibsFooter />
     </div>
   );
 }

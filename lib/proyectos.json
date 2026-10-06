@@ -2,6 +2,11 @@
   {
     "slug": "hub-de-innovacion-sostenible-cibs-pucallpa",
     "categoria": "cibs",
+    "tipo": "Hub y ecosistema",
+    "regiones": [
+      "Ucayali",
+      "Junín"
+    ],
     "titulo": "Hub de Innovación Sostenible CIBS Pucallpa",
     "resumen": "CIBS Pucallpa es un hub de innovación Green Tech y bioeconomía que transforma la producción agrícola amazónica mediante agricultura de precisión, trazabilidad digital y valorización de biomasa residual. Resuelve la falta de evidencia de origen, la baja estandarización y la reducida rentabilidad de los productores locales al integrar pasaportes digitales por lote, biochar y estándares libres de deforestación. Su objetivo principal es consolidar un nodo territorial competitivo que posicione los alimentos y bioactivos amazónicos en mercados B2B de alto valor.",
     "datos": [
@@ -22,36 +27,40 @@
         "texto": "Proyección de un incremento del 15% en el precio comercial por lote trazable y de un 25% en el margen neto final de las familias productoras."
       }
     ],
-    "beneficiarios": "Dirigido a pequeños y medianos productores agrícolas, asociaciones cacaoeras, comunidades locales, mujeres y jóvenes rurales en la región de Ucayali, Perú (con foco inicial en el corredor productivo Irazola - San Alejandro, Pucallpa). El proyecto beneficia directamente a 200 familias productoras e indirectamente a más de 1,000 personas, ofreciendo una arquitectura operativa replicable en otros territorios de la Amazonía."
-  },
-  {
-    "slug": "cibs-pucallpa-ingenieria-financiera-y-ley-30309",
-    "categoria": "cibs",
-    "titulo": "CIBS Pucallpa: Ingeniería Financiera y Ley 30309",
-    "resumen": "El CIB Pucallpa es un nodo de bioeconomía regenerativa e ingeniería financiera diseñado para transformar la biodiversidad amazónica en activos de alto valor comercial. Resuelve el fallo de competitividad económica que provoca la deforestación y supera el \"valle de la muerte\" tecnológico articulando la Ley 30309 (deducción del 240% en I+D+i) con capital privado. Su objetivo principal es demostrar que el bosque en pie es financieramente superior al bosque deforestado, escalando startups de impacto e integrando agrotecnología de precisión.",
-    "datos": [
+    "beneficiarios": "Dirigido a pequeños y medianos productores agrícolas, asociaciones cacaoeras, comunidades locales, mujeres y jóvenes rurales en la región de Ucayali, Perú (con foco inicial en el corredor productivo Irazola - San Alejandro, Pucallpa). El proyecto beneficia directamente a 200 familias productoras e indirectamente a más de 1,000 personas, ofreciendo una arquitectura operativa replicable en otros territorios de la Amazonía.",
+    "documentos": [
       {
-        "etiqueta": "Apalancamiento e Incentivo Fiscal",
-        "texto": "Reducción de hasta un 70% del costo real del riesgo privado en I+D+i mediante el escudo fiscal de la Ley 30309 (deducción tributaria del 240%)."
-      },
-      {
-        "etiqueta": "Impacto Ambiental y Circular",
-        "texto": "Reducción del 30% en la generación de residuos agrícolas, aumento del 25% en el uso de materiales sostenibles y gestión regenerativa de suelos."
-      },
-      {
-        "etiqueta": "Sostenibilidad y Rentabilidad Financiera",
-        "texto": "Incremento proyectado del 35% en los ingresos de los productores, Tasa Interna de Retorno (TIR) del 27% y Valor Actual Neto (VAN) de S/ 2,237,799."
-      },
-      {
-        "etiqueta": "Capital Humano y Dinamización",
-        "texto": "Generación de 17 empleos directos (60% mujeres), 600 personas capacitadas en comunidades rurales, 1,000 jóvenes en programas ambientales y creación de 12 startups de impacto."
+        "titulo": "Hub de Innovación Sostenible: CIB Pucallpa",
+        "resumen": "El CIB Pucallpa es un nodo de bioeconomía regenerativa e ingeniería financiera diseñado para transformar la biodiversidad amazónica en activos de alto valor comercial. Resuelve el fallo de competitividad económica que provoca la deforestación y supera el \"valle de la muerte\" tecnológico articulando la Ley 30309 (deducción del 240% en I+D+i) con capital privado. Su objetivo principal es demostrar que el bosque en pie es financieramente superior al bosque deforestado, escalando startups de impacto e integrando agrotecnología de precisión.",
+        "datos": [
+          {
+            "etiqueta": "Apalancamiento e Incentivo Fiscal",
+            "texto": "Reducción de hasta un 70% del costo real del riesgo privado en I+D+i mediante el escudo fiscal de la Ley 30309 (deducción tributaria del 240%)."
+          },
+          {
+            "etiqueta": "Impacto Ambiental y Circular",
+            "texto": "Reducción del 30% en la generación de residuos agrícolas, aumento del 25% en el uso de materiales sostenibles y gestión regenerativa de suelos."
+          },
+          {
+            "etiqueta": "Sostenibilidad y Rentabilidad Financiera",
+            "texto": "Incremento proyectado del 35% en los ingresos de los productores, Tasa Interna de Retorno (TIR) del 27% y Valor Actual Neto (VAN) de S/ 2,237,799."
+          },
+          {
+            "etiqueta": "Capital Humano y Dinamización",
+            "texto": "Generación de 17 empleos directos (60% mujeres), 600 personas capacitadas en comunidades rurales, 1,000 jóvenes en programas ambientales y creación de 12 startups de impacto."
+          }
+        ],
+        "beneficiarios": "El proyecto está dirigido a pequeños y medianos productores agrícolas, comunidades nativas y emprendedores rurales de la región andino-amazónica. Beneficia directamente a familias rurales mediante esquemas asociativos justos, empleo calificado con enfoque de género y acceso a tecnologías limpias como AGRIPRES, IoT y trazabilidad Blockchain. Su alcance geográfico abarca el nodo central en Ucayali (Pucallpa) y la provincia de Chanchamayo en Junín (San Ramón), consolidándose como un modelo modular y replicable para toda la Amazonía."
       }
-    ],
-    "beneficiarios": "El proyecto está dirigido a pequeños y medianos productores agrícolas, comunidades nativas y emprendedores rurales de la región andino-amazónica. Beneficia directamente a familias rurales mediante esquemas asociativos justos, empleo calificado con enfoque de género y acceso a tecnologías limpias como AGRIPRES, IoT y trazabilidad Blockchain. Su alcance geográfico abarca el nodo central en Ucayali (Pucallpa) y la provincia de Chanchamayo en Junín (San Ramón), consolidándose como un modelo modular y replicable para toda la Amazonía."
+    ]
   },
   {
     "slug": "cibs-pucallpa-cacao-amazonico",
     "categoria": "cibs",
+    "tipo": "Proyecto productivo y territorial",
+    "regiones": [
+      "Ucayali"
+    ],
     "titulo": "CIBS Pucallpa Cacao Amazónico",
     "resumen": "Iniciativa de bioeconomía aplicada que optimiza y estandariza la cadena poscosecha del cacao nativo amazónico en el CIBS Pucallpa, Ucayali. Resuelve la variabilidad de calidad y el riesgo de pérdidas en el secado solar causados por el clima impredecible y la falta de trazabilidad documental. Su objetivo principal es transformar el manejo del cacao mediante protocolos controlados e innovación digital para ofrecer lotes auditables de alta calidad al mercado.",
     "datos": [
@@ -72,11 +81,16 @@
         "texto": "Segregación y cuantificación de subproductos (mucílago y cascarilla) para evaluar su valorización técnica y reducir desperdicios."
       }
     ],
-    "beneficiarios": "Está dirigido a la cadena de valor del cacao en la región de Ucayali, Perú, beneficiando directamente a pequeños productores y comunidades locales integradas en sistemas agroforestales, al Centro de Innovación de Biodiversidad (CIBS Pucallpa / CADI), y a compradores de cacao fino de aroma en mercados nacionales e internacionales que exigen calidad verificable y cero deforestación."
+    "beneficiarios": "Está dirigido a la cadena de valor del cacao en la región de Ucayali, Perú, beneficiando directamente a pequeños productores y comunidades locales integradas en sistemas agroforestales, al Centro de Innovación de Biodiversidad (CIBS Pucallpa / CADI), y a compradores de cacao fino de aroma en mercados nacionales e internacionales que exigen calidad verificable y cero deforestación.",
+    "documentos": []
   },
   {
     "slug": "cacao-nativo-pucallpa-agricultura-de-precision-y-bioeconomia-circular",
     "categoria": "cibs",
+    "tipo": "Proyecto productivo y territorial",
+    "regiones": [
+      "Ucayali"
+    ],
     "titulo": "Cacao Nativo Pucallpa: Agricultura de Precisión y Bioeconomía Circular",
     "resumen": "Propuesta agroindustrial e innovadora que transforma la gestión empírica y extractiva del cacao nativo en Pucallpa en un modelo bio-digital de economía circular y agricultura 4.0. Su objetivo principal es resolver la baja competitividad, la ineficiencia en post-cosecha y la desaprovechación de biomasa residual para incrementar la rentabilidad, garantizar trazabilidad de exportación y generar un impacto ambiental de carbono negativo.",
     "datos": [
@@ -93,11 +107,16 @@
         "texto": "Reducción del 40% en el uso de agroquímicos y 100% de trazabilidad inmutable en Blockchain para cumplimiento de la normativa europea EUDR."
       }
     ],
-    "beneficiarios": "Dirigido a pequeñas y medianas empresas agrarias, cooperativas y familias cacaoteras de la región de Pucallpa (Ucayali, Perú), beneficiando directamente la inclusión digital de 50 familias locales y con un diseño modular replicable en otras cuencas de la Amazonía peruana."
+    "beneficiarios": "Dirigido a pequeñas y medianas empresas agrarias, cooperativas y familias cacaoteras de la región de Pucallpa (Ucayali, Perú), beneficiando directamente la inclusión digital de 50 familias locales y con un diseño modular replicable en otras cuencas de la Amazonía peruana.",
+    "documentos": []
   },
   {
     "slug": "bootcamp-de-bionegocios-de-impacto-en-la-reserva-nacional-tambopata",
     "categoria": "bioeconomia",
+    "tipo": "Programa y formación",
+    "regiones": [
+      "Madre de Dios"
+    ],
     "titulo": "Bootcamp de Bionegocios de Impacto en la Reserva Nacional Tambopata",
     "resumen": "Iniciativa estratégica de diagnóstico activo y aceleración que transforma proyectos de bioeconomía en la Reserva Nacional Tambopata en una cartera de bionegocios estructurados para recibir inversión. El proyecto resuelve la falta de preparación para la inversión (Investment Readiness) superando barreras técnico-regulatorias y comerciales, impulsando la conservación activa del bosque amazónico mediante modelos de negocio rentables y de triple impacto.",
     "datos": [
@@ -118,11 +137,18 @@
         "texto": "con márgenes brutos de hasta 45% en operaciones maduras."
       }
     ],
-    "beneficiarios": "Dirigido a asociaciones recolectoras, cooperativas agroforestales, MYPEs y emprendedores ambientales en la Reserva Nacional Tambopata y su zona de amortiguamiento (Madre de Dios, Perú). Beneficia a más de 100 familias locales diversificando sus ingresos frente a la minería e incendios forestales, estableciendo un modelo de intervención extrapolable a otras Áreas Naturales Protegidas del Perú."
+    "beneficiarios": "Dirigido a asociaciones recolectoras, cooperativas agroforestales, MYPEs y emprendedores ambientales en la Reserva Nacional Tambopata y su zona de amortiguamiento (Madre de Dios, Perú). Beneficia a más de 100 familias locales diversificando sus ingresos frente a la minería e incendios forestales, estableciendo un modelo de intervención extrapolable a otras Áreas Naturales Protegidas del Perú.",
+    "documentos": []
   },
   {
     "slug": "plataforma-amazonica-de-mrv-digital-y-gobernanza-territorial-indigena",
     "categoria": "bioeconomia",
+    "tipo": "Proyecto productivo y territorial",
+    "regiones": [
+      "Ucayali",
+      "San Martín",
+      "Loreto"
+    ],
     "titulo": "Plataforma Amazónica de MRV Digital y Gobernanza Territorial Indígena",
     "resumen": "Esta iniciativa articula medición tecnológica LiDAR de alta precisión con gobernanza indígena y gestión fiduciaria pública bajo un modelo de Blended Finance financiado por el BID Lab, SERFOR y el consorcio ejecutor. El proyecto resuelve la brecha entre la verificación ecológica de biomasa y el reparto justo de beneficios, eliminando la desconfianza y la falta de datos auditables en los mercados de carbono. Su objetivo principal es consolidar una plataforma territorial transparente que comercialice créditos de naturaleza y emita Pasaportes Digitales libres de deforestación (EUDR), garantizando la soberanía de los datos indígenas y la titulación de tierras.",
     "datos": [
@@ -143,11 +169,17 @@
         "texto": "Emisión de Pasaportes Digitales de Lote compatibles con el Reglamento Europeo de Deforestación (EUDR) para cadenas de cacao, café y madera, manteniendo la propiedad de la información 100% en manos comunitarias."
       }
     ],
-    "beneficiarios": "El proyecto se ejecuta en la Amazonía Peruana con foco prioritario en la Región Ucayali y el corredor San Martín - Loreto durante un periodo de 24 meses. Está dirigido a las comunidades nativas originarias como titulares del territorio, a pequeños productores con contratos de Cesión en Uso para Sistemas Agroforestales (CUSAF), a concesionarios forestales y a las autoridades ambientales regionales y nacionales (GORE Ucayali, SERFOR y MINAM)."
+    "beneficiarios": "El proyecto se ejecuta en la Amazonía Peruana con foco prioritario en la Región Ucayali y el corredor San Martín - Loreto durante un periodo de 24 meses. Está dirigido a las comunidades nativas originarias como titulares del territorio, a pequeños productores con contratos de Cesión en Uso para Sistemas Agroforestales (CUSAF), a concesionarios forestales y a las autoridades ambientales regionales y nacionales (GORE Ucayali, SERFOR y MINAM).",
+    "documentos": []
   },
   {
     "slug": "transicion-energetica-solar-y-fortalecimiento-agroproductivo-resilient",
     "categoria": "bioeconomia",
+    "tipo": "Proyecto productivo y territorial",
+    "regiones": [
+      "San Martín",
+      "Junín"
+    ],
     "titulo": "Transición Energética Solar y Fortalecimiento Agroproductivo Resiliente en la Amazonía Peruana",
     "resumen": "Iniciativa estratégica que integra energía solar fotovoltaica en procesos agroproductivos de la Amazonía peruana para eliminar la dependencia de combustibles fósiles. El proyecto fortalece las cadenas de valor de cacao, café y bioeconomía local mediante infraestructura limpia e ininterrumpida, impulsando la equidad socioeconómica, el valor agregado y la resiliencia climática comunitaria.",
     "datos": [
@@ -168,11 +200,18 @@
         "texto": "Solución técnica integral con bombeo solar y procesamiento limpio para el escalamiento de la bioeconomía amazónica."
       }
     ],
-    "beneficiarios": "Dirigido a familias agricultoras y comunidades nativas de la Amazonía peruana (cooperativas de cacao, café y vainilla en las regiones de Junín y San Martín), beneficiando a poblaciones históricamente desatendidas y vulnerables al cambio climático a través del acceso a energía limpia y la autonomía productiva."
+    "beneficiarios": "Dirigido a familias agricultoras y comunidades nativas de la Amazonía peruana (cooperativas de cacao, café y vainilla en las regiones de Junín y San Martín), beneficiando a poblaciones históricamente desatendidas y vulnerables al cambio climático a través del acceso a energía limpia y la autonomía productiva.",
+    "documentos": []
   },
   {
     "slug": "trazabilidad-del-cacao-nativo-amazonas",
     "categoria": "bioeconomia",
+    "tipo": "Proyecto productivo y territorial",
+    "regiones": [
+      "Ucayali",
+      "San Martín",
+      "Amazonas"
+    ],
     "titulo": "Trazabilidad del Cacao Nativo Amazonas",
     "resumen": "Plataforma tecnológica que otorga identidad digital y trazabilidad con códigos QR por lote al cacao nativo de la Amazonía, resolviendo la mezcla de lotes y la falta de registros fiables de calidad. Su objetivo principal es transformar un modelo opaco en una cadena transparente y verificable que garantice la autenticidad del producto, capturando el valor real del mercado.",
     "datos": [
@@ -193,11 +232,16 @@
         "texto": "Incorporación de registro de procesos, monitoreo con drones para alertas climáticas o de plagas y opción de registro inmutable en blockchain."
       }
     ],
-    "beneficiarios": "Dirigido a pequeños productores cacaoteros y compradores de mercados diferenciados que demandan origen sostenible e historias verificables. Beneficia directamente a las familias agricultoras al mejorar sus ingresos y reconocimiento, aplicándose inicialmente en zonas de la Amazonía (como San Martín y Ucayali) con proyección de alcance regional."
+    "beneficiarios": "Dirigido a pequeños productores cacaoteros y compradores de mercados diferenciados que demandan origen sostenible e historias verificables. Beneficia directamente a las familias agricultoras al mejorar sus ingresos y reconocimiento, aplicándose inicialmente en zonas de la Amazonía (como San Martín y Ucayali) con proyección de alcance regional.",
+    "documentos": []
   },
   {
     "slug": "hoja-ahumada-de-caucho-natural-san-martin",
     "categoria": "bioeconomia",
+    "tipo": "Proyecto productivo y territorial",
+    "regiones": [
+      "San Martín"
+    ],
     "titulo": "Hoja Ahumada de Caucho Natural — San Martín",
     "resumen": "Este proyecto agroindustrial desarrollado por AGROINDUSTRIA INNOVACION S.A.C. estandariza y valida un proceso tecnificado de fabricación de hoja ahumada de caucho natural (RSS) a partir de látex de Hevea brasiliensis. La iniciativa resuelve la dependencia nacional del caucho importado del sudeste asiático y la baja calidad del proceso artesanal tradicional, ofreciendo una materia prima estandarizada de alta viscosidad y resistencia. Su objetivo principal es validar el paquete tecnológico en campo para sustituir importaciones en la industria minera y automotriz.",
     "datos": [
@@ -214,11 +258,18 @@
         "texto": "Alianzas estratégicas con la Universidad Nacional de San Martín (UNSM), la Sociedad Latinoamericana de Tecnología del Caucho (SLTC), PUR Project Peru SAC y Shiringas SRL."
       }
     ],
-    "beneficiarios": "El proyecto se ejecuta en el distrito de San Roque de Cumbaza, provincia de Lamas, departamento de San Martín, beneficiando social y económicamente a familias de productores forestales no maderables de la región. Está dirigido a abastecer a empresas industriales nacionales del sector minero y de reencauche que requieren caucho RSS de alta calidad."
+    "beneficiarios": "El proyecto se ejecuta en el distrito de San Roque de Cumbaza, provincia de Lamas, departamento de San Martín, beneficiando social y económicamente a familias de productores forestales no maderables de la región. Está dirigido a abastecer a empresas industriales nacionales del sector minero y de reencauche que requieren caucho RSS de alta calidad.",
+    "documentos": []
   },
   {
     "slug": "awa-yanahuara-centro-de-moda-regenerativa-y-trazabilidad-altoandina-pr",
     "categoria": "bioeconomia",
+    "tipo": "Proyecto productivo y territorial",
+    "regiones": [
+      "Cusco",
+      "Arequipa",
+      "Apurímac"
+    ],
     "titulo": "AWA Yanahuara: Centro de Moda Regenerativa y Trazabilidad Altoandina (Proyecto Vicuñas Felices)",
     "resumen": "Es un modelo de bioeconomía textil y desarrollo territorial que transforma la venta tradicional de fibra sucia en una cadena de moda regenerativa de alto valor agregado en origen. Resuelve la fuga de rentabilidad capturada por intermediarios mediante la revalorización de la alpaca Suri y la vicuña silvestre. Su objetivo principal es incrementar la competitividad e ingresos comunitarios combinando el procesamiento textil local, la trazabilidad digital con Pasaporte Digital de Producto (DPP) en blockchain y el turismo experiencial.",
     "datos": [
@@ -239,11 +290,18 @@
         "texto": "Piloto inicial enfocado en la estrategia \"Suri-First\" para validar en 90 días un primer lote de alpaca Suri trazable con cartas de interés (LOIs) por ≥60% del volumen y definir la decisión go/no-go para vicuña."
       }
     ],
-    "beneficiarios": "Está dirigido a la Comunidad Campesina de Yanahuara y Suttoc Pacchac (Urubamba, Cusco) —incluyendo criadores altoandinos y asociaciones de mujeres clasificadoras/descerdadoras— beneficiando directamente a más de 100 familias en el piso de puna altoandina ubicado entre los 3,800 y 4,800 m s. n. m.. Su alcance impacta al Gobierno Regional del Cusco y al circuito turístico del Valle Sagrado, con prospección para escalar hacia el corredor de Apurímac."
+    "beneficiarios": "Está dirigido a la Comunidad Campesina de Yanahuara y Suttoc Pacchac (Urubamba, Cusco) —incluyendo criadores altoandinos y asociaciones de mujeres clasificadoras/descerdadoras— beneficiando directamente a más de 100 familias en el piso de puna altoandina ubicado entre los 3,800 y 4,800 m s. n. m.. Su alcance impacta al Gobierno Regional del Cusco y al circuito turístico del Valle Sagrado, con prospección para escalar hacia el corredor de Apurímac.",
+    "documentos": []
   },
   {
     "slug": "belleza-que-impacta-sinfonia-de-saberes-ancestrales-para-un-peru-soste",
     "categoria": "bioeconomia",
+    "tipo": "Startup y plataforma",
+    "regiones": [
+      "Lima",
+      "Cusco",
+      "Huánuco"
+    ],
     "titulo": "Belleza que Impacta: Sinfonía de Saberes Ancestrales para un Perú Sostenible",
     "resumen": "Iniciativa de economía circular y bioeconomía que transforma la biodiversidad agrícola y la iconografía ancestral del Perú en biomateriales, cosmética natural y moda de alta costura. Resuelve la contaminación de la industria textil convencional, la falta de oportunidades en sectores vulnerables y la pérdida de patrimonio cultural. Su objetivo principal es consolidar un modelo regenerativo, inclusivo y comercialmente escalable mediante la articulación de la Hélice Quíntuple (Academia, Industria, Gobierno, Sociedad Civil y Medio Ambiente).",
     "datos": [
@@ -260,11 +318,16 @@
         "texto": "Implementación de una plataforma Edutech de agro-bio-turismo cultural y transformación de insumos agrícolas sostenibles de grado alimentario en biomateriales como aceites, resinas, aromas y tintes naturales."
       }
     ],
-    "beneficiarios": "El proyecto está dirigido al mercado global de la moda sostenible, la cosmética eco-amigable y los fondos de inversión de impacto. Beneficia directamente a artesanas indígenas de las regiones andino-amazónicas, comunidades agroproductoras de costa, sierra y selva, mujeres en proceso de reinserción social y diseñadoras locales del Perú. Su alcance territorial es descentralizado, abarcando regiones clave como Huánuco, Cusco y Lima, con proyección de exportación e impacto internacional."
+    "beneficiarios": "El proyecto está dirigido al mercado global de la moda sostenible, la cosmética eco-amigable y los fondos de inversión de impacto. Beneficia directamente a artesanas indígenas de las regiones andino-amazónicas, comunidades agroproductoras de costa, sierra y selva, mujeres en proceso de reinserción social y diseñadoras locales del Perú. Su alcance territorial es descentralizado, abarcando regiones clave como Huánuco, Cusco y Lima, con proyección de exportación e impacto internacional.",
+    "documentos": []
   },
   {
     "slug": "biorepelente-moquegua-aceites-esenciales-contra-el-aedes-aegypti",
     "categoria": "bioeconomia",
+    "tipo": "Proyecto productivo y territorial",
+    "regiones": [
+      "Moquegua"
+    ],
     "titulo": "BioRepelente Moquegua: Aceites Esenciales contra el Aedes aegypti",
     "resumen": "Iniciativa agroindustrial orientada al desarrollo de biorepelentes naturales a base de aceites esenciales de citronela (Cymbopogon citratus) y eucalipto (Eucalyptus globulus), ofreciendo una alternativa ecológica de alta eficacia frente al DEET comercial contra el vector del dengue (Aedes aegypti). A través del proceso de destilación por arrastre de vapor adaptado con sistemas de recirculación hídrica y energía solar, el proyecto mitiga riesgos de salud pública impulsando la diversificación económica sostenible en Moquegua.",
     "datos": [
@@ -285,12 +348,73 @@
         "texto": "Alineado con el Plan de Desarrollo Regional Concertado Moquegua al 2032 para el fortalecimiento de cadenas productivas y empleos verdes."
       }
     ],
-    "beneficiarios": "El proyecto se despliega en el departamento de Moquegua (provincias de Mariscal Nieto, General Sánchez Cerro e Ilo). Beneficia directamente a la población local reduciendo la exposición a enfermedades infectocontagiosas vectoriales, así como a las asociaciones agrícolas y MYPES de la región mediante la transferencia tecnológica y el aprovechamiento comercial de cultivos aromáticos."
+    "beneficiarios": "El proyecto se despliega en el departamento de Moquegua (provincias de Mariscal Nieto, General Sánchez Cerro e Ilo). Beneficia directamente a la población local reduciendo la exposición a enfermedades infectocontagiosas vectoriales, así como a las asociaciones agrícolas y MYPES de la región mediante la transferencia tecnológica y el aprovechamiento comercial de cultivos aromáticos.",
+    "documentos": []
   },
   {
-    "slug": "citeagroindustrial-moquegua-oregano-y-palta-cui-2261544",
+    "slug": "innature-lab-2025-soluciones-desde-la-amazonia",
+    "categoria": "bioeconomia",
+    "tipo": "Convocatoria y evento",
+    "regiones": [
+      "Perú (nacional)"
+    ],
+    "titulo": "InNature Lab 2025: Soluciones desde la Amazonía",
+    "resumen": "InNature Lab 2025 es un programa de aceleración e innovación impulsado por CAF, Latimpacto y Trafigura Foundation para cerrar la brecha de adaptación al cambio climático en la región amazónica. El proyecto aborda la vulnerabilidad ambiental y social del territorio transformando bioemprendimientos locales e iniciativas comunitarias en negocios regenerativos financieramente sostenibles (\"Impacto + Caja\"). Su objetivo principal es escalar soluciones basadas en la naturaleza, bioeconomía y agricultura regenerativa que integren biotecnología y conocimientos ancestrales para fortalecer la resiliencia ecológica y económica de la Amazonía.",
+    "datos": [
+      {
+        "etiqueta": "Programa en 3 etapas",
+        "texto": "Ruta de aceleración que incluye formación virtual para 20 organizaciones, un bootcamp presencial para 6 finalistas y un Demo Day ante inversionistas de impacto."
+      },
+      {
+        "etiqueta": "Capital semilla de USD $45,000",
+        "texto": "Financiamiento no reembolsable entregado a los 4 mejores proyectos para impulsar su escalamiento ($20,000 al 1.er lugar, $10,000 al 2.º lugar y $5,000 al 3.er y 4.º lugar)."
+      },
+      {
+        "etiqueta": "Incremento directo de ingresos",
+        "texto": "Resultados validados con aumentos de hasta un 66% en los ingresos anuales de familias recolectoras e integradas a cadenas de bioeconomía forestal."
+      },
+      {
+        "etiqueta": "Economía circular y carbono",
+        "texto": "Mitigación de emisiones de \\\\(\\text{CO}_2\\\\) e implementación de sistemas de bioconversión que transforman más de 300 kg/mes de residuos orgánicos en insumos productivos."
+      }
+    ],
+    "beneficiarios": "El proyecto está dirigido a organizaciones comunitarias, bioemprendedores rurales, asociaciones de mujeres e iniciativas lideradas por pueblos indígenas (como las comunidades Inga y Shawi) dedicadas a la conservación y bioeconomía. Su alcance geográfico abarca la cuenca amazónica en Brasil, Colombia y Perú, promoviendo la soberanía territorial y la protección de la biodiversidad.",
+    "documentos": []
+  },
+  {
+    "slug": "foresttech-capital-2026-validacion-tecnologica-para-la-inversion-soste",
+    "categoria": "bioeconomia",
+    "tipo": "Convocatoria y evento",
+    "regiones": [
+      "Lima"
+    ],
+    "titulo": "ForestTech & Capital 2026: Validación Tecnológica para la Inversión Sostenible",
+    "resumen": "ForestTech & Capital es una iniciativa estratégica y bootcamp de dos fases (Webinar y Workshop presencial) organizado por Understory Labs y SERFOR para modernizar la industria forestal peruana. Resuelve la falta de datos confiables y la alta percepción de riesgo al reemplazar inventarios manuales lentos por tecnología de escaneo láser móvil (LiDAR/MLS). Su objetivo principal es articular un ecosistema de confianza entre el sector público, gestores forestales e inversionistas para validar activos biológicos con datos auditables y catalizar inversiones de impacto y bonos de carbono en el Perú.",
+    "datos": [
+      {
+        "texto": "94% de precisión en carbono a nivel de árbol y captura de datos 30 veces más rápida que los métodos de inventario tradicionales."
+      },
+      {
+        "texto": "Formato híbrido de 2 fases (Webinar virtual de visión macro y Workshop de campo presencial) con aforo exclusivo curado para 30 a 50 líderes con poder de decisión."
+      },
+      {
+        "texto": "Transición de bases de datos obsoletas a un sistema interactivo de información en tiempo real (\"Ground Truth\") que acelera la verificación de reportes MRV y reduce tiempos de emisión de certificados."
+      },
+      {
+        "texto": "Meta de conversión directa: Adopción del piloto de monitoreo digital auditado en al menos 3 concesiones forestales y cumplimiento con el Programa de Incentivos Forestales de SERFOR."
+      }
+    ],
+    "beneficiarios": "El proyecto está dirigido a personal técnico y autoridades de SERFOR y MINAM, profesionales de gestión forestal, el Instituto Tecnológico de la Producción (ITP), concesionarios e inversionistas de fondos de impacto y plantaciones. Su alcance geográfico contempla una sede central en Lima (Hotel Westin San Isidro) con pruebas de campo en plantaciones o bosques secos periféricos (Lurín, Pachacamac o Ancón), siendo aplicable a concesiones forestales, bosques naturales y la Amazonía peruana.",
+    "documentos": []
+  },
+  {
+    "slug": "citeagroindustrial-moquegua-oregano-palta-y-uva-cui-2261544",
     "categoria": "agro",
-    "titulo": "CITEagroindustrial Moquegua — Orégano y Palta (CUI 2261544)",
+    "tipo": "Inversión pública",
+    "regiones": [
+      "Moquegua"
+    ],
+    "titulo": "CITEagroindustrial Moquegua — Orégano, Palta y Uva (CUI 2261544)",
     "resumen": "Este proyecto impulsado por el CITEagroindustrial Moquegua abarca la absorción, validación y transferencia de cuatro paquetes tecnológicos avanzados para el procesamiento de orégano y palta. Soluciona la baja tecnificación, las pérdidas poscosecha y la limitada generación de valor agregado en el sector agroindustrial regional. Su objetivo principal es incrementar la productividad, competitividad y sostenibilidad de los productores y MIPYMEs locales mediante servicios tecnológicos estandarizados y articulación financiera.",
     "datos": [
       {
@@ -310,11 +434,86 @@
         "texto": "Caracterización de decenas de actores de la cadena y desarrollo de hojas de ruta de financiamiento alternativo y casos de negocio."
       }
     ],
-    "beneficiarios": "El proyecto está dirigido a MIPYMEs, organizaciones de productores, cooperativas y plantas procesadoras de las cadenas de orégano y palta. Beneficia directamente a las unidades productivas locales al permitirles transformar materia prima y descartes agrícolas en productos de alto valor comercial como aceites esenciales, aceite de palta y compuestos bioactivos. Su alcance geográfico se centra en la provincia de Ilo y el departamento de Moquegua, con proyección hacia la macro región sur del Perú."
+    "beneficiarios": "El proyecto está dirigido a MIPYMEs, organizaciones de productores, cooperativas y plantas procesadoras de las cadenas de orégano y palta. Beneficia directamente a las unidades productivas locales al permitirles transformar materia prima y descartes agrícolas en productos de alto valor comercial como aceites esenciales, aceite de palta y compuestos bioactivos. Su alcance geográfico se centra en la provincia de Ilo y el departamento de Moquegua, con proyección hacia la macro región sur del Perú.",
+    "documentos": [
+      {
+        "titulo": "Proyecto de Inversión CUI N.° 2261544: Implementación de Paquetes Tecnológicos - CITEagroindustrial Moquegua",
+        "resumen": "Iniciativa de transferencia tecnológica impulsada por el CITEagroindustrial Moquegua para resolver brechas de procesamiento, baja productividad y desaprovechamiento de subproductos en las cadenas de orégano y palta. Su objetivo principal es absorber, estandarizar y transferir cuatro paquetes tecnológicos especializados (destilación, secado técnico, digestión enzimática y extracción de bioactivos), fortaleciendo el ecosistema empresarial e impulsando el acceso a financiamiento para MIPYMEs agroindustriales.",
+        "datos": [
+          {
+            "etiqueta": "Inversión Referencial",
+            "texto": "Presupuesto promedio de S/ 1,400,000.00 (con ofertas cotizadas entre S/ 1,383,600.00 y S/ 1,410,900.00) para el servicio integral de consultoría y transferencia."
+          },
+          {
+            "etiqueta": "4 Paquetes Tecnológicos Integrados",
+            "texto": "Implementación de ORL-01 (aceite esencial de orégano), ORL-02 (secado técnico de orégano), PAL-02 (aceite de palta por digestión enzimática) y PAL-03 (extracción de bioactivos de residuos de palta)."
+          },
+          {
+            "etiqueta": "Metas de Transferencia y Ensayos",
+            "texto": "Ejecución de al menos 40 ensayos técnicos (10 por paquete), 8 pilotos industriales directos con empresas y la formulación de hojas de ruta de financiamiento."
+          },
+          {
+            "etiqueta": "Plazo de Ejecución",
+            "texto": "360 días calendario organizados en cuatro fases consecutivas de diagnóstico, validación técnica, pilotaje y transferencia tecnológica."
+          }
+        ],
+        "beneficiarios": "Está dirigido a productores agrícolas organizados, cooperativas, asociaciones y MIPYMEs de las cadenas de orégano y palta, así como a empresas interesadas en líneas de valor agregado en alimentos funcionales y cosmética. El ámbito de ejecución abarca la provincia de Ilo y la región Moquegua (con sede central en las instalaciones del CITEagroindustrial Moquegua, ZED ILO), extendiendo su impacto a la macro región sur del Perú."
+      },
+      {
+        "titulo": "Proyecto de Inversión para la Absorción Tecnológica en las Cadenas Productivas de Orégano y Palta - CITEagroindustrial Moquegua",
+        "resumen": "Iniciativa estratégica orientada a cerrar brechas de productividad y agregar valor comercial en las cadenas de orégano y palta en la región Moquegua. El proyecto resuelve la falta de estandarización industrial mediante la absorción de cuatro paquetes tecnológicos en el CITEagroindustrial Moquegua, optimizando procesos de secado, destilación de aceites esenciales y valorización de residuos para fortalecer la competitividad regional.",
+        "datos": [
+          {
+            "etiqueta": "Presupuesto Total de Inversión",
+            "texto": "S/ 1,400,000.00 con un plazo de ejecución de 360 días calendario (12 meses)."
+          },
+          {
+            "etiqueta": "4 Paquetes Tecnológicos Estandarizados",
+            "texto": "ORL-01 (destilación de aceite de orégano), ORL-02 (secado técnico de orégano), PAL-02 (digestión enzimática de palta) y PAL-03 (bioactivos de subproductos)."
+          },
+          {
+            "etiqueta": "Metas Técnicas",
+            "texto": "Ejecución de 40 ensayos de laboratorio, 8 pruebas piloto con productores, elaboración de manuales de calidad (SOP) y articulación financiera."
+          },
+          {
+            "etiqueta": "Esquema de Desembolso",
+            "texto": "Flujo de caja estructurado en 5 entregables contractuales (10%, 20%, 25%, 20% y 25%) según los TDR."
+          }
+        ],
+        "beneficiarios": "El proyecto está dirigido a pequeñas y medianas empresas (MiPyMEs), asociaciones de productores agroindustriales y unidades productivas de orégano y palta en la región Moquegua, Perú. Beneficia directamente al sector agrícola local mediante la transferencia de tecnología y fortalece las capacidades analíticas e infraestructura técnica del CITEagroindustrial Moquegua."
+      },
+      {
+        "titulo": "Proyecto de Inversión: \"Instalación de servicios tecnológicos en la cadena productiva de uva, palta y orégano del sector agroindustrial en el distrito de Ilo, provincia de Ilo, departamento de Moquegua\" (CUI N.º 2261544)",
+        "resumen": "El proyecto CUI N.º 2261544 busca cerrar la brecha regional de acceso a servicios tecnológicos e innovación para las MIPYMES agroindustriales y productores de Moquegua. Aborda la baja productividad, las deficiencias en poscosecha y la falta de valor agregado en las cadenas de orégano, palta y uva mediante el fortalecimiento de la capacidad técnica del CITEagroindustrial Moquegua. Su objetivo principal es ejecutar la transferencia tecnológica, estandarización de procesos, aseguramiento de la calidad y desarrollo de productos agroexportables de alto valor.",
+        "datos": [
+          {
+            "etiqueta": "Presupuesto del Componente",
+            "texto": "Asignación de S/ 1,400,000 para la implementación de cuatro paquetes tecnológicos priorizados (ORL-01, ORL-02, PAL-02 y PAL-03) enfocados en transferencia e innovación."
+          },
+          {
+            "etiqueta": "Potenciación de Cadenas Estratégicas",
+            "texto": "Impacta directamente en una producción regional de 9,280.8 t de palta y 1,067.5 t de orégano, promoviendo la transición desde el secado rústico hacia estándares internacionales de exportación (ASTA, GlobalGAP) y aceites esenciales."
+          },
+          {
+            "etiqueta": "Infraestructura y Tecnología Avanzada",
+            "texto": "Equipamiento en planta piloto y laboratorios fisicoquímicos y microbiológicos para digestión enzimática, deshidratación solar y tecnificada, y extracción sólido-líquido."
+          },
+          {
+            "etiqueta": "Economía Circular y Valor Agregado",
+            "texto": "Transformación de residuos y descartes de cosecha en bioactivos, harinas, aceites y bebidas funcionales para diversificar la oferta comercial."
+          }
+        ],
+        "beneficiarios": "El proyecto está dirigido a micro, pequeñas y medianas empresas (MIPYMES), asociaciones de productores organizados y emprendedores agroindustriales del departamento de Moquegua. Su alcance geográfico abarca las principales zonas productivas de los valles interandinos y andinos altos de las provincias de Mariscal Nieto (distritos de Moquegua, Samegua, Torata, Carumas, Cuchumbaya, San Cristóbal) y General Sánchez Cerro (Omate, Coalaque), articulando los servicios tecnológicos y de laboratorio centralizados desde la sede del CITEagroindustrial en la provincia de Ilo."
+      }
+    ]
   },
   {
     "slug": "citeccal-lima-cuero-y-calzado-cui-2275261",
     "categoria": "agro",
+    "tipo": "Inversión pública",
+    "regiones": [
+      "Lima"
+    ],
     "titulo": "CITEccal Lima — Cuero y Calzado (CUI 2275261)",
     "resumen": "Este proyecto de inversión pública moderniza la infraestructura técnica y la oferta operativa del CITEccal Lima para impulsar la absorción tecnológica en la cadena de cuero y calzado. Resuelve la baja estandarización de calidad, las mermas productivas y los riesgos de sanción ambiental que enfrentan las MYPEs frente a la contracción del sector. Su objetivo principal es proveer servicios tecnológicos especializados, plantas piloto automatizadas y laboratorios acreditados bajo la norma NTP-ISO/IEC 17025 para elevar la competitividad industrial y asegurar la certificación requerida en compras públicas y mercados de exportación.",
     "datos": [
@@ -335,11 +534,174 @@
         "texto": "Alineamiento directo a Normas Técnicas Peruanas (NTP-ISO 20345, 2420, 3376) y a los límites ambientales (VMA/LMP), asegurando la trazabilidad necesaria para el acceso a convocatorias estatales como Compras a MYPErú."
       }
     ],
-    "beneficiarios": "Está dirigido a una población objetivo de 1,185 unidades de negocio de las cadenas de cuero y calzado en Lima Metropolitana, compuestas en un 93.5% por micro y pequeñas empresas (MYPEs). Su alcance territorial impacta directamente en los principales conglomerados productivos y comerciales de la capital, localizados en el Rímac (Caquetá), Villa El Salvador, San Juan de Lurigancho, Ate Vitarte y San Martín de Porres."
+    "beneficiarios": "Está dirigido a una población objetivo de 1,185 unidades de negocio de las cadenas de cuero y calzado en Lima Metropolitana, compuestas en un 93.5% por micro y pequeñas empresas (MYPEs). Su alcance territorial impacta directamente en los principales conglomerados productivos y comerciales de la capital, localizados en el Rímac (Caquetá), Villa El Salvador, San Juan de Lurigancho, Ate Vitarte y San Martín de Porres.",
+    "documentos": [
+      {
+        "titulo": "Mejoramiento de los servicios tecnológicos del centro de innovación tecnológica del cuero, calzado e industrias conexas (CITECCAL) distrito Rímac, provincia y departamento de Lima",
+        "resumen": "Proyecto de inversión pública enfocado en modernizar la infraestructura operativa del CITEccal Lima mediante la absorción, adaptación y transferencia de procesos tecnológicos avanzados. Resuelve la variabilidad en la calidad de la materia prima, la falta de automatización y los vacíos en control ambiental y normativo de exportación. Su objetivo es elevar la competitividad de las empresas, migrando de una manufactura empírica hacia estándares de calidad certificados.",
+        "datos": [
+          {
+            "etiqueta": "Código Único de Inversiones (CUI)",
+            "texto": "N° 2275261, con una inversión asignada de S/ 1,800,000 para el componente de absorción tecnológica."
+          },
+          {
+            "etiqueta": "Inversión Estratégica en Cuero (58.2%)",
+            "texto": "S/ 1,047,600 destinados a estandarización de calidad (S/ 465,600), automatización de curtido (S/ 349,200) y módulo de efluentes (S/ 232,800)."
+          },
+          {
+            "etiqueta": "Inversión Estratégica en Calzado (41.8%)",
+            "texto": "S/ 752,400 orientados al fortalecimiento de ensayos físicos, mecánicos y dieléctricos para EPP y cumplimiento químico."
+          },
+          {
+            "etiqueta": "Acceso a Mercados Regulados",
+            "texto": "Permite a las empresas cumplir normas NTP-ISO, acceder a licitaciones públicas (Compras a MYPErú) y exportar a mercados exigentes como EE.UU. y la región."
+          }
+        ],
+        "beneficiarios": "Está dirigido a las Unidades Productivas (UP) y MIPYMES dedicadas a la transformación en las cadenas industriales de cuero, calzado y productos conexos. Su alcance geográfico abarca el distrito del Rímac, así como la provincia y departamento de Lima, impactando en la competitividad y sostenibilidad ambiental del sector manufacturero local."
+      },
+      {
+        "titulo": "Absorción de Nuevos Procesos Tecnológicos (Transferencia Tecnológica) – ITP Red CITE",
+        "resumen": "Iniciativa impulsada por el Instituto Tecnológico de la Producción (ITP) del Ministerio de la Producción para diagnosticar e impulsar la transferencia tecnológica en las cadenas productivas de cuero y calzado. El proyecto aborda la obsolescencia técnica, la falta de especialización y la alta competencia de importaciones mediante la caracterización de brechas tecnológicas y de mercado. Su objetivo principal es implementar el componente de absorción de nuevos procesos tecnológicos y articular servicios especializados de la Red CITE para asegurar la sostenibilidad del sector.",
+        "datos": [
+          {
+            "etiqueta": "Diagnóstico participativo multidominio",
+            "texto": "Evaluación técnica en 6 mesas de trabajo enfocadas en calzado, cuero y manufactura para identificar cuellos de botella productivos."
+          },
+          {
+            "etiqueta": "Demanda prioritaria de servicios CITE",
+            "texto": "Asistencia técnica en innovación de procesos y capacitación técnica especializada lideran la demanda con la máxima votación del sector."
+          },
+          {
+            "etiqueta": "Brecha en automatización e ingeniería",
+            "texto": "Identificación de la necesidad crítica de formación en programación de parte lógica de maquinaria y actualización digital."
+          },
+          {
+            "etiqueta": "Cumplimiento ambiental y sostenibilidad",
+            "texto": "Estrategias orientadas a la valorización de residuos, tratamiento de efluentes y adopción de tecnologías limpias."
+          }
+        ],
+        "beneficiarios": "Dirigido a micro, pequeñas y medianas empresas (MYPEs), artesanos, transformadores de cuero y fabricantes de calzado a nivel regional y nacional. Beneficia a la comunidad industrial brindando herramientas de optimización productiva, desarrollo de competencias técnicas y acceso directo a los servicios tecnológicos de la Red CITE del ITP."
+      },
+      {
+        "titulo": "Proyecto de Inversión CUI N.° 2275261: “Mejoramiento de los servicios tecnológicos del Centro de Innovación Tecnológica del cuero, calzado e industrias conexas (CITECCAL), distrito Rímac, provincia y departamento de Lima”",
+        "resumen": "El proyecto moderniza la oferta de servicios del CITEccal Lima para resolver la brecha de validación técnica y certificación que impide a las MIPYMEs de cuero y calzado acceder a mercados de alto valor. Frente a la competencia desleal y la rigurosidad ambiental, la iniciativa transforma la infraestructura existente en capacidad operativa mediante paquetes tecnológicos estandarizados. Su objetivo principal es consolidar al CITEccal como un hub de validación técnica, certificación de calzado de seguridad y transferencia de tecnologías limpias.",
+        "datos": [
+          {
+            "etiqueta": "Inversión Focalizada",
+            "texto": "Presupuesto de S/ 1,800,000.00 reorientado a la absorción e implementación de cuatro Paquetes Tecnológicos de alto impacto."
+          },
+          {
+            "etiqueta": "Soluciones Tecnológicas Priorizadas",
+            "texto": "Implementación del PT-CU-01 (calidad físico-mecánica de cueros), PT-CU-02 (automatización en planta piloto), PT-CU-03 (módulo de tratamiento de efluentes) y PT-CA-01 (ensayos EPP y cumplimiento químico)."
+          },
+          {
+            "etiqueta": "Población Beneficiaria",
+            "texto": "Alcance directo proyectado para 1,561 unidades productivas del sector cuero y calzado."
+          },
+          {
+            "etiqueta": "Acceso a Mercados y Sostenibilidad",
+            "texto": "Habilita laboratorios locales para certificar calzado de seguridad bajo norma ISO 20345 y provee tecnología piloto para cumplir la normativa ambiental (VMA/OEFA), eliminando barreras de exportación y compras públicas."
+          }
+        ],
+        "beneficiarios": "El proyecto está dirigido a las Micro, Pequeñas y Medianas Empresas (MIPYME) y unidades productivas de las cadenas de cuero, curtiembre, calzado y productos conexos en Lima Metropolitana (con sede operativa en el distrito del Rímac). Beneficia directamente a fabricantes de calzado técnico/EPP, curtiembres en proceso de reconversión ecológica y empresas que requieren ensayos acreditables para contratar con la minería y el Estado."
+      },
+      {
+        "titulo": "Proyecto de Inversión: Mejoramiento de los Servicios Tecnológicos del CITEccal Lima (CUI N° 2275261)",
+        "resumen": "Iniciativa estratégica de infraestructura de calidad e innovación tecnológica del ITP para modernizar las cadenas de cuero y calzado. Resuelve la falta de certificación acreditada, la variabilidad productiva y el riesgo ambiental mediante la absorción de tecnología de alto nivel (TRL 7-8). Su objetivo es transformar al CITEccal Lima en un centro de validación capaz de abrir mercados exigentes como minería, exportación y licitaciones estatales.",
+        "datos": [
+          {
+            "etiqueta": "Monto de Inversión",
+            "texto": "S/ 1,800,000.00 asignados a la implementación de 4 Paquetes Tecnológicos priorizados (TRL 7-8)."
+          },
+          {
+            "etiqueta": "Soluciones Tecnológicas",
+            "texto": "Implementación de laboratorio EPP y química (PT-CA-01), estandarización físico-mecánica (PT-CU-01), automatización de curtido (PT-CU-02) y módulo de efluentes (PT-CU-03)."
+          },
+          {
+            "etiqueta": "Apertura de Mercados",
+            "texto": "Habilitación de ensayos acreditables (NTP-ISO/ASTM) para calzado de seguridad, licitaciones públicas (Compras MYPErú) y cumplimiento regulatorio internacional."
+          },
+          {
+            "etiqueta": "Sostenibilidad Ambiental",
+            "texto": "Mitigación de riesgos de sanción y clausura mediante el control automatizado y tratamiento eficiente de efluentes de curtiembre."
+          }
+        ],
+        "beneficiarios": "Dirigido a 1,561 Unidades Productivas potenciales (1,389 de calzado y 172 de curtiembre), principalmente MYPEs concentradas en los conglomerados industriales de Lima Metropolitana como Rímac, San Juan de Lurigancho, Ate y distritos conexos."
+      },
+      {
+        "titulo": "Proyecto de Inversión \"Mejoramiento de los servicios tecnológicos del centro de innovación tecnológica del cuero, calzado e industrias conexas (CITECCAL), distrito Rímac, provincia y departamento de Lima\" (CUI N° 2275261)",
+        "resumen": "Este proyecto público fortalece la capacidad de innovación y transferencia tecnológica del CITEccal Lima mediante la absorción de nuevos procesos industriales. Resuelve brechas críticas de estandarización de calidad, falta de ensayos acreditados y alta carga contaminante en las curtiembres y calzadoras peruanas. Su objetivo principal es transformar la infraestructura y equipamiento instalados en servicios tecnológicos de alto valor bajo norma ISO/IEC 17025 para elevar la competitividad del sector.",
+        "datos": [
+          {
+            "texto": "Presupuesto asignado para la ejecución de los paquetes tecnológicos de absorción: S/ 1,800,000.00."
+          },
+          {
+            "texto": "Implementación de 4 Paquetes Tecnológicos priorizados: PT-CU-01 (Estandarización de calidad físico-mecánica de cueros), PT-CU-02 (Automatización de curtido), PT-CU-03 (Módulo demostrativo de efluentes) y PT-CA-01 (Ensayos EPP y cumplimiento químico)."
+          },
+          {
+            "texto": "Evaluación metodológica multicriterio basada en 7 variables técnicas y criterio obligatorio de no repetitividad validado por la DIDITT."
+          },
+          {
+            "texto": "Puesta en valor de laboratorios especializados y planta piloto para reducir mermas, optimizar insumos y garantizar el cumplimiento normativo ambiental."
+          }
+        ],
+        "beneficiarios": "El proyecto está dirigido a 1,561 unidades productivas (MIPYME y empresas del sector) de las cadenas de cuero, curtiembre, calzado e industrias conexas. Su alcance geográfico abarca la zona de influencia del CITEccal Lima en Lima Metropolitana, enfocándose en conglomerados industriales de distritos como Rímac, San Juan de Lurigancho, Villa El Salvador, Comas y San Martín de Porres."
+      },
+      {
+        "titulo": "Proyecto de Inversión CUI N.° 2275261: “Mejoramiento de los Servicios Tecnológicos del Centro de Innovación Tecnológica del Cuero, Calzado e Industrias Conexas (CITEccal) Rímac, Lima” - Componente Absorción de Nuevos Procesos Tecnológicos",
+        "resumen": "Iniciativa estratégica del Instituto Tecnológico de la Producción (ITP) orientada a resolver las brechas de calidad, baja estandarización productiva, obsolescencia tecnológica y restricciones ambientales que afectan al sector cuero y calzado. Mediante la absorción y transferencia de cuatro paquetes tecnológicos priorizados, el proyecto operacionaliza la capacidad del CITEccal Lima en servicios técnicos estandarizados, ensayos acreditables y soluciones de producción limpia para elevar la competitividad de las unidades productivas.",
+        "datos": [
+          {
+            "etiqueta": "Inversión del componente",
+            "texto": "S/ 1,800,000.00 ejecutados a través de cuatro paquetes tecnológicos integrales (PT-CU-01, PT-CU-02, PT-CU-03 y PT-CA-01)."
+          },
+          {
+            "etiqueta": "Paquetes tecnológicos clave",
+            "texto": "Estandarización de calidad físico-mecánica, automatización de planta piloto de curtido, módulo de efluentes y ensayos EPP/cumplimiento químico internacional."
+          },
+          {
+            "etiqueta": "Nivel de impacto en brechas",
+            "texto": "Solución directa a problemáticas con alta incidencia sectorial, incluyendo un 95% de obsolescencia de equipamiento y un 90% en deficiencias de gestión ambiental."
+          },
+          {
+            "etiqueta": "Metas de transferencia operacional",
+            "texto": "Ejecución documentada de al menos 30 ensayos de cuero, 40 pruebas analíticas/dieléctricas EPP y 3 campañas piloto de tratamiento de efluentes."
+          }
+        ],
+        "beneficiarios": "El proyecto está dirigido a 1,561 unidades productivas de la cadena de cuero y calzado localizadas en el ámbito de influencia del CITEccal Lima (distrito del Rímac) y Lima Metropolitana. Beneficia a micro, pequeñas y medianas empresas (MIPYME), curtiembres, fabricantes de calzado y exportadores, facilitando el acceso a servicios de acreditación ISO 17025, cumplimiento de Valores Máximos Admisibles (VMA) y adecuación a estándares internacionales como REACH."
+      },
+      {
+        "titulo": "Mejoramiento de los servicios tecnológicos del Centro de Innovación Tecnológica del cuero, calzado e industrias conexas (CITEccal), distrito Rímac, provincia y departamento Lima",
+        "resumen": "Iniciativa estratégica de inversión pública (CUI 2275261) diseñada para modernizar y elevar la competitividad industrial de la cadena de cuero y calzado. Resuelve las brechas críticas de baja productividad, obsolescencia operativa e incumplimiento de normas ambientales y de calidad que limitan a las MYPEs. Su objetivo principal es asegurar la provisión efectiva de servicios de absorción y transferencia tecnológica de alto valor, optimizando la capacidad instalada del centro para impulsar el crecimiento comercial sustentable del sector.",
+        "datos": [
+          {
+            "etiqueta": "Inversión y Presupuesto",
+            "texto": "Proyecto de inversión pública con un costo actualizado de S/ 22,820,568.80 (CUI 2275261) y un presupuesto ejecutable de S/ 1,809,845.22 asignado al componente de transferencia e ingeniería tecnológica."
+          },
+          {
+            "etiqueta": "Paquetes Tecnológicos Priorizados",
+            "texto": "Despliegue de 4 paquetes especializados (ensayos físico-mecánicos para EPP, calidad de cuero, automatización de curtido y monitoreo de efluentes) vinculados directamente al equipamiento del Anexo 08."
+          },
+          {
+            "etiqueta": "Impacto Productivo e Industrial",
+            "texto": "Metas de reducción de tiempos de producción (5% a 30%), incremento en volumen físico producido (5% a 10%) y disminución sostenida de costos operativos (0.5% a 2%)."
+          },
+          {
+            "etiqueta": "Cumplimiento Normativo y Mercados",
+            "texto": "Eliminación de sustancias restringidas (RSL), reducción de carga contaminante en efluentes (Cromo/Sulfuro) para cumplir con los VMA y habilitación de ensayos acreditados NTP-ISO 17025 para acceder a licitaciones públicas y exportación."
+          }
+        ],
+        "beneficiarios": "Dirigido a 1,250 unidades productivas (MIPYMES y microempresas formales de las cadenas de cuero, curtiembre y calzado) ubicadas en Lima Metropolitana y Callao, con especial enfoque territorial en los conglomerados de Rímac, Caquetá, San Juan de Lurigancho y El Agustino."
+      }
+    ]
   },
   {
     "slug": "proyecto-de-transformacion-productiva-moquegua-5-0-hub-regional-de-inn",
     "categoria": "agro",
+    "tipo": "Hub y ecosistema",
+    "regiones": [
+      "Moquegua"
+    ],
     "titulo": "Proyecto de Transformación Productiva Moquegua 5.0 – Hub Regional de Innovación (HRI-MQ)",
     "resumen": "Moquegua 5.0 es una iniciativa estratégica de orquestación sistémica diseñada para transformar la economía regional desde un modelo extractivo hacia una bioeconomía regenerativa de alta precisión. Mediante la metodología EYWA y el estándar Sello Fénix, resuelve la brecha de baja competitividad y estancamiento tecnológico de las Mipymes locales. Su objetivo principal es articular la quíntuple hélice territorial para impulsar la innovación, la sostenibilidad hídrica y el valor agregado en cadenas clave como la vitivinícola y la agroindustria.",
     "datos": [
@@ -360,11 +722,16 @@
         "texto": "Potencial para duplicar rendimientos de la vid (de 8-10 TM/Ha a 20 TM/Ha), un incremento proyectado del 20% en los ingresos netos de las familias productoras y un crecimiento estimado superior al 8% en exportaciones regionales."
       }
     ],
-    "beneficiarios": "Está dirigido a Mipymes agroindustriales y vitivinícolas, asociaciones de productores, comunidades agrícolas y talentos locales de la región Moquegua. Su alcance geográfico abarca las tres provincias bajo una arquitectura nodal especializada: Mariscal Nieto (Hub Ciudades / Edutech y Escuela de Liderazgo), General Sánchez Cerro (Hub AgroTech y Living Lab de agricultura regenerativa) e Ilo (Hub Minería / Circular y nodo de logística exportadora)."
+    "beneficiarios": "Está dirigido a Mipymes agroindustriales y vitivinícolas, asociaciones de productores, comunidades agrícolas y talentos locales de la región Moquegua. Su alcance geográfico abarca las tres provincias bajo una arquitectura nodal especializada: Mariscal Nieto (Hub Ciudades / Edutech y Escuela de Liderazgo), General Sánchez Cerro (Hub AgroTech y Living Lab de agricultura regenerativa) e Ilo (Hub Minería / Circular y nodo de logística exportadora).",
+    "documentos": []
   },
   {
     "slug": "agroindustria-4-0-integracion-de-los-4-pilares-tecnologicos",
     "categoria": "agro",
+    "tipo": "Proyecto productivo y territorial",
+    "regiones": [
+      "Perú (nacional)"
+    ],
     "titulo": "Agroindustria 4.0: Integración de los 4 Pilares Tecnológicos",
     "resumen": "Este proyecto propone una arquitectura integral de Agroindustria 4.0 que conecta Big Data, GIS, Inteligencia Artificial y Agricultura de Precisión en un solo flujo de valor. Resuelve la ineficiencia de la gestión agrícola tradicional y el desperdicio de insumos clave como agua y fertilizantes mediante la recolección y análisis de datos en tiempo real. Su objetivo principal es transformar datos masivos en decisiones agronómicas predictivas y aplicaciones de tasa variable para maximizar la productividad y garantizar la sostenibilidad.",
     "datos": [
@@ -385,11 +752,17 @@
         "texto": "Gracias a la optimización en la gestión de insumos, maquinaria, energía y mano de obra."
       }
     ],
-    "beneficiarios": "El proyecto está dirigido a productores agroindustriales, empresas agrícolas y cooperativas que buscan modernizar la gestión de sus cultivos y aumentar su competitividad. Beneficia a agricultores y técnicos de campo al automatizar procesos, prevenir pérdidas por plagas o estrés hídrico y mejorar la calidad final en cultivos de alto valor como tomate industrial, maíz, viñedos y frutales. Su alcance es aplicable tanto a grandes campos abiertos como a invernaderos de alta tecnología en diversas zonas geográficas."
+    "beneficiarios": "El proyecto está dirigido a productores agroindustriales, empresas agrícolas y cooperativas que buscan modernizar la gestión de sus cultivos y aumentar su competitividad. Beneficia a agricultores y técnicos de campo al automatizar procesos, prevenir pérdidas por plagas o estrés hídrico y mejorar la calidad final en cultivos de alto valor como tomate industrial, maíz, viñedos y frutales. Su alcance es aplicable tanto a grandes campos abiertos como a invernaderos de alta tecnología en diversas zonas geográficas.",
+    "documentos": []
   },
   {
     "slug": "red-nacional-de-biotecnologia-agricola-y-de-alimentos-renabya",
     "categoria": "agro",
+    "tipo": "Hub y ecosistema",
+    "regiones": [
+      "Lima",
+      "Piura"
+    ],
     "titulo": "Red Nacional de Biotecnología Agrícola y de Alimentos - RENABYA",
     "resumen": "La Red Nacional de Biotecnología Agrícola y de Alimentos (RENABYA) es una plataforma macrorregional de innovación que conecta la academia, institutos tecnológicos y el sector agroindustrial para transformar capacidades científicas dispersas en soluciones aplicables. Aborda la fragmentación tecnológica del sistema agroalimentario impulsando la investigación aplicada en biotecnología, seguridad alimentaria, bioeconomía y resiliencia hídrica. Su objetivo principal es consolidar una red sostenible que genere, valide y transfiera paquetes tecnológicos e insumos de alto valor agregado hacia el sector productivo.",
     "datos": [
@@ -406,11 +779,16 @@
         "texto": "Desarrollo de 3 paquetes técnicos y un portafolio de transferencia validado a escala industrial en la cadena de la caña de azúcar con Agro Industrial Paramonga S.A.."
       }
     ],
-    "beneficiarios": "El proyecto abarca un ámbito macrorregional centrado en Piura, Huancavelica y Lima (Barranca), articulando capacidades entre la costa y la sierra peruana. Beneficia directamente a docentes, investigadores y estudiantes de las instituciones del SINACTI, e indirectamente a empresas agroindustriales y productores agrícolas que adoptarán las tecnologías e innovaciones desarrolladas."
+    "beneficiarios": "El proyecto abarca un ámbito macrorregional centrado en Piura, Huancavelica y Lima (Barranca), articulando capacidades entre la costa y la sierra peruana. Beneficia directamente a docentes, investigadores y estudiantes de las instituciones del SINACTI, e indirectamente a empresas agroindustriales y productores agrícolas que adoptarán las tecnologías e innovaciones desarrolladas.",
+    "documentos": []
   },
   {
     "slug": "portafolio-de-agroemprendimientos-ganemos-2026",
     "categoria": "agro",
+    "tipo": "Proyecto productivo y territorial",
+    "regiones": [
+      "América Latina"
+    ],
     "titulo": "Portafolio de Agroemprendimientos GANEMOS 2026",
     "resumen": "El Portafolio GANEMOS 2026 articula iniciativas agroempresariales en América Latina para superar brechas de infraestructura, financiamiento y acceso a mercados mediante economía circular, asociatividad y tecnología. Su foco central es resolver la dependencia de materias primas no procesadas y la alta vulnerabilidad climática en el campo. El objetivo principal es impulsar la sofisticación agroindustrial, la captura de valor agregado y el desarrollo sostenible regional.",
     "datos": [
@@ -427,11 +805,16 @@
         "texto": "Empoderamiento de 12 mujeres rurales en esquemas asociativos y fomento del relevo generacional en la caficultura desde la finca hasta el mercado final."
       }
     ],
-    "beneficiarios": "El proyecto está dirigido a pequeños y medianos productores agrícolas, mujeres rurales y jóvenes agroempresarios en Costa Rica, Colombia, Honduras, Perú y República Dominicana. Beneficia directamente a las comunidades rurales y asociaciones mediante la inclusión financiera, el trabajo en empaque y procesamiento, el rescate de técnicas ancestrales sin aditivos sintéticos, la capacitación con programas de movilidad internacional y el incremento en los ingresos por venta directa de valor agregado."
+    "beneficiarios": "El proyecto está dirigido a pequeños y medianos productores agrícolas, mujeres rurales y jóvenes agroempresarios en Costa Rica, Colombia, Honduras, Perú y República Dominicana. Beneficia directamente a las comunidades rurales y asociaciones mediante la inclusión financiera, el trabajo en empaque y procesamiento, el rescate de técnicas ancestrales sin aditivos sintéticos, la capacitación con programas de movilidad internacional y el incremento en los ingresos por venta directa de valor agregado.",
+    "documentos": []
   },
   {
     "slug": "celdas-de-media-tension-green-ready-con-nano-recubrimiento",
     "categoria": "agro",
+    "tipo": "Startup y plataforma",
+    "regiones": [
+      "América Latina"
+    ],
     "titulo": "Celdas de Media Tensión \"Green-Ready\" con Nano-Recubrimiento",
     "resumen": "Iniciativa de innovación tecnológica ejecutada por THABNA SAC que desarrolla la línea de manufactura \"Thabna Nano-Shield\" para celdas eléctricas de media tensión. Su objetivo es resolver la obsolescencia climática provocada por la corrosión extrema (C5-M) en entornos costeros e industriales. Ofrece una solución ecoeficiente y duradera que garantiza la continuidad de la infraestructura eléctrica crítica para la descarbonización industrial.",
     "datos": [
@@ -452,11 +835,46 @@
         "texto": "Calificado por la simulación Montecarlo con un 80% a 92% de probabilidad de éxito, siendo un proyecto de muy bajo riesgo financiero alineado con el Ceplan al 2030."
       }
     ],
-    "beneficiarios": "Está dirigido a empresas de la industria química, minería, puertos de gran escala (ej. Puerto de Chancay) e infraestructura de energías limpias situadas en zonas costeras del Perú, con proyección de exportación a la región Andina. Beneficia directamente a los operadores al evitar fallas eléctricas y reducir costos de mantenimiento."
+    "beneficiarios": "Está dirigido a empresas de la industria química, minería, puertos de gran escala (ej. Puerto de Chancay) e infraestructura de energías limpias situadas en zonas costeras del Perú, con proyección de exportación a la región Andina. Beneficia directamente a los operadores al evitar fallas eléctricas y reducir costos de mantenimiento.",
+    "documentos": []
+  },
+  {
+    "slug": "fontagro-convocatoria-2026-para-sistemas-agroalimentarios",
+    "categoria": "agro",
+    "tipo": "Convocatoria y evento",
+    "regiones": [
+      "América Latina"
+    ],
+    "titulo": "FONTAGRO — Convocatoria 2026 para Sistemas Agroalimentarios",
+    "resumen": "La Convocatoria 2026 de FONTAGRO es una plataforma de cofinanciamiento para Consorcios Regionales de I+D+i que abarca la productividad y sostenibilidad del sector agroeconómico. Resuelve los desafíos de baja rentabilidad e impacto ambiental transformándolos en oportunidades mediante la aceleración de innovaciones tecnológicas en el campo. Su objetivo principal es escalar modelos productivos competitivos, eficientes y sostenibles con alto potencial de adopción en la región.",
+    "datos": [
+      {
+        "etiqueta": "Mecanismo de postulación",
+        "texto": "Proceso en Fase Única con envío obligatorio de documentación completa en formatos Word y Excel."
+      },
+      {
+        "etiqueta": "Cierre de convocatoria",
+        "texto": "20 de abril de 2026, a las 3:00 PM (Hora del Este de EE. UU., Washington D.C.)."
+      },
+      {
+        "etiqueta": "Alineación estratégica",
+        "texto": "Vinculación obligatoria con al menos uno de los Programas Insignia (1, 2, 3, 4 o 5) del PMP 2025-2030."
+      },
+      {
+        "etiqueta": "Selección de ganadores",
+        "texto": "Anuncio de proyectos seleccionados entre julio y agosto de 2026."
+      }
+    ],
+    "beneficiarios": "Está dirigido a Consorcios Regionales de Investigación, Desarrollo e Innovación (I+D+i) y beneficia a los actores del sistema agroalimentario en América Latina y el Caribe (ALC), consolidando el desarrollo tecnológico sostenible a escala nacional y regional.",
+    "documentos": []
   },
   {
     "slug": "eywa-dataops",
     "categoria": "tecnologia",
+    "tipo": "Startup y plataforma",
+    "regiones": [
+      "América Latina"
+    ],
     "titulo": "EYWA DataOps",
     "resumen": "EYWA es una infraestructura digital de tecnología climática que utiliza Inteligencia Artificial y Blockchain para transformar el impacto socioambiental de los bionegocios en activos financieros verificables. Resuelve la profunda crisis de confianza y el alto riesgo de greenwashing que paralizan el financiamiento sostenible debido a auditorías manuales lentas y costosas. Su objetivo principal es democratizar el acceso al capital climático mediante un diagnóstico automatizado y una trazabilidad inmutable que conecta proyectos regenerativos con inversores globales.",
     "datos": [
@@ -477,11 +895,16 @@
         "texto": "Proyección de incorporar a 5,000 empresas regenerativas en la plataforma y movilizar $50 millones USD en capital verificado en sus primeras fases de expansión."
       }
     ],
-    "beneficiarios": "El proyecto está dirigido a emprendedores regenerativos y bionegocios (agroforestería, biocomercio y conservación) que necesitan validar su impacto para levantar capital semilla o de crecimiento, así como a inversores de impacto, fondos climáticos y entidades bancarias que buscan reducir costos de due diligence y eliminar el riesgo reputacional. Su alcance geográfico inicial se enfoca en la región Andino-Amazónica (con prioridad en zonas estratégicas de Perú como Alto Mayo y VRAEM), con una hoja de ruta orientada al escalamiento en América Latina y su consolidación como el estándar global de confianza en finanzas sostenibles."
+    "beneficiarios": "El proyecto está dirigido a emprendedores regenerativos y bionegocios (agroforestería, biocomercio y conservación) que necesitan validar su impacto para levantar capital semilla o de crecimiento, así como a inversores de impacto, fondos climáticos y entidades bancarias que buscan reducir costos de due diligence y eliminar el riesgo reputacional. Su alcance geográfico inicial se enfoca en la región Andino-Amazónica (con prioridad en zonas estratégicas de Perú como Alto Mayo y VRAEM), con una hoja de ruta orientada al escalamiento en América Latina y su consolidación como el estándar global de confianza en finanzas sostenibles.",
+    "documentos": []
   },
   {
     "slug": "eywa-agro-pasaportes-digitales-por-lote",
     "categoria": "tecnologia",
+    "tipo": "Startup y plataforma",
+    "regiones": [
+      "Cusco"
+    ],
     "titulo": "EYWA Agro: Pasaportes Digitales por Lote",
     "resumen": "EYWA Agro es una infraestructura bio-digital B2B SaaS que convierte datos de campo dispersos en evidencia comercial verificable y Pasaportes Digitales por lote. La solución resuelve la brecha de captura de valor en el sector agropecuario y mitiga el riesgo de exclusión comercial de las cooperativas frente a exigencias regulatorias globales como el reglamento de cero deforestación de la Unión Europea (EUDR 2023/1115). Su objetivo principal es empaquetar coordenadas poligonales de origen, buenas prácticas e indicadores de calidad en expedientes auditables para garantizar el acceso a mercados internacionales de alto valor.",
     "datos": [
@@ -502,11 +925,16 @@
         "texto": "Arquitectura offline-first con almacenamiento local cifrado y canal de captura asíncrono vía WhatsApp para operar sin conectividad en zonas rurales."
       }
     ],
-    "beneficiarios": "El proyecto beneficia directamente a cooperativas agroexportadoras, pequeñas asociaciones de productores, agroindustrias y compradores corporativos finales en cadenas agroforestales de alto valor como cacao y café. Su ámbito geográfico de aplicación inicial se ubica en la provincia de La Convención (distritos de Megantoni y Quillabamba), en la Región Cusco, perfectamente alineado con el nicho de Agroganadería 4.0 del Plan de Desarrollo del Ecosistema (PDE Cusco) y con proyección de escalamiento al corredor andino-amazónico."
+    "beneficiarios": "El proyecto beneficia directamente a cooperativas agroexportadoras, pequeñas asociaciones de productores, agroindustrias y compradores corporativos finales en cadenas agroforestales de alto valor como cacao y café. Su ámbito geográfico de aplicación inicial se ubica en la provincia de La Convención (distritos de Megantoni y Quillabamba), en la Región Cusco, perfectamente alineado con el nicho de Agroganadería 4.0 del Plan de Desarrollo del Ecosistema (PDE Cusco) y con proyección de escalamiento al corredor andino-amazónico.",
+    "documentos": []
   },
   {
     "slug": "legalshield-mype-sistema-saas-de-blindaje-legal-automatizado-con-ia-ra",
     "categoria": "tecnologia",
+    "tipo": "Startup y plataforma",
+    "regiones": [
+      "Perú (nacional)"
+    ],
     "titulo": "LegalShield MYPE: Sistema SaaS de Blindaje Legal Automatizado con IA (RAG) para la Sostenibilidad Económica",
     "resumen": "LegalShield MYPE es una plataforma SaaS de transformación digital y LegalTech/GovTech que actúa como un sistema de blindaje legal preventivo para micro y pequeñas empresas. Resuelve la asimetría de defensa frente a la fiscalización estatal (SUNAT/SUNAFIL) al interceptar notificaciones electrónicas antes de que se conviertan en multas coactivas. Utiliza una arquitectura híbrida \"JusticiaIA\" con automatización robótica (RPA) y generación aumentada por recuperación (RAG) sobre un corpus legal peruano cerrado. Su objetivo principal es proteger la continuidad empresarial y preservar el empleo mediante la detección oportuna de riesgos normativos.",
     "datos": [
@@ -527,11 +955,16 @@
         "texto": "Protege el empleo al salvar MYPEs de multas promedio que equivalen a 2 meses de utilidad neta, promoviendo la digitalización \"Cero Papel\" para la reducción de la huella de carbono."
       }
     ],
-    "beneficiarios": "Está dirigido a micro y pequeñas empresas (MYPEs) del Perú y a sus contadores como aliados estratégicos bajo un modelo B2B2C. Beneficia directamente a empresarios y trabajadores al salvaguardar la continuidad de sus negocios frente a fiscalizaciones estatales, extendiendo su alcance inicial validado en gremios como Gamarra hacia una cobertura de impacto a nivel nacional."
+    "beneficiarios": "Está dirigido a micro y pequeñas empresas (MYPEs) del Perú y a sus contadores como aliados estratégicos bajo un modelo B2B2C. Beneficia directamente a empresarios y trabajadores al salvaguardar la continuidad de sus negocios frente a fiscalizaciones estatales, extendiendo su alcance inicial validado en gremios como Gamarra hacia una cobertura de impacto a nivel nacional.",
+    "documentos": []
   },
   {
     "slug": "lucy-innovacion-para-la-deteccion-temprana-del-cancer-de-piel",
     "categoria": "tecnologia",
+    "tipo": "Startup y plataforma",
+    "regiones": [
+      "Huánuco"
+    ],
     "titulo": "LUCY: Innovación para la Detección Temprana del Cáncer de Piel",
     "resumen": "LUCY es una plataforma de salud digital impulsada por inteligencia artificial y visión computacional que ofrece triaje, seguimiento evolutivo de lesiones cutáneas y conexión geolocalizada con especialistas. Resuelve la detección tardía del cáncer de piel y la escasez de dermatólogos en regiones con radiación UV extrema, reduciendo drásticamente los tiempos de espera de atención oncológica.",
     "datos": [
@@ -552,11 +985,16 @@
         "texto": "Monetización mediante licencias institucionales para clínicas (S/ 400 - S/ 800/mes) y suscripciones accesibles de monitoreo continuo para usuarios finales."
       }
     ],
-    "beneficiarios": "Dirigido a la población andina expuesta a radiación solar de altura y al segmento de la \"Silver Economy\" (adultos mayores de 50 años), iniciando su despliegue en la región de Huánuco. Beneficia a los pacientes con atención oportuna, a los médicos optimizando su flujo de trabajo, y al sistema de salud pública y aseguradoras privadas mediante ahorros masivos en tratamientos complejos de estadios avanzados."
+    "beneficiarios": "Dirigido a la población andina expuesta a radiación solar de altura y al segmento de la \"Silver Economy\" (adultos mayores de 50 años), iniciando su despliegue en la región de Huánuco. Beneficia a los pacientes con atención oportuna, a los médicos optimizando su flujo de trabajo, y al sistema de salud pública y aseguradoras privadas mediante ahorros masivos en tratamientos complejos de estadios avanzados.",
+    "documentos": []
   },
   {
     "slug": "programa-navegacion-en-salud-2026-conectando-el-cuidado-ecosistema-flo",
     "categoria": "tecnologia",
+    "tipo": "Programa y formación",
+    "regiones": [
+      "América Latina"
+    ],
     "titulo": "Programa Navegación en Salud 2026: Conectando el Cuidado (Ecosistema Florence)",
     "resumen": "Iniciativa estratégica y modelo de innovación clínica operado por ARS LAB con el sponsorship de AstraZeneca y el respaldo académico de Singularity University, orientado a transformar la práctica médica mediante el despliegue del sistema de inteligencia clínica aumentada Florence. El proyecto aborda la \"hemorragia silenciosa\" de datos y la pérdida financiera provocada por la fragmentación del sistema y el abandono de pacientes oncológicos y crónicos. Su objetivo principal es pasar de la teoría a la implementación práctica estableciendo un estándar de cuidado estandarizado en Perú a través de un simposio de alto nivel y una certificación profesional en navegación clínica.",
     "datos": [
@@ -577,11 +1015,16 @@
         "texto": "Enfoque comercial B2B con meta de conversión de asistentes a socios piloto (programa Beta con 50% off), validación de mercado para certificación universitaria y un indicador de calidad NPS > 9/10."
       }
     ],
-    "beneficiarios": "El programa está dirigido a directores médicos, gestores hospitalarios, oncólogos, médicos especialistas y profesionales clave de atención directa como enfermería y trabajo social en instituciones públicas (MINSA, EsSalud) y privadas. Tiene un alcance nacional inicial en Perú —con vinculación a redes de salud regionales y universidades como Cayetano Heredia— y proyección de escalabilidad hacia una certificación internacional en Latinoamérica."
+    "beneficiarios": "El programa está dirigido a directores médicos, gestores hospitalarios, oncólogos, médicos especialistas y profesionales clave de atención directa como enfermería y trabajo social en instituciones públicas (MINSA, EsSalud) y privadas. Tiene un alcance nacional inicial en Perú —con vinculación a redes de salud regionales y universidades como Cayetano Heredia— y proyección de escalabilidad hacia una certificación internacional en Latinoamérica.",
+    "documentos": []
   },
   {
     "slug": "startus-ai-driven-funding-and-grant-access-for-startups",
     "categoria": "tecnologia",
+    "tipo": "Startup y plataforma",
+    "regiones": [
+      "América Latina"
+    ],
     "titulo": "Startus: AI-Driven Funding and Grant Access for Startups",
     "resumen": "Plataforma tecnológica impulsada por inteligencia artificial diseñada para conectar startups de América Latina con corporaciones, fondos de inversión y oportunidades de financiamiento no reembolsable (grants). Resuelve la ineficiencia y la pérdida de tiempo que enfrentan los fundadores en procesos de aplicación repetitivos, centralizando la información para maximizar el acceso a capital y acelerar el crecimiento del ecosistema emprendedor.",
     "datos": [
@@ -598,11 +1041,16 @@
         "texto": "Acceso a 1 año de membresía gratuita para startups registradas con el fin de impulsar su tracción y escala."
       }
     ],
-    "beneficiarios": "Dirigido a fundadores (founders), startups en etapas tempranas o de crecimiento, e inversionistas corporativos y fondos de capital de riesgo en toda América Latina (Latam)."
+    "beneficiarios": "Dirigido a fundadores (founders), startups en etapas tempranas o de crecimiento, e inversionistas corporativos y fondos de capital de riesgo en toda América Latina (Latam).",
+    "documentos": []
   },
   {
     "slug": "proyecto-piloto-kotosh-destino-turistico-inteligente-y-teleferico-con",
     "categoria": "tecnologia",
+    "tipo": "Proyecto productivo y territorial",
+    "regiones": [
+      "Huánuco"
+    ],
     "titulo": "Proyecto Piloto Kotosh: Destino Turístico Inteligente y Teleférico con IA",
     "resumen": "El Proyecto Piloto Kotosh es una iniciativa que impulsa la conversión de la Zona Arqueológica Monumental Kotosh en un Destino Turístico Inteligente mediante la implementación de un sistema de teleférico equipado con Inteligencia Artificial y Realidad Aumentada. Resuelve la precaria accesibilidad física y la severa falta de infraestructura turística pública adecuada en la región, la cual afecta al 85.18% de los recursos prioritarios. Su objetivo principal es poner en valor el primer monumento religioso de América, enriquecer la experiencia interactiva del visitante y dinamizar la economía local bajo un modelo de turismo sostenible.",
     "datos": [
@@ -623,11 +1071,16 @@
         "texto": "Conecta a las MYPEs y productores locales con el ecosistema de innovación InnovaSuyu de ProInnóvate, reduciendo la brecha del 100% de unidades AMYPE que no reciben transferencia tecnológica ni servicios de innovación."
       }
     ],
-    "beneficiarios": "El proyecto está dirigido a turistas nacionales e internacionales, investigadores y a la población de la ciudad de Huánuco. Beneficia directamente a las MYPEs, artesanos, guías y emprendedores del sector turístico mediante una distribución más equitativa de ingresos y la modernización de la cadena de valor regional. Geográficamente se aplica en el área del Hombre de Kotosh, ubicada a 5 km al oeste de la ciudad de Huánuco en el margen derecho del río Higueras, extendiendo su impacto a todo el departamento a través de la red regional de innovación InnovaSuyu gestionada por ProInnóvate."
+    "beneficiarios": "El proyecto está dirigido a turistas nacionales e internacionales, investigadores y a la población de la ciudad de Huánuco. Beneficia directamente a las MYPEs, artesanos, guías y emprendedores del sector turístico mediante una distribución más equitativa de ingresos y la modernización de la cadena de valor regional. Geográficamente se aplica en el área del Hombre de Kotosh, ubicada a 5 km al oeste de la ciudad de Huánuco en el margen derecho del río Higueras, extendiendo su impacto a todo el departamento a través de la red regional de innovación InnovaSuyu gestionada por ProInnóvate.",
+    "documentos": []
   },
   {
     "slug": "cosechando-niebla-torres-de-agua-comunitarias-para-la-resiliencia-hidr",
     "categoria": "clima",
+    "tipo": "Proyecto productivo y territorial",
+    "regiones": [
+      "Moquegua"
+    ],
     "titulo": "Cosechando Niebla: Torres de Agua Comunitarias para la Resiliencia Hídrica en Moquegua",
     "resumen": "\"Cosechando Niebla\" es una iniciativa de infraestructura verde que implementa torres de captación de agua de niebla inspiradas en la tecnología Warka Water, integradas con Filtros Lentos de Arena de cero consumo eléctrico. Impulsado en consorcio por Geoglobal Corp SAC y ENC (Eduardo Noriega Campos) bajo la metodología de la Hélice Quíntuple e ingeniería financiera verde, el proyecto combate el extremo estrés hídrico (>80%) y la contaminación por metales pesados en las cuencas de Moquegua. Su objetivo principal es proveer un abastecimiento de agua potable autónomo, descentralizado y a bajo costo, liberando a las comunidades vulnerables de la costosa dependencia de camiones cisterna.",
     "datos": [
@@ -648,11 +1101,16 @@
         "texto": "Autogestión mediante Juntas Administradoras de Servicios de Saneamiento (JASS) con cuotas familiares (S/ 5–10/mes) y reorientación de excedentes para la restauración de lomas costeras."
       }
     ],
-    "beneficiarios": "El proyecto se focaliza en los asentamientos humanos periurbanos de la Pampa Inalámbrica, en la provincia de Ilo, departamento de Moquegua. Beneficia a las familias vulnerables que forman parte del 11.2% de la población rural regional sin acceso a agua potable por red pública, sirviendo como un modelo piloto escalable para la costa árida del sur del Perú."
+    "beneficiarios": "El proyecto se focaliza en los asentamientos humanos periurbanos de la Pampa Inalámbrica, en la provincia de Ilo, departamento de Moquegua. Beneficia a las familias vulnerables que forman parte del 11.2% de la población rural regional sin acceso a agua potable por red pública, sirviendo como un modelo piloto escalable para la costa árida del sur del Perú.",
+    "documentos": []
   },
   {
     "slug": "proyecto-carancho-corrientes-argentina",
     "categoria": "clima",
+    "tipo": "Proyecto productivo y territorial",
+    "regiones": [
+      "Argentina"
+    ],
     "titulo": "Proyecto CARANCHO (Corrientes, Argentina)",
     "resumen": "El Proyecto CARANCHO es una iniciativa de mitigación climática forestal en Argentina que transforma la captura biológica de carbono en activos ambientales digitales auditados. Resuelve la falta de transparencia en los mercados de carbono mediante cuantificación ex-post sustentada en monitoreo satelital y aseguramiento geoespacial. Su objetivo principal es proporcionar créditos de carbono verificados y trazables para que las empresas financien la acción climática con un reducido riesgo de entrega.",
     "datos": [
@@ -673,11 +1131,18 @@
         "texto": "Certificado bajo la metodología DEV Carbon Standard 2025 e integrado en la plataforma pública de RTD Ratings."
       }
     ],
-    "beneficiarios": "El alcance geográfico del proyecto se ubica en la provincia de Corrientes, Argentina. Está dirigido a corporaciones, compradores institucionales, fondos de inversión ESG y empresas exportadoras que buscan cumplir metas de descarbonización y neutralidad de carbono respaldadas por evidencia ambiental auditable."
+    "beneficiarios": "El alcance geográfico del proyecto se ubica en la provincia de Corrientes, Argentina. Está dirigido a corporaciones, compradores institucionales, fondos de inversión ESG y empresas exportadoras que buscan cumplir metas de descarbonización y neutralidad de carbono respaldadas por evidencia ambiental auditable.",
+    "documentos": []
   },
   {
     "slug": "biocircula-sur",
     "categoria": "clima",
+    "tipo": "Proyecto productivo y territorial",
+    "regiones": [
+      "Moquegua",
+      "Cusco",
+      "Arequipa"
+    ],
     "titulo": "BioCircula Sur",
     "resumen": "BioCircula Sur es una biorefinería cosmética que valoriza residuos agroindustriales en Moquegua (+500 toneladas anuales de orujo de uva y borra de café) mediante extracción asistida por ultrasonido (UAE). Resuelve la contaminación ambiental por generación de metano en vertederos y la dependencia de bases sintéticas importadas. Su objetivo principal es transformar estos pasivos ambientales en dermocosmética funcional de alta gama, libre de agua (\"Waterless\") y carbono-neutral.",
     "datos": [
@@ -698,11 +1163,16 @@
         "texto": "Margen bruto proyectado entre 65% y 70% gracias al costo de adquisición de materia prima cercano a cero."
       }
     ],
-    "beneficiarios": "El proyecto se ejecuta en el distrito y provincia de Ilo, departamento de Moquegua, beneficiando socialmente a asociaciones de agricultores locales mediante esquemas de pago justo por la segregación de mermas. Su alcance comercial está dirigido a hoteles \"Eco-Luxury\" del circuito turístico del sur (Cusco, Arequipa y Moquegua) para el suministro de amenities sostenibles, así como a consumidores del segmento \"LOHAS\" (estilos de vida saludables y sostenibles)."
+    "beneficiarios": "El proyecto se ejecuta en el distrito y provincia de Ilo, departamento de Moquegua, beneficiando socialmente a asociaciones de agricultores locales mediante esquemas de pago justo por la segregación de mermas. Su alcance comercial está dirigido a hoteles \"Eco-Luxury\" del circuito turístico del sur (Cusco, Arequipa y Moquegua) para el suministro de amenities sostenibles, así como a consumidores del segmento \"LOHAS\" (estilos de vida saludables y sostenibles).",
+    "documentos": []
   },
   {
     "slug": "hoja-de-ruta-de-economia-circular-en-el-sector-turismo-al-2030",
     "categoria": "clima",
+    "tipo": "Política pública y estudio",
+    "regiones": [
+      "Perú (nacional)"
+    ],
     "titulo": "Hoja de Ruta de Economía Circular en el Sector Turismo al 2030",
     "resumen": "La Hoja de Ruta de Economía Circular en el Sector Turismo al 2030 es un marco estratégico nacional del MINCETUR que transforma el modelo turístico lineal tradicional en un sistema circular, regenerativo y competitivo. Resuelve la presión sobre la biodiversidad, la gestión deficiente de residuos y la huella de carbono del sector, estableciendo un desarrollo turístico sostenible alineado con la Nueva Ley General de Turismo (Ley N.° 32392). Su objetivo principal es articular la inversión pública y privada para consolidar al Perú como un referente global en turismo con propósito y lujo silencioso.",
     "datos": [
@@ -723,11 +1193,16 @@
         "texto": "Despliegue del modelo de Destinos Turísticos Inteligentes (DTI) con el piloto de Arequipa e integración de la iniciativa \"Viajes con Sabor\" en 17 destinos prioritarios."
       }
     ],
-    "beneficiarios": "El proyecto abarca las 25 regiones del Perú con intervenciones en destinos turísticos prioritarios, Áreas Naturales Protegidas y pueblos de la estrategia \"Pueblos con Encanto\". Beneficia directamente a comunidades locales y Organizaciones de Base Comunitaria (OBC) a través del cofinanciamiento de PROCOMPITE, fortalece la competitividad de las MIPYMEs y unidades productivas artesanales y gastronómicas, y atrae a viajeros nacionales e internacionales orientados a experiencias sostenibles y de alta gama."
+    "beneficiarios": "El proyecto abarca las 25 regiones del Perú con intervenciones en destinos turísticos prioritarios, Áreas Naturales Protegidas y pueblos de la estrategia \"Pueblos con Encanto\". Beneficia directamente a comunidades locales y Organizaciones de Base Comunitaria (OBC) a través del cofinanciamiento de PROCOMPITE, fortalece la competitividad de las MIPYMEs y unidades productivas artesanales y gastronómicas, y atrae a viajeros nacionales e internacionales orientados a experiencias sostenibles y de alta gama.",
+    "documentos": []
   },
   {
     "slug": "alianza-global-del-hacer-programa-global-de-quimica-verde-en-peru",
     "categoria": "clima",
+    "tipo": "Hub y ecosistema",
+    "regiones": [
+      "Perú (nacional)"
+    ],
     "titulo": "Alianza Global del Hacer: Programa Global de Química Verde en Perú",
     "resumen": "El Programa Global de Química Verde es una iniciativa internacional de alto impacto que reemplaza sustancias químicas peligrosas y contaminantes orgánicos persistentes (COPs) por soluciones sostenibles de economía circular. Liderado en el país por el MINAM y Grupo GEA junto a la Universidad de Yale y la ONUDI, impulsa la reconversión industrial y la aceleración de startups mediante la \"Alianza Global del Hacer\" (GENES Perú, ARS LAB, RaícesCare y Encsust4in4ble). Su objetivo principal es transformar el modelo productivo peruano hacia tecnologías limpias, rentables y ambientalmente seguras.",
     "datos": [
@@ -748,11 +1223,16 @@
         "texto": "Despliegue de la II Hackathon de Química Verde y del Programa Acelerador de Negocios, conectando la investigación aplicada con mentorías especializadas, fondos de inversión y la industria B2B."
       }
     ],
-    "beneficiarios": "Dirigido a pequeñas, medianas y grandes empresas industriales (sectores textil, agroindustria, plásticos, minería y pesca), así como a startups, emprendedores y comunidades académicas. El alcance geográfico abarca todo el territorio peruano, con especial énfasis en el desarrollo de bionegocios y proyectos en las regiones de los Andes y la Amazonía, conectándose al mismo tiempo con una red global de innovación presente en 6 países (Perú, Indonesia, Jordania, Serbia, Uganda y Ucrania)."
+    "beneficiarios": "Dirigido a pequeñas, medianas y grandes empresas industriales (sectores textil, agroindustria, plásticos, minería y pesca), así como a startups, emprendedores y comunidades académicas. El alcance geográfico abarca todo el territorio peruano, con especial énfasis en el desarrollo de bionegocios y proyectos en las regiones de los Andes y la Amazonía, conectándose al mismo tiempo con una red global de innovación presente en 6 países (Perú, Indonesia, Jordania, Serbia, Uganda y Ucrania).",
+    "documentos": []
   },
   {
     "slug": "programa-de-soluciones-integrales-de-infraestructura-y-defensas-ribere",
     "categoria": "clima",
+    "tipo": "Inversión pública",
+    "regiones": [
+      "Ica"
+    ],
     "titulo": "Programa de Soluciones Integrales de Infraestructura y Defensas Ribereñas (ANIN - Ica y Chincha)",
     "resumen": "Este programa comprende megaproyectos de gestión del riesgo de desastres e infraestructura de protección en las cuencas de Ica y Chincha (Paquete Q-03 Quebrada Cansas y Cuenca Río Matagente), orientados a mitigar inundaciones y vulnerabilidades climáticas mediante obras de ingeniería de gran envergadura. Resuelve la paralización de obras por cuellos de botella regulatorios, crisis hídricas y sobrecostos ambientales, integrando una arquitectura de viabilidad legal-técnica y gestión contractual NEC3. Su objetivo principal es garantizar la ejecución oportuna de las defensas ribereñas blindando la continuidad operativa y protegiendo el margen financiero de la inversión.",
     "datos": [
@@ -773,11 +1253,48 @@
         "texto": "Viabilidad técnica, ambiental y de licencias (CIRA, Desbosque, AAA al 100%) para obras valorizadas en S/ 650M a S/ 850M, transformando hallazgos ambientales en Eventos Compensables legítimos."
       }
     ],
-    "beneficiarios": "El proyecto está ubicado geográficamente en la región Ica (cuencas de Ica, Quebrada Cansas - La Tinguiña, Chanchajalla y Chincha Alta). Beneficia directamente a las poblaciones vulnerables de las zonas de impacto reduciendo el riesgo de inundaciones y huaycos, así como a las entidades estatales (ANIN / MIDAGRI / SERFOR) y a los consorcios ejecutores (Consorcio S&F e Icafal-Flesan) al asegurar licencias ambientales, paz social y continuidad técnica en toda la infraestructura ribereña."
+    "beneficiarios": "El proyecto está ubicado geográficamente en la región Ica (cuencas de Ica, Quebrada Cansas - La Tinguiña, Chanchajalla y Chincha Alta). Beneficia directamente a las poblaciones vulnerables de las zonas de impacto reduciendo el riesgo de inundaciones y huaycos, así como a las entidades estatales (ANIN / MIDAGRI / SERFOR) y a los consorcios ejecutores (Consorcio S&F e Icafal-Flesan) al asegurar licencias ambientales, paz social y continuidad técnica en toda la infraestructura ribereña.",
+    "documentos": []
+  },
+  {
+    "slug": "herramientas-de-analisis-sistemico-de-la-durabilidad-gpc-odd-y-gadd-a",
+    "categoria": "clima",
+    "tipo": "Política pública y estudio",
+    "regiones": [
+      "Perú (nacional)"
+    ],
+    "titulo": "Herramientas de Análisis Sistémico de la Durabilidad (GPC-ODD y GADD-A)",
+    "resumen": "Desarrolladas por el Instituto de la Francofonía para el Desarrollo Sostenible (IFDD) y sus aliados estratégicos, estas herramientas metodológicas resuelven el desafío de operacionalizar la Agenda 2030 adaptando las 169 metas globales a recursos y capacidades limitadas. Su objetivo principal es ofrecer un marco de diálogo y toma de decisiones consensuada para priorizar metas urgentes (GPC-ODD) y optimizar la sostenibilidad multidimensional de políticas, programas y proyectos (GADD-A).",
+    "datos": [
+      {
+        "etiqueta": "Enfoque Holístico de 7 Dimensiones",
+        "texto": "Integra las dimensiones Social, Ecológica, Económica, Cultural, Ética, Territorial y Gobernanza a través de 72 objetivos operativos para un análisis integral."
+      },
+      {
+        "etiqueta": "Reconocimiento Internacional",
+        "texto": "Forma parte de la caja de herramientas de las Naciones Unidas para la implementación, priorización y localización de los Objetivos de Desarrollo Sostenible (ODS)."
+      },
+      {
+        "etiqueta": "Metodología Automatizada e Itarativa",
+        "texto": "Utiliza escalas de calibración por ponderación (1-3) y evaluación de desempeño (0-10) que generan índices automáticos de prioridad (Reaccionar, Actuar, Mantener) y gráficos de radar."
+      },
+      {
+        "etiqueta": "Validación de Campo Participativa",
+        "texto": "Probada en talleres con entre 50 y más de 200 participantes por ejercicio en países miembros de la Francofonía, asegurando concertación ciudadana e inclusión de grupos vulnerables."
+      }
+    ],
+    "beneficiarios": "Dirigido a planificadores de gobiernos nacionales, administraciones regionales, municipios locales, directivos de empresas privadas, organizaciones de la sociedad civil y formuladores de proyectos. Beneficia directamente a las comunidades locales al garantizar que las intervenciones públicas y privadas sean ambientalmente responsables, socialmente equitativas y técnicamente viables. Su alcance geográfico abarca a los Estados y gobiernos miembros de la Organización Internacional de la Francofonía (OIF) y es adaptable a cualquier territorio u organización a nivel global.",
+    "documentos": []
   },
   {
     "slug": "atids-s-a-c-bic",
     "categoria": "ecosistemas",
+    "tipo": "Hub y ecosistema",
+    "regiones": [
+      "Ucayali",
+      "Piura",
+      "Tumbes"
+    ],
     "titulo": "ATIDS S.A.C. BIC",
     "resumen": "ATIDS S.A.C. BIC es un hub de cocreación estratégica y empresa de triple impacto que integra innovación, saberes ancestrales y tecnología para responder a los desafíos ambientales y socioeconómicos en la región andino-amazónica. Funciona como un nodo articulador entre empresas, gobiernos, academia y comunidades para diseñar, financiar y escalar soluciones sostenibles alineadas con la Agenda 2030 y el bienestar comunitario. Su objetivo principal es acelerar la transición hacia economías regenerativas, conservar la biodiversidad y promover modelos de negocio con impacto positivo.",
     "datos": [
@@ -797,12 +1314,37 @@
         "texto": "Constitución legal como Sociedad Anónima Cerrada de Beneficio e Interés Colectivo (BIC) con Registro Nacional de Proveedores (RNP) vigente."
       }
     ],
-    "beneficiarios": "El proyecto está enfocado geográficamente en la región andino-amazónica de América Latina, con domicilio fiscal en Ucayali (Perú) y proyección regional e internacional. Sus beneficiarios y aliados estratégicos incluyen comunidades rurales e indígenas, emprendedores de triple impacto, MIPYMES, gobiernos regionales, universidades y empresas privadas de sectores clave como la agroexportación, energías renovables, biotecnología y turismo regenerativo."
+    "beneficiarios": "El proyecto está enfocado geográficamente en la región andino-amazónica de América Latina, con domicilio fiscal en Ucayali (Perú) y proyección regional e internacional. Sus beneficiarios y aliados estratégicos incluyen comunidades rurales e indígenas, emprendedores de triple impacto, MIPYMES, gobiernos regionales, universidades y empresas privadas de sectores clave como la agroexportación, energías renovables, biotecnología y turismo regenerativo.",
+    "documentos": [
+      {
+        "titulo": "ATIDS Latam - Espacio de Cocreación y Desarrollo Sostenible",
+        "resumen": "ATIDS Latam es un hub de cocreación estratégica y empresa BIC con más de 15 años de trayectoria que fusiona ingeniería, saberes ancestrales y herramientas tecnológicas avanzadas como EYWA y la metodología MAVII v2.0. Resuelve la desconexión entre la rentabilidad comercial corporativa y el desarrollo regenerativo en territorios de alta biodiversidad. Su objetivo principal es diseñar, financiar y escalar soluciones de triple impacto alineadas con los criterios ESG y la Agenda 2030, combatiendo el greenwashing mediante trazabilidad auditable e inmutable.",
+        "datos": [
+          {
+            "texto": "Más de 85 proyectos de triple impacto implementados y S/ 4.8 millones de soles canalizados."
+          },
+          {
+            "texto": "Más de 120 comunidades beneficiadas directamente en territorios andino-amazónicos."
+          },
+          {
+            "texto": "Más de 1,000 líderes formados en sostenibilidad e innovación regenerativa."
+          },
+          {
+            "texto": "Tasa de éxito operativa superior al 90% mediante el filtro de riesgo MAVII v2.0 y verificación de impacto con Inteligencia Artificial y Blockchain a través de EYWA."
+          }
+        ],
+        "beneficiarios": "Está dirigido a corporaciones, MIPYMEs, entidades gubernamentales, ONGs e instituciones académicas que buscan articular proyectos de inversión social e impacto sostenible. Beneficia a comunidades rurales, pueblos indígenas y asociaciones productivas locales en la región andino-amazónica y América Latina, con alcance en regiones estratégicas como Ucayali, Piura, Tumbes y el corredor binacional Perú-Ecuador."
+      }
+    ]
   },
   {
-    "slug": "genes-peru-orquestacion-del-impacto-sostenible",
+    "slug": "genes-peru-gremio-nacional-de-emprendedores-sostenibles",
     "categoria": "ecosistemas",
-    "titulo": "GENES Perú: Orquestación del Impacto Sostenible",
+    "tipo": "Hub y ecosistema",
+    "regiones": [
+      "Perú (nacional)"
+    ],
+    "titulo": "GENES Perú — Gremio Nacional de Emprendedores Sostenibles",
     "resumen": "GENES Perú es una iniciativa gremial que impulsa la sostenibilidad empresarial resolviendo la \"brecha de la última milla\" entre las políticas públicas nacionales y las MIPYMES. El proyecto evoluciona de una articulación pasiva hacia la \"Orquestación del Impacto\", dirigiendo proactivamente capital, talento e innovación a través de una nueva arquitectura de seis ejes estratégicos. Su objetivo principal es conectar la acción empresarial con la Visión del Perú al 2050 mediante la Quíntuple Hélice, acelerando la transición hacia una economía circular, descarbonizada e inclusiva. Bajo el nuevo liderazgo ejecutivo de Isabel Delgado, transforma las metas socioambientales del país en negocios bancables y verificables.",
     "datos": [
       {
@@ -818,11 +1360,41 @@
         "texto": "Despliegue del motor operativo ATIDS-EYWA-CIBS, utilizando inteligencia artificial y blockchain para la medición, reporte y verificación (MRV) del impacto ASG, combatiendo directamente el greenwashing."
       }
     ],
-    "beneficiarios": "Está dirigido a micro, pequeñas, medianas y grandes empresas (MIPYMES y corporaciones), emprendedores sostenibles, comunidades nativas y actores del sector público, académico y financiero a nivel nacional, con un alcance descentralizado priorizado en territorios urbanos, andinos y la cuenca amazónica. Beneficia directamente a la sociedad civil al dinamizar la formalización económica, regenerar el capital natural y fomentar la inclusión social y financiera en el país."
+    "beneficiarios": "Está dirigido a micro, pequeñas, medianas y grandes empresas (MIPYMES y corporaciones), emprendedores sostenibles, comunidades nativas y actores del sector público, académico y financiero a nivel nacional, con un alcance descentralizado priorizado en territorios urbanos, andinos y la cuenca amazónica. Beneficia directamente a la sociedad civil al dinamizar la formalización económica, regenerar el capital natural y fomentar la inclusión social y financiera en el país.",
+    "documentos": [
+      {
+        "titulo": "GENES Perú – Gremio Nacional de Emprendedores Sostenibles",
+        "resumen": "GENES Perú es el Gremio Nacional de Emprendedores Sostenibles, una organización orientada a impulsar el desarrollo sostenible, la innovación productiva y la inversión de impacto. Su objetivo principal es fortalecer el sector mediante la articulación de alianzas institucionales, la sostenibilidad financiera y la inclusión social. Busca consolidar el crecimiento del ecosistema emprendedor promoviendo una gestión ética y técnica con alcance multinivel.",
+        "datos": [
+          {
+            "etiqueta": "Alianzas estratégicas",
+            "texto": "Consolidación de convenios e impulso de alianzas público-privadas para la sostenibilidad del gremio."
+          },
+          {
+            "etiqueta": "Presencia territorial",
+            "texto": "Participación activa en mesas sectoriales a nivel nacional, regional, distrital y comunal."
+          },
+          {
+            "etiqueta": "Renovación de liderazgo",
+            "texto": "Asunción de la Licenciada Isabel Delgado en la Dirección Ejecutiva junto a un equipo directivo especializado."
+          },
+          {
+            "etiqueta": "Proyección internacional",
+            "texto": "Articulación continua con redes internacionales de sostenibilidad para escalar su impacto."
+          }
+        ],
+        "beneficiarios": "Está dirigido a la comunidad de emprendedores sostenibles, beneficiando a diversos sectores del país y a comunidades originarias. Su alcance geográfico abarca los niveles comunal, distrital, regional y nacional en el Perú, además de vincularse activamente con redes internacionales."
+      }
+    ]
   },
   {
     "slug": "hacking-the-planet-business-to-sustainable-ecosystems",
     "categoria": "ecosistemas",
+    "tipo": "Programa y formación",
+    "regiones": [
+      "Cusco",
+      "Madre de Dios"
+    ],
     "titulo": "Hacking the Planet: Business to Sustainable Ecosystems",
     "resumen": "Hacking the Planet es una iniciativa de impacto desarrollada por ATIDS que integra tecnología, bio-negocios y modelos de comercialización para transformar comunidades rurales dependientes de la ayuda tradicional en ecosistemas autónomos y rentables. El proyecto aborda la desconexión de mercados y la insostenibilidad de las intervenciones asistenciales mediante la implementación de soluciones de agroforestería, tecnología y desarrollo empresarial. Su objetivo principal es consolidar una alianza de inversión semilla con la Fundación sahee para escalar una metodología que garantice la autosuficiencia financiera y la conservación ambiental sostenible en el Perú.",
     "datos": [
@@ -843,11 +1415,16 @@
         "texto": "Gestión bajo Marcos Lógicos (Logframe) e indicadores M&E con una estrategia de autonomía financiera (exit strategy) proyectada a 12 meses."
       }
     ],
-    "beneficiarios": "El proyecto está dirigido a comunidades agrícolas y productores locales de las regiones andina y amazónica del Perú, beneficiando directamente a familias rurales mediante el fortalecimiento de sus capacidades técnicas, comerciales y de autogestión. Su alcance geográfico inicial abarca la provincia de Urubamba en Cusco (optimización metodológica) y la provincia de Tambopata en Madre de Dios (diversificación territorial), en coordinación con la gestión de proyectos para Perú de la Fundación sahee encabezada por Jan Weber."
+    "beneficiarios": "El proyecto está dirigido a comunidades agrícolas y productores locales de las regiones andina y amazónica del Perú, beneficiando directamente a familias rurales mediante el fortalecimiento de sus capacidades técnicas, comerciales y de autogestión. Su alcance geográfico inicial abarca la provincia de Urubamba en Cusco (optimización metodológica) y la provincia de Tambopata en Madre de Dios (diversificación territorial), en coordinación con la gestión de proyectos para Perú de la Fundación sahee encabezada por Jan Weber.",
+    "documentos": []
   },
   {
     "slug": "hub-de-innovacion-abierta-y-transferencia-tecnologica-unheval",
     "categoria": "ecosistemas",
+    "tipo": "Hub y ecosistema",
+    "regiones": [
+      "Huánuco"
+    ],
     "titulo": "Hub de Innovación Abierta y Transferencia Tecnológica - UNHEVAL",
     "resumen": "El Hub de Innovación de la UNHEVAL es una plataforma de transferencia tecnológica y vinculación ecosistémica que impulsa el emprendimiento universitario de base tecnológica. Resuelve la desconexión entre la investigación académica y los mercados internacionales, promoviendo el trabajo en equipos multidisciplinarios para superar la crisis climática. Su objetivo principal es estructurar y escalar proyectos de economía regenerativa para conectarlos con fuentes globales de financiamiento y capital de riesgo.",
     "datos": [
@@ -868,12 +1445,17 @@
         "texto": "Enfoque tecnológico diseñado para medir, monitorear y restaurar el ecosistema de manera rentable, reduciendo las brechas de desarrollo en la región."
       }
     ],
-    "beneficiarios": "Dirigido a estudiantes de las 27 carreras profesionales y exalumnos de la UNHEVAL, así como a emprendedores regionales y comunidades agrícolas de la región andino-amazónica. Su alcance abarca la región Huánuco y el centro-oriente del Perú, proyectando cadenas productivas sostenibles hacia la Comunidad Andina, Europa y Asia."
+    "beneficiarios": "Dirigido a estudiantes de las 27 carreras profesionales y exalumnos de la UNHEVAL, así como a emprendedores regionales y comunidades agrícolas de la región andino-amazónica. Su alcance abarca la región Huánuco y el centro-oriente del Perú, proyectando cadenas productivas sostenibles hacia la Comunidad Andina, Europa y Asia.",
+    "documentos": []
   },
   {
-    "slug": "proyecto-innovandes-cusco-dinamizacion-del-ecosistema-regional-de-inno",
+    "slug": "innovaandes-cusco-ecosistema-regional-de-innovacion-der-cusco",
     "categoria": "ecosistemas",
-    "titulo": "Proyecto Innovandes Cusco: Dinamización del Ecosistema Regional de Innovación y Emprendimiento (DER Cusco)",
+    "tipo": "Hub y ecosistema",
+    "regiones": [
+      "Cusco"
+    ],
+    "titulo": "InnovaAndes Cusco — Ecosistema Regional de Innovación (DER Cusco)",
     "resumen": "Innovandes Cusco es una iniciativa estratégica que impulsa la modernización económica y la competitividad regional mediante la consolidación de un ecosistema de innovación. El proyecto resuelve la falta de articulación entre los actores locales y supera las brechas tecnológicas en las MYPEs y cadenas productivas. Su objetivo principal es integrar la cuádruple hélice (gobierno, academia, empresa y sociedad) e implementar el Plan de Desarrollo del Ecosistema (PDE) al 2030.",
     "datos": [
       {
@@ -893,11 +1475,36 @@
         "texto": "Proceso participativo que articuló a más de 400 actores clave del ecosistema regional."
       }
     ],
-    "beneficiarios": "Dirigido a las micro, pequeñas y medianas empresas (MYPEs), emprendedores, investigadores, estudiantes y organizaciones productivas de la región Cusco, beneficiando de forma prioritaria a sectores estratégicos como el agropecuario de alto valor agregado, el turismo de clase mundial y las industrias creativas."
+    "beneficiarios": "Dirigido a las micro, pequeñas y medianas empresas (MYPEs), emprendedores, investigadores, estudiantes y organizaciones productivas de la región Cusco, beneficiando de forma prioritaria a sectores estratégicos como el agropecuario de alto valor agregado, el turismo de clase mundial y las industrias creativas.",
+    "documentos": [
+      {
+        "titulo": "Dinamismo del Ecosistema Regional InnovaAndes Cusco: Clúster de Turismo de Clase Mundial",
+        "resumen": "Esta iniciativa impulsa la transformación del sector turístico en la provincia de La Convención mediante un modelo data-driven, migrando de la medición por volumen de visitantes hacia la generación de alto valor y el bienestar comunitario. Alineado con el Plan de Desarrollo del Ecosistema (PDE) de Cusco, resuelve los riesgos de la masificación descontrolada mediante la articulación de la Cuádruple Hélice e integración de herramientas tecnológicas para blindar la biodiversidad de la ceja de selva. Su objetivo principal es consolidar a Quillabamba y La Convención como un polo ecoturístico sostenible de nivel internacional.",
+        "datos": [
+          {
+            "texto": "El sector turismo concentra más del 41% de las empresas registradas en el directorio regional de Cusco, requiriendo la descentralización de capacidades tecnológicas hacia La Convención."
+          },
+          {
+            "texto": "Implementación de los 3 nichos estratégicos del PDE Cusco: Ecoturismo de alto valor, Turismo Cultural Milenario y Turismo Rural/Aventura."
+          },
+          {
+            "texto": "Gestión técnica de la capacidad de carga territorial a través de plataformas de datos (ChuspAI, Understory, ARS), asegurando la retención del gasto en las familias locales y evitando el deterioro ambiental visto en otros destinos."
+          },
+          {
+            "texto": "Apalancamiento del Canon Gasífero de Camisea para financiar investigación aplicada (I+D+i), proyectos de inversión pública y la incubación de startups tecnológicas en la UNIQ."
+          }
+        ],
+        "beneficiarios": "Dirigido a estudiantes y docentes de la Universidad Nacional Intercultural de Quillabamba (UNIQ), pequeños operadores de la Asociación de Empresas de Turismo de La Convención (ASEMTUR) y comunidades rurales productoras de la provincia de La Convención (Cusco). Su alcance abarca la ceja de selva cusqueña y las rutas ecoturísticas interconectadas del territorio."
+      }
+    ]
   },
   {
     "slug": "programa-desarrolladores-de-negocios-de-impacto-red-de-jovenes-desarro",
     "categoria": "ecosistemas",
+    "tipo": "Programa y formación",
+    "regiones": [
+      "Lima"
+    ],
     "titulo": "Programa Desarrolladores de Negocios de Impacto: Red de Jóvenes Desarrolladores de Soluciones Urbanas de Independencia",
     "resumen": "Iniciativa de innovación social y tecnológica que transforma a jóvenes vulnerables de Lima Norte en agentes de cambio, capaces de diseñar, ensamblar y desplegar emprendimientos y soluciones de seguridad urbana. Frente a la delincuencia y la falta de oportunidades, el programa integra prototipado tecnológico, trazabilidad auditable e ingeniería financiera para consolidar un modelo de desarrollo sostenible y cohesión comunitaria.",
     "datos": [
@@ -918,11 +1525,16 @@
         "texto": "Modelo basado en tech-scouting para captar fondos concursables (ProInnóvate, Concytec, BID Lab) e ingeniería financiera verde para acelerar emprendimientos bancables."
       }
     ],
-    "beneficiarios": "Dirigido a jóvenes en situación de vulnerabilidad social y económica en el distrito de Independencia (Lima Norte), beneficiando indirectamente a familias y juntas vecinales al reducir el riesgo social y restituir la confianza comunitaria, con proyección de replicabilidad territorial hacia distritos como Comas y Carabayllo."
+    "beneficiarios": "Dirigido a jóvenes en situación de vulnerabilidad social y económica en el distrito de Independencia (Lima Norte), beneficiando indirectamente a familias y juntas vecinales al reducir el riesgo social y restituir la confianza comunitaria, con proyección de replicabilidad territorial hacia distritos como Comas y Carabayllo.",
+    "documentos": []
   },
   {
     "slug": "semana-ambiental-universitaria-piura-2026",
     "categoria": "ecosistemas",
+    "tipo": "Convocatoria y evento",
+    "regiones": [
+      "Piura"
+    ],
     "titulo": "Semana Ambiental Universitaria Piura 2026",
     "resumen": "La Semana Ambiental Universitaria Piura 2026 es una iniciativa pública y académica orientada a enfrentar amenazas ambientales críticas como la degradación de bosques secos, páramos y zonas marino-costeras. A través de tres competencias regionales —Debate Ambiental, Datathon e Innovación Ambiental—, conecta las aulas universitarias con el territorio para transformar el talento joven en soluciones tecnológicas, análisis de datos abiertos y propuestas sostenibles de alto impacto.",
     "datos": [
@@ -943,11 +1555,16 @@
         "texto": "Otorga bonificaciones y enfoque especial a soluciones dirigidas a la recuperación y conservación de los bosques secos, páramos y zonas marino-costeras de Piura."
       }
     ],
-    "beneficiarios": "El proyecto está dirigido a la comunidad académica universitaria del departamento de Piura, convocando a estudiantes de pregrado y docentes asesores de las 8 universidades licenciadas por la SUNEDU en la región (UNP, UNF, UDEP, UPAO, UCV, UTP, UCSS y USS). Su alcance geográfico abarca todo el territorio de Piura y beneficia directamente a la ciudadanía local mediante la preservación del patrimonio natural regional y la generación de innovaciones ambientales sostenibles."
+    "beneficiarios": "El proyecto está dirigido a la comunidad académica universitaria del departamento de Piura, convocando a estudiantes de pregrado y docentes asesores de las 8 universidades licenciadas por la SUNEDU en la región (UNP, UNF, UDEP, UPAO, UCV, UTP, UCSS y USS). Su alcance geográfico abarca todo el territorio de Piura y beneficia directamente a la ciudadanía local mediante la preservación del patrimonio natural regional y la generación de innovaciones ambientales sostenibles.",
+    "documentos": []
   },
   {
     "slug": "proyecto-aulas-del-futuro",
     "categoria": "ecosistemas",
+    "tipo": "Programa y formación",
+    "regiones": [
+      "Perú (nacional)"
+    ],
     "titulo": "Proyecto Aulas del Futuro",
     "resumen": "El Proyecto Aulas del Futuro es una iniciativa social que resuelve la falta de infraestructura escolar en zonas vulnerables mediante el financiamiento corporativo deducible de S/ 100,000 aportado por Inversiones Santa Clara S.A.C. a la Asociación Educativa Rayito de Luz. Su objetivo principal es construir e implementar dos aulas modernas y equipadas, garantizando una educación digna y brindando al donante un blindaje tributario integral con 100% de deducibilidad fiscal.",
     "datos": [
@@ -968,6 +1585,239 @@
         "texto": "Emisión del Comprobante de Recepción de Donaciones, calificación SUNAT vigente y reporte vía Formulario Virtual 1679."
       }
     ],
-    "beneficiarios": "El proyecto está dirigido a niños y jóvenes en edad escolar pertenecientes a comunidades vulnerables y de bajos recursos. Beneficia directamente a la comunidad educativa local al proporcionar espacios dignos para el aprendizaje, y se extiende a empresas privadas en el Perú que buscan canalizar sus programas de responsabilidad social empresarial bajo estándares estrictos de cumplimiento tributario y prevención de lavado de activos (SPLAFT)."
+    "beneficiarios": "El proyecto está dirigido a niños y jóvenes en edad escolar pertenecientes a comunidades vulnerables y de bajos recursos. Beneficia directamente a la comunidad educativa local al proporcionar espacios dignos para el aprendizaje, y se extiende a empresas privadas en el Perú que buscan canalizar sus programas de responsabilidad social empresarial bajo estándares estrictos de cumplimiento tributario y prevención de lavado de activos (SPLAFT).",
+    "documentos": []
+  },
+  {
+    "slug": "ars-lab",
+    "categoria": "ecosistemas",
+    "tipo": "Hub y ecosistema",
+    "regiones": [
+      "Perú (nacional)"
+    ],
+    "titulo": "ARS Lab",
+    "resumen": "Las fuentes no incluyen una descripción explícita sobre la misión, los objetivos o los problemas específicos que resuelve ARS Lab. La información disponible corresponde al directorio de su equipo, el cual integra áreas de innovación clínica, tecnología, gestión de proyectos, estrategia comercial y sostenibilidad.",
+    "datos": [
+      {
+        "texto": "El directorio de ARS Lab registra a 16 integrantes con roles especializados."
+      },
+      {
+        "texto": "El área clínica cuenta con puestos como Gerente Comercial - Médica, Gerente de Producto Clínico - Odontología y Líderes de Innovación Clínica."
+      },
+      {
+        "texto": "La estructura organizacional contempla áreas de Dirección de Tecnología, Proyectos de Innovación, Finanzas Comerciales y Recaudación de Fondos y Alianzas."
+      },
+      {
+        "texto": "Las fuentes no contienen métricas de impacto cuantitativo ni datos de desempeño sobre proyectos específicos."
+      }
+    ],
+    "beneficiarios": "Las fuentes no detallan los beneficiarios directos ni el alcance geográfico de ARS Lab. No obstante, la estructura del equipo refleja un enfoque orientado a la innovación clínica (médica y odontológica), tecnología y proyectos en sostenibilidad.",
+    "documentos": []
+  },
+  {
+    "slug": "pad-summit-comercial",
+    "categoria": "ecosistemas",
+    "tipo": "Convocatoria y evento",
+    "regiones": [
+      "América Latina"
+    ],
+    "titulo": "PAD Summit Comercial",
+    "resumen": "El PAD Summit Comercial es un encuentro estratégico de networking y gestión empresarial organizado por PAD Alumni y la Escuela de Dirección, con el patrocinio del Grupo AJE. Su objetivo principal es capacitar a ejecutivos de alta dirección para superar los desafíos comerciales de cara al 2026, integrando herramientas de Inteligencia Artificial, logística de valor y modelos de precios adaptados al nuevo entorno competitivo.",
+    "datos": [
+      {
+        "texto": "Adopción Tecnológica y Rentabilidad: Las empresas líderes en tecnología incrementan sus ventas entre un 5% y 10% y reducen costos comerciales en un 20% frente a las firmas rezagadas."
+      },
+      {
+        "texto": "Optimización de Márgenes: La implementación de modelos algorítmicos de pricing dinámico asistidos por IA permite incrementar hasta en 5 puntos porcentuales el margen bruto del negocio."
+      },
+      {
+        "texto": "Marco de las 5 Palancas Comerciales: Estructura la transformación digital en conocimiento del cliente, generación de demanda, ciclo de venta, servicio postventa e inteligencia competitiva/forecasting."
+      },
+      {
+        "texto": "Adaptación a la Disrupción del Mercado: Ofrece respuestas estratégicas frente a la expansión de la última milla (80,000 paquetes semanales de e-commerce transfronterizo) y el crecimiento de las redes de hard discount."
+      }
+    ],
+    "beneficiarios": "Dirigido a ejecutivos C-level, directores generales, gerentes comerciales y empresarios del Perú y Latinoamérica. Beneficia a organizaciones pertenecientes a múltiples sectores económicos, incluyendo banca, retail, consumo masivo, minería, B2B y agroexportación.",
+    "documentos": []
+  },
+  {
+    "slug": "proyecto-peru-potencia-transicion-a-economias-sostenibles",
+    "categoria": "politicas",
+    "tipo": "Política pública y estudio",
+    "regiones": [
+      "Perú (nacional)"
+    ],
+    "titulo": "Proyecto Perú Potencia: Transición a Economías Sostenibles",
+    "resumen": "El Proyecto Perú Potencia es una propuesta de desarrollo e inteligencia económica que transforma la matriz productiva tradicional frente a la trampa del bajo crecimiento y las pérdidas proyectadas del 1.5% al 5% del PIB por crisis climática. Su objetivo principal es articular las economías circular, bioeconomía, azul, naranja y regenerativa con las propuestas del Plan de Gobierno de Integridad Democrática. De esta forma, moderniza la industria, impulsa el empleo formal masivo y genera riqueza sostenible promoviendo progreso y oportunidades para todo el país.",
+    "datos": [
+      {
+        "etiqueta": "Demanda garantizada",
+        "texto": "El 82% de los consumidores en Perú intenta comprar a empresas socialmente responsables, asegurando la adopción comercial de estos modelos."
+      },
+      {
+        "etiqueta": "Resiliencia fiscal y climática",
+        "texto": "Mitiga riesgos financieros y evita pérdidas estimadas de entre 1.5% y 5% del PIB al 2050 al abandonar el modelo lineal."
+      },
+      {
+        "etiqueta": "Acceso a capital",
+        "texto": "Facilita el escalamiento de negocios mediante fondos como el de Bioeconomía del BID (USD 600 millones) e incentivos de ProInnóvate de hasta S/ 140,000."
+      },
+      {
+        "etiqueta": "Efectividad industrial",
+        "texto": "Evidencia incrementos en productividad con casos reales como SIDERPERU (98% de recirculación de agua y +12% en ventas) y aumentos del 110% en ventas para startups aceleradas."
+      }
+    ],
+    "beneficiarios": "Está dirigido a emprendedores, MIPYMEs, industriales, pescadores artesanales y agricultores de todo el Perú. Beneficia a la población general mediante la creación de empleo formal, el fortalecimiento de servicios públicos y la preservación ambiental, con un alcance descentralizado a nivel nacional en la Costa (parques industriales y maricultura), la Sierra (agroindustria y gestión de cuencas) y la Amazonía (bioeconomía e industria forestal trazable).",
+    "documentos": []
+  },
+  {
+    "slug": "marco-de-incentivos-tributarios-y-estabilidad-juridica-para-la-inversi",
+    "categoria": "politicas",
+    "tipo": "Política pública y estudio",
+    "regiones": [
+      "Perú (nacional)"
+    ],
+    "titulo": "Marco de Incentivos Tributarios y Estabilidad Jurídica para la Inversión en el Perú",
+    "resumen": "El Marco de Incentivos Tributarios y Estabilidad Jurídica establece un régimen de fomento integral diseñado para impulsar la Inversión Extranjera Directa (IED) y potenciar la competitividad en el Perú. Este marco elimina sobrecostos fiscales en etapas preoperativas y garantiza previsibilidad mediante el Trato Nacional y Convenios de Estabilidad Jurídica (D.L. 662 y D.L. 757). Su objetivo principal es atraer capitales privados internacionales mediante reducciones del Impuesto a la Renta, depreciación acelerada y exenciones tributarias sectoriales.",
+    "datos": [
+      {
+        "etiqueta": "Régimen RERA (D.L. N° 973)",
+        "texto": "Devolución anticipada del IGV en la adquisición de bienes de capital y servicios para proyectos con etapa preoperativa mayor o igual a dos años y compromisos de inversión desde USD 2 millones (sin monto mínimo en agricultura y USD 1 millón en turismo)."
+      },
+      {
+        "etiqueta": "Régimen Agrario (Ley N° 32434) y Acuicultura (Ley N° 31666)",
+        "texto": "Tasa preferencial del Impuesto a la Renta del 15% (2026-2035) y depreciación acelerada del 20% anual para infraestructura hidráulica, de riego y equipamiento acuícola."
+      },
+      {
+        "etiqueta": "Ley de la Amazonía (Ley N° 27037) y ZEE",
+        "texto": "Tasa reducida del Impuesto a la Renta del 5% al 10% y exoneración total del IGV para operaciones en la región amazónica, junto a beneficios tributarios y aduaneros en Zonas Económicas Especiales."
+      },
+      {
+        "etiqueta": "Incentivo a la I+D+i (Ley N° 30309) y Minería (D.S. N° 014-92-EM)",
+        "texto": "Deducción fiscal del Impuesto a la Renta de hasta 240% para proyectos de investigación aprobados por CONCYTEC, y estabilidad tributaria garantizada por 10, 12 o 15 años en el sector minero."
+      }
+    ],
+    "beneficiarios": "Dirigido a inversionistas nacionales y extranjeros, startups, MYPES y multinacionales que ejecuten proyectos de capital en el Perú. Tiene alcance en todo el territorio nacional, con especial impacto territorial en la región Amazónica (Loreto, Ucayali, San Martín, Amazonas, Madre de Dios, entre otros), Zonas Económicas Especiales (Paita, Ilo, Matarani y Tacna) y grandes desarrollos de infraestructura minera y agroindustrial.",
+    "documentos": []
+  },
+  {
+    "slug": "mega-penal-challapalca-ii",
+    "categoria": "politicas",
+    "tipo": "Inversión pública",
+    "regiones": [
+      "Tacna"
+    ],
+    "titulo": "Mega Penal Challapalca II",
+    "resumen": "El Mega Penal Challapalca II es una infraestructura penitenciaria de máxima seguridad diseñada para neutralizar el crimen organizado y resolver la crisis de hacinamiento del sistema penal. Su objetivo principal es aislar a reclusos de alta peligrosidad e impedir la dirección de delitos desde los penales mediante control estatal estricto y tecnología de vanguardia. Este proyecto emblemático restituye el principio de autoridad, garantizando un entorno seguro y pacífico para el desarrollo nacional.",
+    "datos": [
+      {
+        "etiqueta": "Capacidad masiva",
+        "texto": "Proyectado para albergar a 10,000 internos de alta peligrosidad, convirtiéndose en la instalación penitenciaria más grande del país."
+      },
+      {
+        "etiqueta": "Tecnología de última generación",
+        "texto": "Equipado con sistemas de vigilancia avanzada, monitoreo constante mediante drones y un centro de comando operativo integrado."
+      },
+      {
+        "etiqueta": "Descongestionamiento y control",
+        "texto": "Reduce la presión sobre los penales urbanos y corta la capacidad operativa de las mafias criminales desde el interior del reclusorio."
+      },
+      {
+        "etiqueta": "Plan de contingencia temporal",
+        "texto": "Adaptación del Cuartel EP Santa Rosa en Puno para albergar entre 500 y 1,000 internos con seguridad reforzada durante las obras."
+      }
+    ],
+    "beneficiarios": "El proyecto estará localizado estratégicamente en la región de Tacna, articulado con infraestructura de soporte en Puno. Tiene un alcance e impacto de carácter nacional, beneficiando de forma directa a la ciudadanía, emprendedores y sectores productivos al reducir la victimización y combatir frontalmente la extorsión y la delincuencia organizada en todo el Perú.",
+    "documentos": []
+  },
+  {
+    "slug": "liderazgo-ciudadano-para-un-futuro-prospero-entendiendo-el-estado-que",
+    "categoria": "politicas",
+    "tipo": "Programa y formación",
+    "regiones": [
+      "Perú (nacional)"
+    ],
+    "titulo": "Liderazgo Ciudadano para un Futuro Próspero: Entendiendo el Estado que Queremos",
+    "resumen": "Este proyecto es una propuesta pedagógica y de sensibilización política estructurada como un \"Viaje del Ciudadano Líder\", diseñada para transformar el Plan de Gobierno de GENES PERÚ en situaciones cotidianas. Resuelve el problema del voto desinformado y el populismo, capacitando a los ciudadanos sobre el funcionamiento de la gestión pública. Su objetivo principal es empoderar al electorado para realizar un voto consciente que promueva la libertad, el desarrollo sostenible y la eficiencia estatal.",
+    "datos": [
+      {
+        "etiqueta": "Estructura Modular Integral",
+        "texto": "Consta de 5 módulos curriculares que cubren las dimensiones Social, Económica, Ambiental e Institucional del modelo de gestión pública."
+      },
+      {
+        "etiqueta": "Metodología Didáctica e Innovadora",
+        "texto": "Implementa herramientas pedagógicas de micro-learning con cápsulas en video de 3 minutos, estudio de casos reales y ejercicios de simulación de voto."
+      },
+      {
+        "etiqueta": "Propuestas Técnicas Específicas",
+        "texto": "Promueve la simplificación administrativa con la Licencia Única Nacional para MYPES, la muerte civil para corruptos y la digitalización estatal \"Cero Papel\"."
+      },
+      {
+        "etiqueta": "Eje de Valor Centrado en la Persona",
+        "texto": "Fomenta un ideario de centro político humanista orientado a defender la vida, la familia, la libertad y la seguridad jurídica."
+      }
+    ],
+    "beneficiarios": "El proyecto está dirigido a los ciudadanos y electores del Perú, beneficiando de manera especial a emprendedores y MYPES, trabajadores y familias que buscan una gestión pública eficiente y transparente. Su alcance es nacional, aplicable al contexto socioeconómico e institucional peruano para fomentar el voto consciente y el fortalecimiento democrático en todo el país.",
+    "documentos": []
+  },
+  {
+    "slug": "diplomado-en-gestion-publica-estrategica",
+    "categoria": "politicas",
+    "tipo": "Programa y formación",
+    "regiones": [
+      "Perú (nacional)"
+    ],
+    "titulo": "Diplomado en Gestión Pública Estratégica",
+    "resumen": "El Diplomado en Gestión Pública Estratégica es un programa de especialización del Instituto Peruano de Planificación diseñado para potenciar las competencias de liderazgo en el sector público. Resuelve la brecha de capacitación técnica en las instituciones públicas abordando políticas públicas, modernización, integridad y gobernabilidad. Su objetivo principal es formar líderes capaces de tomar decisiones estratégicas y generar un impacto positivo y valor público en la gestión estatal.",
+    "datos": [
+      {
+        "etiqueta": "Estructura y Modalidad",
+        "texto": "Comprende 100 horas académicas dictadas en modalidad virtual sincrónica vía Google Meet, con inicio programado para el 11 de setiembre de 2026."
+      },
+      {
+        "etiqueta": "Plana Docente de Excelencia",
+        "texto": "Impartido por exaltos directivos estatales, como el Dr. Giofianni Peirano (ex Presidente del CEPLAN), Lesly Shica (ex Ministra del MIDIS) y Wolfgang Grozo (Doctor en Desarrollo y Seguridad Estratégica)."
+      },
+      {
+        "etiqueta": "Ejes Estratégicos y PEDN 2050",
+        "texto": "Formación práctica vinculada directamente con el Plan Estratégico de Desarrollo Nacional al 2050, modernización de procesos e integridad pública."
+      },
+      {
+        "etiqueta": "Certificación Oficial",
+        "texto": "Otorga un certificado de participación respaldado por el Instituto Peruano de Planificación bajo el enfoque de \"Mejor gestión, mejor futuro\"."
+      }
+    ],
+    "beneficiarios": "Dirigido a funcionarios, servidores públicos, consultores y profesionales de los tres niveles de gobierno (Nacional, Regional y Local) interesados en liderar la modernización de la gestión pública a nivel nacional.",
+    "documentos": []
+  },
+  {
+    "slug": "programa-de-aceleracion-de-empleabilidad-ejecutiva",
+    "categoria": "politicas",
+    "tipo": "Programa y formación",
+    "regiones": [
+      "América Latina"
+    ],
+    "titulo": "Programa de Aceleración de Empleabilidad Ejecutiva",
+    "resumen": "El Programa de Aceleración de Empleabilidad (12 Semanas) es una consultoría estratégica diseñada para transformar a profesionales técnicos operativos en líderes ejecutivos de negocios. Resuelve la disonancia entre el desempeño operativo en campo y la proyección gerencial, convirtiendo funciones tradicionales en propuestas de valor financiero cuantificable. Su objetivo principal es posicionar a especialistas en roles directivos de alto nivel como Environmental Delivery Lead en megaproyectos de infraestructura, energía y minería.",
+    "datos": [
+      {
+        "etiqueta": "Estructura Metodológica en 4 Fases",
+        "texto": "Programa intensivo de 12 semanas que abarca Auditoría de Valor, Reingeniería de Marca Profesional, Traducción ESG y Estrategia de Cierre de Ofertas."
+      },
+      {
+        "etiqueta": "Demostración de Impacto Financiero",
+        "texto": "Reencuadre de la gestión técnica para respaldar e incorporar más de S/ 4 Millones en ahorros directos y optimización de costos en infraestructura crítica."
+      },
+      {
+        "etiqueta": "Estandarización y Control Operativo",
+        "texto": "Aplicación del Índice de Desempeño Ambiental (IDAS) para garantizar un nivel de cumplimiento normativo superior al 95% en ecosistemas de subcontratistas."
+      },
+      {
+        "etiqueta": "Blindaje Contractual y Continuidad",
+        "texto": "Uso avanzado de contratos NEC3/NEC4 e ingeniería legal para convertir contingencias ambientales en eventos compensables y proteger el margen del proyecto."
+      }
+    ],
+    "beneficiarios": "El programa está dirigido a profesionales, ingenieros y gestores de los sectores de infraestructura, energía y minería en Latinoamérica que buscan escalar hacia posiciones directivas y de consultoría ejecutiva. Beneficia directamente a empresas contratantes y firmas corporativas (como ANIN, ISA REP y consorcios EPC globales), al dotarlas de ejecutivos capacitados para asegurar la viabilidad financiera, la licencia social y la continuidad operativa en carteras de inversión multimillonarias.",
+    "documentos": []
   }
 ]

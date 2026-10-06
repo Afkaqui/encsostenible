@@ -1,6 +1,9 @@
-// Fichas de proyectos sintetizadas en NotebookLM.
+// Iniciativas sintetizadas en NotebookLM.
 // lib/proyectos.json se genera con: node scripts/generar-proyectos.mjs
 import data from "./proyectos.json";
+
+export const CIBS_URL = "https://cibs.encsust4in4ble.earth";
+export const SITE_URL = "https://www.encsust4in4ble.earth";
 
 export type Dato = {
   etiqueta?: string;
@@ -8,15 +11,22 @@ export type Dato = {
   texto: string;
 };
 
-export type CategoriaId = "cibs" | "bioeconomia" | "agro" | "tecnologia" | "clima" | "ecosistemas";
-
-export type Proyecto = {
-  slug: string;
-  categoria: CategoriaId;
+export type Ficha = {
   titulo: string;
   resumen: string;
   datos: Dato[];
   beneficiarios: string;
+};
+
+export type CategoriaId = "cibs" | "bioeconomia" | "agro" | "tecnologia" | "clima" | "ecosistemas" | "politicas";
+
+export type Proyecto = Ficha & {
+  slug: string;
+  categoria: CategoriaId;
+  tipo: string;
+  regiones: string[];
+  // Otras fichas de la misma iniciativa (componentes o versiones del expediente)
+  documentos: Ficha[];
 };
 
 export const CATEGORIAS: Record<CategoriaId, { nombre: string; descripcion: string }> = {
@@ -44,11 +54,29 @@ export const CATEGORIAS: Record<CategoriaId, { nombre: string; descripcion: stri
     nombre: "Ecosistemas de innovación",
     descripcion: "Hubs, gremios, programas formativos y alianzas multiactor.",
   },
+  politicas: {
+    nombre: "Políticas públicas y desarrollo",
+    descripcion: "Marcos normativos, gestión pública, formación y desarrollo de capacidades.",
+  },
 };
 
 export const proyectos = data as Proyecto[];
 
 export const proyectosCibs = proyectos.filter((p) => p.categoria === "cibs");
 
-export const CIBS_URL = "https://cibs.encsust4in4ble.earth";
-export const SITE_URL = "https://www.encsust4in4ble.earth";
+export function getProyecto(slug: string) {
+  return proyectos.find((p) => p.slug === slug);
+}
+
+// Valores únicos para los filtros, ordenados alfabéticamente
+export const REGIONES = [...new Set(proyectos.flatMap((p) => p.regiones))].sort((a, b) => a.localeCompare(b, "es"));
+export const TIPOS = [...new Set(proyectos.map((p) => p.tipo))].sort((a, b) => a.localeCompare(b, "es"));
+
+// Descripción breve para metadatos (≤ 160 caracteres, cortada en palabra)
+export function descripcionCorta(texto: string, max = 158) {
+  if (texto.length <= max) return texto;
+  return texto.slice(0, texto.lastIndexOf(" ", max - 1)).replace(/[,;:.\s]+$/, "") + "…";
+}
+
+export const CONTACTO_CIBS =
+  "mailto:contacto@encsust4in4ble.earth?subject=" + encodeURIComponent("CIBS Pucallpa — Quiero sumarme");
