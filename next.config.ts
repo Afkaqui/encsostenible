@@ -19,7 +19,12 @@ const securityHeaders = [
   },
 ];
 
+const CIBS_HOST = "cibs.encsust4in4ble.earth";
+const SITE_URL = "https://www.encsust4in4ble.earth";
+
 const nextConfig: NextConfig = {
+  // Build autocontenido para el contenedor Docker del VPS (cibs.encsust4in4ble.earth)
+  output: "standalone",
   async headers() {
     return [
       {
@@ -37,7 +42,39 @@ const nextConfig: NextConfig = {
         destination: "https://www.encsust4in4ble.earth/:path*",
         permanent: true,
       },
+      // La landing de CIBS vive en su subdominio
+      {
+        source: "/cibs-pucallpa",
+        has: [{ type: "host", value: "www.encsust4in4ble.earth" }],
+        destination: `https://${CIBS_HOST}`,
+        permanent: true,
+      },
+      // En el subdominio, la ruta interna se sirve en la raíz
+      {
+        source: "/cibs-pucallpa",
+        has: [{ type: "host", value: CIBS_HOST }],
+        destination: "/",
+        permanent: true,
+      },
+      // El resto de páginas del sitio no se duplican en el subdominio
+      {
+        source: "/:path((?!_next/|cibs-pucallpa/|favicon\\.ico$|icon\\.png$|apple-icon\\.png$).+)",
+        has: [{ type: "host", value: CIBS_HOST }],
+        destination: `${SITE_URL}/:path`,
+        permanent: false,
+      },
     ];
+  },
+  async rewrites() {
+    return {
+      beforeFiles: [
+        {
+          source: "/",
+          has: [{ type: "host", value: CIBS_HOST }],
+          destination: "/cibs-pucallpa",
+        },
+      ],
+    };
   },
 };
 

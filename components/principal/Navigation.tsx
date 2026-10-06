@@ -21,6 +21,7 @@ export default function Navigation({ activeSection, onScrollToSection }: Navigat
     { id: 'modelo', label: 'Metodología' },
     { href: '/soluciones', label: 'Soluciones' },
     { href: '/diagnostico-readiness', label: 'Diagnóstico' },
+    { href: '/proyectos', label: 'Proyectos' },
     { id: 'impacto', label: 'Casos' },
     { id: 'contacto', label: 'Contacto' },
   ];

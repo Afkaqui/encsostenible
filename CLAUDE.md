@@ -41,6 +41,8 @@ app/
 │   ├── page.tsx                      → Visor PDF (protegido)
 │   └── PDFViewer.tsx                 → Componente react-pdf
 ├── integridad-democratica/page.tsx   → Visor PDF (protegido)
+├── proyectos/page.tsx                → Portafolio de proyectos (fichas NotebookLM, filtro + búsqueda)
+├── cibs-pucallpa/page.tsx            → Landing CIBS, servida en cibs.encsust4in4ble.earth
 ├── robots.ts                         → Genera robots.txt
 ├── sitemap.ts                        → Genera sitemap.xml
 ├── structured-data.tsx               → JSON-LD (Person, PoliticalParty, WebSite)
@@ -148,6 +150,28 @@ Dos tabs:
 ### `next.config.ts`
 - Security headers (X-Frame-Options, X-Content-Type-Options, etc.)
 - Redirect `encsust4in4ble.earth` → `www.encsust4in4ble.earth`
+- `output: "standalone"` (para la imagen Docker del VPS)
+- Ruteo por host para `cibs.encsust4in4ble.earth`: `/` se reescribe a `/cibs-pucallpa`; cualquier otra ruta redirige a `www`; `www/cibs-pucallpa` redirige al subdominio
+
+---
+
+## Proyectos (fichas de NotebookLM)
+
+- Fuente: `../cibs-data/proyectos.md` (fuera del repo; fichas exportadas de los cuadernos de NotebookLM con la plantilla de `../cibs-data/master.md`)
+- Generador: `node scripts/generar-proyectos.mjs [--verbose]` → escribe `lib/proyectos.json` (versionado)
+- **Curaduría:** solo se publican las fichas listadas en `CURADURIA` dentro del script (prefijo de título + categoría). Las políticas, de personas naturales, duplicadas o de programas de terceros se omiten a propósito. Una ficha nueva en el `.md` no aparece hasta agregarla ahí.
+- Categoría `cibs` alimenta también la landing de CIBS (`proyectosCibs` en `lib/proyectos.ts`)
+
+---
+
+## Despliegue
+
+| Host | Dónde | Cómo |
+|---|---|---|
+| `www.encsust4in4ble.earth` | Vercel | auto-deploy al hacer push a `main` |
+| `cibs.encsust4in4ble.earth` | VPS 161.132.54.226 (`~/cibs-web`, contenedor `cibs_web`, puerto 3080) | `git pull` + recreación quirúrgica del contenedor (ver `GUIA_VPS.md` en el VPS) |
+
+Nginx del VPS: `~/nginx/conf.d/cibs.conf` (cert Cloudflare Origin `encsust4in4ble`, igual que `match.conf`).
 
 ### `app/polyfills.ts`
 - `Promise.withResolvers` polyfill para browsers móviles (iOS Safari antiguo)
@@ -174,7 +198,7 @@ npx tsc --noEmit   # Verificar tipos sin compilar
 ```
 src/images/
 ├── photos_background/  → Fotos del hero (001–004img_PORTADA_NOR)
-├── proyectos/          → Fotos de casos de estudio (001–006)
+├── proyectos/          → Fotos de casos de estudio (001–006), 007_gis, 008_cibs_energy (render CIBS)
 └── logos/              → Logos de alianzas (BID, ONU, GIZ, MINAM, etc.)
 
 public/

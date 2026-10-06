@@ -1,0 +1,16 @@
+services:
+  cibs-web:
+    build: .
+    container_name: cibs_web
+    restart: unless-stopped
+    ports:
+      - "3080:3000"
+    environment:
+      - NODE_ENV=production
+      - HOSTNAME=0.0.0.0   # obligatorio para Next.js standalone
+
+# Sin red propia: reutiliza postgresql_default (pools de subred limitados en el VPS)
+networks:
+  default:
+    name: postgresql_default
+    external: true
